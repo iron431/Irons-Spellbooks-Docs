@@ -90,7 +90,7 @@ test: #2C2B2B;
     <div style="display: flex">
       <div style="min-width: 130px; max-width: 130px; float: left">
         <div id="image_wrapper" style="position: relative"> 
-          <img src="../img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:0; left: 0;">
+          <img src="/img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:0; left: 0;">
           <img src="{{spell.icon}}" style="width: 80px; image-rendering: pixelated; position: absolute; top: 43px; left: 20px;">
         </div>
       </div>

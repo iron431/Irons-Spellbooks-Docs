@@ -1,6 +1,6 @@
 - name: "Fireball"
   school: "Fire"
-  icon: "../img/spells/fireball.png"
+  icon: "/img/spells/fireball.png"
   level: "1 to 3"
   mana: "50 to 70"
   cooldown: "500s"
@@ -14,7 +14,7 @@
 
 - name: "Burning Dash"
   school: "Fire"
-  icon: "../img/spells/burning_dash.png"
+  icon: "/img/spells/burning_dash.png"
   level: "1 to 10"
   mana: "20 to 38"
   cooldown: "200s"
@@ -28,7 +28,7 @@
 
 - name: "Teleport"
   school: "Ender"
-  icon: "../img/spells/teleport.png"
+  icon: "/img/spells/teleport.png"
   level: "1 to 5"
   mana: "20 to 28"
   cooldown: "60s"
@@ -42,7 +42,7 @@
 
 - name: "Magic Missile"
   school: "Ender"
-  icon: "../img/spells/magic_missile.png"
+  icon: "/img/spells/magic_missile.png"
   level: "1 to 10"
   mana: "10 to 28"
   cooldown: "20s"
@@ -56,7 +56,7 @@
 
 - name: "Electrocute"
   school: "Lightning"
-  icon: "../img/spells/electrocute.png"
+  icon: "/img/spells/electrocute.png"
   level: "1 to 10"
   mana: "3 to 12"
   cooldown: "500s"
@@ -70,7 +70,7 @@
 
 - name: "Cone Of Cold"
   school: "Ice"
-  icon: "../img/spells/cone_of_cold.png"
+  icon: "/img/spells/cone_of_cold.png"
   level: "1 to 10"
   mana: "5 to 14"
   cooldown: "500s"
@@ -84,7 +84,7 @@
 
 - name: "Heal"
   school: "Holy"
-  icon: "../img/spells/heal.png"
+  icon: "/img/spells/heal.png"
   level: "1 to 10"
   mana: "30 to 120"
   cooldown: "500s"
@@ -98,7 +98,7 @@
 
 - name: "Blood Slash"
   school: "Blood"
-  icon: "../img/spells/blood_slash.png"
+  icon: "/img/spells/blood_slash.png"
   level: "1 to 5"
   mana: "25 to 45"
   cooldown: "200s"
@@ -112,7 +112,7 @@
 
 - name: "Summon Vex"
   school: "Evocation"
-  icon: "../img/spells/summon_vex.png"
+  icon: "/img/spells/summon_vex.png"
   level: "1 to 5"
   mana: "50 to 90"
   cooldown: "3000s"
@@ -126,7 +126,7 @@
 
 - name: "Firebolt"
   school: "Fire"
-  icon: "../img/spells/firebolt.png"
+  icon: "/img/spells/firebolt.png"
   level: "1 to 10"
   mana: "10 to 28"
   cooldown: "20s"
@@ -140,7 +140,7 @@
 
 - name: "Fire Breath"
   school: "Fire"
-  icon: "../img/spells/fire_breath.png"
+  icon: "/img/spells/fire_breath.png"
   level: "1 to 10"
   mana: "5 to 14"
   cooldown: "500s"
@@ -154,7 +154,7 @@
 
 - name: "Icicle"
   school: "Ice"
-  icon: "../img/spells/icicle.png"
+  icon: "/img/spells/icicle.png"
   level: "1 to 10"
   mana: "10 to 28"
   cooldown: "20s"
@@ -168,7 +168,7 @@
 
 - name: "Firecracker"
   school: "Evocation"
-  icon: "../img/spells/firecracker.png"
+  icon: "/img/spells/firecracker.png"
   level: "1 to 10"
   mana: "20 to 38"
   cooldown: "30s"
@@ -182,7 +182,7 @@
 
 - name: "Summon Horse"
   school: "Evocation"
-  icon: "../img/spells/summon_horse.png"
+  icon: "/img/spells/summon_horse.png"
   level: "1 to 5"
   mana: "50 to 58"
   cooldown: "400s"
@@ -196,7 +196,7 @@
 
 - name: "Angel Wing"
   school: "Holy"
-  icon: "../img/spells/angel_wing.png"
+  icon: "/img/spells/angel_wing.png"
   level: "1 to 5"
   mana: "60 to 140"
   cooldown: "2400s"
@@ -210,7 +210,7 @@
 
 - name: "Shield"
   school: "Evocation"
-  icon: "../img/spells/shield.png"
+  icon: "/img/spells/shield.png"
   level: "1 to 8"
   mana: "35 to 70"
   cooldown: "500s"
@@ -224,7 +224,7 @@
 
 - name: "Wall Of Fire"
   school: "Fire"
-  icon: "../img/spells/wall_of_fire.png"
+  icon: "/img/spells/wall_of_fire.png"
   level: "1 to 5"
   mana: "10 to 30"
   cooldown: "600s"
@@ -238,7 +238,7 @@
 
 - name: "Wisp"
   school: "Holy"
-  icon: "../img/spells/wisp.png"
+  icon: "/img/spells/wisp.png"
   level: "1 to 10"
   mana: "15 to 33"
   cooldown: "20s"
@@ -252,7 +252,7 @@
 
 - name: "Fang Strike"
   school: "Evocation"
-  icon: "../img/spells/fang_strike.png"
+  icon: "/img/spells/fang_strike.png"
   level: "1 to 15"
   mana: "30 to 72"
   cooldown: "100s"
@@ -266,7 +266,7 @@
 
 - name: "Fang Ward"
   school: "Evocation"
-  icon: "../img/spells/fang_ward.png"
+  icon: "/img/spells/fang_ward.png"
   level: "1 to 15"
   mana: "45 to 115"
   cooldown: "300s"
@@ -280,7 +280,7 @@
 
 - name: "Evasion"
   school: "Ender"
-  icon: "../img/spells/evasion.png"
+  icon: "/img/spells/evasion.png"
   level: "1 to 5"
   mana: "5 to 85"
   cooldown: "3600s"
@@ -294,7 +294,7 @@
 
 - name: "Heartstop"
   school: "Blood"
-  icon: "../img/spells/heartstop.png"
+  icon: "/img/spells/heartstop.png"
   level: "1 to 10"
   mana: "50 to 140"
   cooldown: "2400s"
@@ -308,7 +308,7 @@
 
 - name: "Lightning Lance"
   school: "Lightning"
-  icon: "../img/spells/lightning_lance.png"
+  icon: "/img/spells/lightning_lance.png"
   level: "1 to 10"
   mana: "50 to 140"
   cooldown: "240s"
@@ -322,7 +322,7 @@
 
 - name: "Lightning Bolt"
   school: "Lightning"
-  icon: "../img/spells/lightning_bolt.png"
+  icon: "/img/spells/lightning_bolt.png"
   level: "1 to 10"
   mana: "75 to 210"
   cooldown: "500s"
@@ -336,7 +336,7 @@
 
 - name: "Raise Dead"
   school: "Blood"
-  icon: "../img/spells/raise_dead.png"
+  icon: "/img/spells/raise_dead.png"
   level: "1 to 6"
   mana: "50 to 100"
   cooldown: "3000s"
@@ -350,7 +350,7 @@
 
 - name: "Wither Skull"
   school: "Blood"
-  icon: "../img/spells/wither_skull.png"
+  icon: "/img/spells/wither_skull.png"
   level: "1 to 10"
   mana: "25 to 43"
   cooldown: "40s"
@@ -364,7 +364,7 @@
 
 - name: "Greater Heal"
   school: "Holy"
-  icon: "../img/spells/greater_heal.png"
+  icon: "/img/spells/greater_heal.png"
   level: "1 to 1"
   mana: "100 to 100"
   cooldown: "1200s"
@@ -378,7 +378,7 @@
 
 - name: "Cloud Of Regeneration"
   school: "Holy"
-  icon: "../img/spells/cloud_of_regeneration.png"
+  icon: "/img/spells/cloud_of_regeneration.png"
   level: "1 to 10"
   mana: "10 to 37"
   cooldown: "800s"
@@ -392,7 +392,7 @@
 
 - name: "Ray Of Siphoning"
   school: "Blood"
-  icon: "../img/spells/ray_of_siphoning.png"
+  icon: "/img/spells/ray_of_siphoning.png"
   level: "1 to 10"
   mana: "8 to 17"
   cooldown: "300s"
@@ -406,7 +406,7 @@
 
 - name: "Magic Arrow"
   school: "Ender"
-  icon: "../img/spells/magic_arrow.png"
+  icon: "/img/spells/magic_arrow.png"
   level: "1 to 10"
   mana: "50 to 140"
   cooldown: "240s"
@@ -420,7 +420,7 @@
 
 - name: "Lob Creeper"
   school: "Evocation"
-  icon: "../img/spells/lob_creeper.png"
+  icon: "/img/spells/lob_creeper.png"
   level: "1 to 10"
   mana: "25 to 43"
   cooldown: "40s"
@@ -434,7 +434,7 @@
 
 - name: "Chain Creeper"
   school: "Evocation"
-  icon: "../img/spells/chain_creeper.png"
+  icon: "/img/spells/chain_creeper.png"
   level: "1 to 6"
   mana: "40 to 90"
   cooldown: "200s"
@@ -448,7 +448,7 @@
 
 - name: "Blaze Storm"
   school: "Fire"
-  icon: "../img/spells/blaze_storm.png"
+  icon: "/img/spells/blaze_storm.png"
   level: "1 to 10"
   mana: "5 to 14"
   cooldown: "500s"
@@ -462,7 +462,7 @@
 
 - name: "Frost Step"
   school: "Ice"
-  icon: "../img/spells/frost_step.png"
+  icon: "/img/spells/frost_step.png"
   level: "1 to 8"
   mana: "15 to 36"
   cooldown: "200s"
@@ -476,7 +476,7 @@
 
 - name: "Abyssal Shroud"
   school: "Void"
-  icon: "../img/spells/abyssal_shroud.png"
+  icon: "/img/spells/abyssal_shroud.png"
   level: "1 to 3"
   mana: "350 to 390"
   cooldown: "6000s"
@@ -490,7 +490,7 @@
 
 - name: "Ascension"
   school: "Lightning"
-  icon: "../img/spells/ascension.png"
+  icon: "/img/spells/ascension.png"
   level: "1 to 10"
   mana: "50 to 59"
   cooldown: "600s"
@@ -504,7 +504,7 @@
 
 - name: "Invisibility"
   school: "Evocation"
-  icon: "../img/spells/invisibility.png"
+  icon: "/img/spells/invisibility.png"
   level: "1 to 6"
   mana: "35 to 75"
   cooldown: "1200s"
@@ -518,7 +518,7 @@
 
 - name: "Blood Step"
   school: "Blood"
-  icon: "../img/spells/blood_step.png"
+  icon: "/img/spells/blood_step.png"
   level: "1 to 5"
   mana: "30 to 70"
   cooldown: "100s"
@@ -532,7 +532,7 @@
 
 - name: "Summon Polar Bear"
   school: "Ice"
-  icon: "../img/spells/summon_polar_bear.png"
+  icon: "/img/spells/summon_polar_bear.png"
   level: "1 to 10"
   mana: "50 to 140"
   cooldown: "3600s"
@@ -546,7 +546,7 @@
 
 - name: "Blessing Of Life"
   school: "Holy"
-  icon: "../img/spells/blessing_of_life.png"
+  icon: "/img/spells/blessing_of_life.png"
   level: "1 to 10"
   mana: "10 to 55"
   cooldown: "200s"
@@ -560,7 +560,7 @@
 
 - name: "Dragon Breath"
   school: "Ender"
-  icon: "../img/spells/dragon_breath.png"
+  icon: "/img/spells/dragon_breath.png"
   level: "1 to 10"
   mana: "5 to 14"
   cooldown: "200s"
@@ -574,7 +574,7 @@
 
 - name: "Fortify"
   school: "Holy"
-  icon: "../img/spells/fortify.png"
+  icon: "/img/spells/fortify.png"
   level: "1 to 10"
   mana: "40 to 85"
   cooldown: "2400s"
@@ -588,7 +588,7 @@
 
 - name: "Counterspell"
   school: "Ender"
-  icon: "../img/spells/counterspell.png"
+  icon: "/img/spells/counterspell.png"
   level: "1 to 1"
   mana: "50 to 50"
   cooldown: "300s"
@@ -602,7 +602,7 @@
 
 - name: "Spectral Hammer"
   school: "Evocation"
-  icon: "../img/spells/spectral_hammer.png"
+  icon: "/img/spells/spectral_hammer.png"
   level: "1 to 5"
   mana: "15 to 23"
   cooldown: "200s"
@@ -616,7 +616,7 @@
 
 - name: "Charge"
   school: "Lightning"
-  icon: "../img/spells/charge.png"
+  icon: "/img/spells/charge.png"
   level: "1 to 3"
   mana: "50 to 100"
   cooldown: "800s"
@@ -630,7 +630,7 @@
 
 - name: "Void Tentacles"
   school: "Void"
-  icon: "../img/spells/void_tentacles.png"
+  icon: "/img/spells/void_tentacles.png"
   level: "1 to 3"
   mana: "150 to 250"
   cooldown: "600s"
