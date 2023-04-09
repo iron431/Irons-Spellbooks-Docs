@@ -54,22 +54,31 @@ test: #2C2B2B;
 .table-cell-data{
   text-align: left;
   padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.table-cell-spacer{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
 }
 
 .unique_info {
   margin: 10px;
-  padding-left: 15px;
+  padding-left: 8px;
   border: 1px solid rgba(255,255,255,.2);
-  width: 170px;
+  width: 180px;
   height: 120px;
 }
 </style>
 
-{% assign grouped_schools = site.data.spells | group_by: 'school' | sort: 'school' %}
+{% assign grouped_schools = site.data.spell_data | group_by: 'school' | sort: 'school' %}
 {% assign sorted_schools = grouped_schools | sort: 'name'%}
 {% for spell_group in sorted_schools %}
 
 ## {{spell_group.name}} Spells
+
 <hr>
 {% assign sorted_spells = spell_group.items | sort: 'name' %}
 {% for spell in sorted_spells %}
@@ -86,41 +95,43 @@ test: #2C2B2B;
         </div>
       </div>
       <div style="min-width: 420px; max-width:420px; float: left">
-        <table>
+        <table style="width: 100%;">
         <tr>
           <td class="table-cell-label">School:</td>
           <td class="table-cell-data">{{spell_group.name}}</td>
-          <td></td>
+          <td class="table-cell-spacer"></td>
           <td class="table-cell-label">Level:</td>
           <td class="table-cell-data">{{spell.level}}</td>
         </tr>
         <tr>
           <td class="table-cell-label">Cooldown:</td>
           <td class="table-cell-data">{{spell.cooldown}}</td>
-          <td></td>
+          <td class="table-cell-spacer"></td>
           <td class="table-cell-label">Mana:</td>
           <td class="table-cell-data">{{spell.mana}}</td>
         </tr>
         <tr>
           <td class="table-cell-label">Cast Type:</td>
           <td class="table-cell-data">{{spell.cast_type}}</td>
-          <td></td>
+          <td class="table-cell-spacer"></td>
           <td class="table-cell-label">Rarity:</td>
           <td class="table-cell-data">{{spell.rarity}}</td>
         </tr>
         </table>
       </div>
-      <div style="display: flex; width: 10000px; float: right;">
+      {% if spell.u1 != "" %}
+      <div style="display: flex; float: right;">
         <div class="unique_info">
           {{spell.u1}}<br>
-           {{spell.u2}}<br>
-           {{spell.u3}}<br>
+          {{spell.u2}}<br>
+          {{spell.u3}}<br>
           {{spell.u4}}<br>
         </div>
       </div>
+      {% endif %}
     </div>
     <div style="">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      {{spell.description}}
     </div>
   </div>
 </div>
