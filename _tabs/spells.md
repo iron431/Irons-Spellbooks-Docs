@@ -48,9 +48,10 @@ test: #2C2B2B;
 
 .unique_info {
   margin: 10px;
-  padding: 10px;
+  padding-left: 15px;
   border: 1px solid rgba(255,255,255,.2);
-  display: block;
+  width: 200px;
+  height: 120px;
 }
 
 </style>
@@ -71,13 +72,13 @@ test: #2C2B2B;
   </div>
   <div class="card-body">
     <div style="display: flex">
-      <div style="display: inline-block; min-width: 130px; max-width: 130px;">
+      <div style="min-width: 130px; max-width: 130px; float: left">
         <div id="image_wrapper" style="position: relative"> 
           <img src="../img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:0; left: 0;">
           <img src="../img/spells/angel_wing.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 43px; left: 20px;">
         </div>
       </div>
-      <div style="display: inline-block;">
+      <div style="">
         <table>
         <tr>
           <td>School:</td>
@@ -102,8 +103,9 @@ test: #2C2B2B;
         </tr>
         </table>
       </div>
-      <div>
+      <div style="display: flex; width: 10000px; float: right;">
         <div class="unique_info">
+          Testing sldkfjsdlkj<br>
           Testing sldkfjsdlkj<br>
           Testing sldkfjsdlkj<br>
           Testing sldkfjsdlkj<br>
