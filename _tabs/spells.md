@@ -46,23 +46,30 @@ test: #2C2B2B;
   --tb-border-color: rgba(255,255,255,.2);
 }
 
+.table-cell-label{
+  text-align: right;
+  padding: 0.2rem .5rem !important;
+}
+
+.table-cell-data{
+  text-align: left;
+  padding-left: 0px !important;
+}
+
 .unique_info {
   margin: 10px;
   padding-left: 15px;
   border: 1px solid rgba(255,255,255,.2);
-  width: 200px;
+  width: 170px;
   height: 120px;
 }
-
 </style>
 
-
-{% assign grouped_schools = site.spells | group_by: 'school' | sort: 'school' %}
+{% assign grouped_schools = site.data.spells | group_by: 'school' | sort: 'school' %}
 {% assign sorted_schools = grouped_schools | sort: 'name'%}
 {% for spell_group in sorted_schools %}
 
 ## {{spell_group.name}} Spells
-
 <hr>
 {% assign sorted_spells = spell_group.items | sort: 'name' %}
 {% for spell in sorted_spells %}
@@ -75,40 +82,40 @@ test: #2C2B2B;
       <div style="min-width: 130px; max-width: 130px; float: left">
         <div id="image_wrapper" style="position: relative"> 
           <img src="../img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:0; left: 0;">
-          <img src="../img/spells/angel_wing.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 43px; left: 20px;">
+          <img src="{{spell.icon}}" style="width: 80px; image-rendering: pixelated; position: absolute; top: 43px; left: 20px;">
         </div>
       </div>
-      <div style="">
+      <div style="min-width: 420px; max-width:420px; float: left">
         <table>
         <tr>
-          <td>School:</td>
-          <td>{{spell_group.name}}</td>
+          <td class="table-cell-label">School:</td>
+          <td class="table-cell-data">{{spell_group.name}}</td>
           <td></td>
-          <td>Cast Type:</td>
-          <td>Long</td>
+          <td class="table-cell-label">Level:</td>
+          <td class="table-cell-data">{{spell.level}}</td>
         </tr>
         <tr>
-          <td>Level:</td>
-          <td>1 to 10</td>
+          <td class="table-cell-label">Cooldown:</td>
+          <td class="table-cell-data">{{spell.cooldown}}</td>
           <td></td>
-          <td>Mana:</td>
-          <td>50 to 100</td>
+          <td class="table-cell-label">Mana:</td>
+          <td class="table-cell-data">{{spell.mana}}</td>
         </tr>
         <tr>
-          <td>Cooldown:</td>
-          <td>5s</td>
+          <td class="table-cell-label">Cast Type:</td>
+          <td class="table-cell-data">{{spell.cast_type}}</td>
           <td></td>
-          <td>Rarity:</td>
-          <td>X to Y</td>
+          <td class="table-cell-label">Rarity:</td>
+          <td class="table-cell-data">{{spell.rarity}}</td>
         </tr>
         </table>
       </div>
       <div style="display: flex; width: 10000px; float: right;">
         <div class="unique_info">
-          Testing sldkfjsdlkj<br>
-          Testing sldkfjsdlkj<br>
-          Testing sldkfjsdlkj<br>
-          Testing sldkfjsdlkj<br>
+          {{spell.u1}}<br>
+           {{spell.u2}}<br>
+           {{spell.u3}}<br>
+          {{spell.u4}}<br>
         </div>
       </div>
     </div>
