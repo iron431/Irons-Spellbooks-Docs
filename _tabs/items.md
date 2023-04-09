@@ -1,5 +1,5 @@
 ---
 layout: post
-icon: fas fa-hammer
+icon: fa-regular fa-gem
 order: 6
 ---

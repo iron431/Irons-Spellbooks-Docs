@@ -1,5 +1,5 @@
 ---
 layout: post
-icon: fas fa-shirt
+icon: fas fa-shield
 order: 3
 ---

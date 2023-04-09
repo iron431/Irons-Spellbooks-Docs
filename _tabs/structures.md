@@ -1,5 +1,5 @@
 ---
 layout: post
-icon: fas fa-house
+icon: fas fa-chess-rook
 order: 5
 ---
