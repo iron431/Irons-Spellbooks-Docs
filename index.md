@@ -1,12 +1,11 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 10
-layout: post
+layout: page
+title: Home
+ishome: true
+categories: [Blogging, Tutorial]
+tags: [getting started]
+pin: true
 toc: true
-title: About
-categories: [Blogging, Demo]
-tags: [typography]
 ---
 
 ## Prerequisites
