@@ -256,6 +256,7 @@ i {
 #panel-wrapper {
   /* the headings */
   .panel-heading {
+    color: var(--toc-primary) !important;
     @include label(inherit);
   }
 
