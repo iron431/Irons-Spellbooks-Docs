@@ -113,7 +113,7 @@ toc: true
   </div>
   <div class="card-footer2">
     <div style="padding: 5px;">
-    This is the information about the item
+      {{recipe.description}}
     </div>
   </div>
 </div>
