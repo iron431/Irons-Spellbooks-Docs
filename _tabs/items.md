@@ -82,9 +82,10 @@ toc: true
 }
 </style>
 
+{% for recipe in site.data.recipe_data %}
 <div class="card-container">
   <div class="card-header2">
-    <h3 id="arcane_rune" class="card-title">Arcane Rune</h3>
+    <h3 id="{{recipe.path}}" class="card-title">{{recipe.name}}</h3>
   </div>
   <div class="card-body">
     <div style="display: flex">
@@ -92,22 +93,22 @@ toc: true
         <div id="image_wrapper" style="position: relative"> 
           <img src="/img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:30px; left: 10px;">
           <img src="/img/item_background.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 65px; left: 30px;">
-          <img src="/img/items/arcane_rune.png" style="width: 75px; image-rendering: pixelated; position: absolute; top: 67px; left: 30px;" title="Arcane Rune">
+          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 67px; left: 30px;" title="{{recipe.name}}">
         </div>
       </div>
       <div style="min-width: 420px; max-width:420px; position: relative; margin: auto">
-          <img id="slot0" src="/img/crafting_table.png" style="width: 420px; image-rendering: pixelated; position: relative; top:0; left: 0;">
-          <img id="slot1" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 19px;" title="Arcane Rune">
-          <img id="slot2" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 78px;" title="Arcane Rune">
-          <img id="slot3" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 137px;" title="Arcane Rune">
-          <img id="slot4" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 19px;" title="Arcane Rune">
-          <img id="slot5" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 78px;" title="Arcane Rune">
-          <img id="slot6" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 137px;" title="Arcane Rune">
-          <img id="slot7" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 19px;" title="Arcane Rune">
-          <img id="slot8" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 78px;" title="Arcane Rune">
-          <img id="slot9" src="/img/items/arcane_rune.png" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 137px;" title="Arcane Rune">
-          <img id="output" src="/img/items/arcane_rune.png" style="width: 75px; image-rendering: pixelated; position: absolute; top: 71px; left: 314px;" title="Arcane Rune">
-</div>
+          <img id="crafting_table" src="/img/crafting_table.png" style="width: 420px; image-rendering: pixelated; position: relative; top:0; left: 0;">
+          <img id="slot1" src="{{recipe.item0Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 19px;" title="{{recipe.item0}}">
+          <img id="slot2" src="{{recipe.item1Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 78px;" title="{{recipe.item1}}">
+          <img id="slot3" src="{{recipe.item2Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 137px;" title="{{recipe.item2}}">
+          <img id="slot4" src="{{recipe.item3Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 19px;" title="{{recipe.item3}}">
+          <img id="slot5" src="{{recipe.item4Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 78px;" title="{{recipe.item4}}">
+          <img id="slot6" src="{{recipe.item5Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 137px;" title="{{recipe.item5}}">
+          <img id="slot7" src="{{recipe.item6Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 19px;" title="{{recipe.item6}}">
+          <img id="slot8" src="{{recipe.item7Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 78px;" title="{{recipe.item7}}">
+          <img id="slot9" src="{{recipe.item8Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 137px;" title="{{recipe.item8}}">
+          <img id="output" src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 71px; left: 314px;" title="{{recipe.name}}">
+      </div>
     </div>
   </div>
   <div class="card-footer2">
@@ -116,6 +117,8 @@ toc: true
     </div>
   </div>
 </div>
+{% endfor %}
+
 <!-- buffer for the TOC -->
 <div style="height: 800px"></div>
 
