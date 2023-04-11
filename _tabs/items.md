@@ -93,7 +93,7 @@ toc: true
         <div id="image_wrapper" style="position: relative"> 
           <img src="/img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:30px; left: 10px;">
           <img src="/img/item_background.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 65px; left: 30px;">
-          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 67px; left: 30px;" title="{{recipe.name}}">
+          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 68px; left: 31px;" title="{{recipe.name}}">
         </div>
       </div>
       <div style="min-width: 420px; max-width:420px; position: relative; margin: auto">
@@ -107,7 +107,7 @@ toc: true
           <img id="slot7" src="{{recipe.item6Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 19px;" title="{{recipe.item6}}">
           <img id="slot8" src="{{recipe.item7Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 78px;" title="{{recipe.item7}}">
           <img id="slot9" src="{{recipe.item8Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 137px;" title="{{recipe.item8}}">
-          <img id="output" src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 71px; left: 314px;" title="{{recipe.name}}">
+          <img id="output" src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 72px; left: 315px;" title="{{recipe.name}}">
       </div>
     </div>
   </div>
