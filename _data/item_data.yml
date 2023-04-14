@@ -19,7 +19,7 @@
   item7Path: "/img/items/minecraft/netherite_ingot.png"
   item8: "Anvil"
   item8Path: "/img/items/minecraft/anvil.png"
-  description: ""
+  description: "This is a placeholder description. "
 
 - name: "Blood Upgrade Orb"
   path: "/img/items/blood_upgrade_orb.png"
@@ -42,7 +42,7 @@
   item7Path: "/img/items/blood_rune.png"
   item8: "Blood Rune"
   item8Path: "/img/items/blood_rune.png"
-  description: ""
+  description: "This is a placeholder description. This is a placeholder description. "
 
 - name: "Arcane Ingot"
   path: "/img/items/arcane_ingot.png"
@@ -65,7 +65,7 @@
   item7Path: "/img/items/arcane_essence.png"
   item8: "Arcane Essence"
   item8Path: "/img/items/arcane_essence.png"
-  description: ""
+  description: "This is a placeholder description. This is a placeholder description. This is a placeholder description. "
 
 - name: "Ancient Codex"
   path: "/img/items/netherite_spell_book.png"
@@ -88,7 +88,7 @@
   item7Path: "/img/items/lightning_bottle.png"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  description: ""
+  description: "This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. "
 
 - name: "Ice Rune"
   path: "/img/items/ice_rune.png"
@@ -111,7 +111,7 @@
   item7Path: "/img/items/frozen_bone.png"
   item8: "Frozen Bone"
   item8Path: "/img/items/frozen_bone.png"
-  description: ""
+  description: "This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. This is a placeholder description. "
 
 - name: "Arcane Salvage"
   path: "/img/items/arcane_salvage.png"
@@ -732,7 +732,7 @@
   item7Path: "/img/items/minecraft/pufferfish.png"
   item8: "Pufferfish"
   item8Path: "/img/items/minecraft/pufferfish.png"
-  description: ""
+  description: "This is a placeholder description. "
 
 - name: "Wayward Compass"
   path: "/img/items/wayward_compass.png"
@@ -755,7 +755,7 @@
   item7Path: "/img/items/minecraft/iron_ingot.png"
   item8: "Arcane Essence"
   item8Path: "/img/items/arcane_essence.png"
-  description: ""
+  description: "This is a placeholder description. This is a placeholder description. This is a placeholder description. "
 
 - name: "Holy Rune"
   path: "/img/items/holy_rune.png"

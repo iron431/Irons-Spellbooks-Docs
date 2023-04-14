@@ -23,7 +23,7 @@ toc: true
 }
 
 .card-footer2 {
-  background-color: #303030;
+  background-color: #2C2B2B;
   display: flex;
   align-items: center;
   padding: 5px 10px;
@@ -38,9 +38,13 @@ toc: true
 }
 
 .card-body {
-  padding-left: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
   display: block;
   box-sizing: border-box;
+  border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .card-text {
@@ -90,31 +94,34 @@ toc: true
   </div>
   <div class="card-body">
     <div style="display: flex">
-      <div style="min-width: 160px; max-width: 160px; position: relative; padding-left: 30px">
+      <div style="min-width: 136px; max-width: 136px; position: relative; padding-left: 0px">
         <div id="image_wrapper" style="position: relative"> 
-          <img src="/img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:30px; left: 10px;">
-          <img src="/img/item_background.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 65px; left: 30px;">
-          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 68px; left: 31px;" title="{{recipe.name}}">
+          <img src="/img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:0px; left: 10px;">
+          <img src="/img/item_background.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 35px; left: 30px;">
+          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 38px; left: 31px;" title="{{recipe.name}}">
         </div>
       </div>
-      <div style="min-width: 420px; max-width:420px; position: relative; margin: auto">
-          <img id="crafting_table" src="/img/crafting_table.png" style="width: 420px; image-rendering: pixelated; position: relative; top:0; left: 0;">
-          <img id="slot1" src="{{recipe.item0Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 19px;" title="{{recipe.item0}}">
-          <img id="slot2" src="{{recipe.item1Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 78px;" title="{{recipe.item1}}">
-          <img id="slot3" src="{{recipe.item2Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 24px; left: 137px;" title="{{recipe.item2}}">
-          <img id="slot4" src="{{recipe.item3Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 19px;" title="{{recipe.item3}}">
-          <img id="slot5" src="{{recipe.item4Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 78px;" title="{{recipe.item4}}">
-          <img id="slot6" src="{{recipe.item5Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 83px; left: 137px;" title="{{recipe.item5}}">
-          <img id="slot7" src="{{recipe.item6Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 19px;" title="{{recipe.item6}}">
-          <img id="slot8" src="{{recipe.item7Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 78px;" title="{{recipe.item7}}">
-          <img id="slot9" src="{{recipe.item8Path}}" style="width: 50px; image-rendering: pixelated; position: absolute; top: 142px; left: 137px;" title="{{recipe.item8}}">
-          <img id="output" src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 72px; left: 315px;" title="{{recipe.name}}">
-      </div>
-    </div>
-  </div>
-  <div class="card-footer2">
-    <div style="padding: 5px;">
+    <div style="padding: 5px; margin-top: 3px; text-align: left">
+      This is a placeholder description 
       {{recipe.description}}
+    </div>
+{%assign padding = "4" %}
+{%assign size = "26" %}
+{%assign top = "15" %}
+{%assign left = "13" %}
+      <div style="min-width: 220px; max-width:220px; position: relative; float: right; margin-top: 15px; margin-left: auto">
+          <img id="crafting_table" src="/img/crafting_table.png" style="width: 420px; image-rendering: pixelated; position: relative; top:0; left: 0;">
+          <img id="slot1" src="{{recipe.item0Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: {{left}}px;" title="{{recipe.item0}}">
+          <img id="slot2" src="{{recipe.item1Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: {{left | plus:padding | plus:size}}px;" title="{{recipe.item1}}">
+          <img id="slot3" src="{{recipe.item2Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: {{left | plus:padding | plus:size | plus: padding | plus: size}}px;" title="{{recipe.item2}}">
+          <img id="slot4" src="{{recipe.item3Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size}}px; left: {{left}}px;" title="{{recipe.item3}}">
+          <img id="slot5" src="{{recipe.item4Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size}}px; left: {{left | plus:padding | plus:size}}px;" title="{{recipe.item4}}">
+          <img id="slot6" src="{{recipe.item5Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size}}px; left: {{left | plus:padding | plus:size | plus: padding | plus: size}}px;" title="{{recipe.item5}}">
+          <img id="slot7" src="{{recipe.item6Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size | plus: padding | plus: size}}px; left: {{left}}px;" title="{{recipe.item6}}">
+          <img id="slot8" src="{{recipe.item7Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size | plus: padding | plus: size}}px; left: {{left | plus:padding | plus:size}}px;" title="{{recipe.item7}}">
+          <img id="slot9" src="{{recipe.item8Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size | plus: padding | plus: size}}px; left: {{left | plus:padding | plus:size | plus: padding | plus: size}}px;" title="{{recipe.item8}}">
+          <img id="output" src="{{recipe.path}}" style="width: 38px; image-rendering: pixelated; position: absolute; top: 38px; left: 165px;" title="{{recipe.name}}">
+      </div>
     </div>
   </div>
 </div>
