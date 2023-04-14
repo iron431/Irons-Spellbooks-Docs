@@ -2,6 +2,7 @@
 layout: post
 icon: fas fa-shield
 order: 3
+toc: true
 ---
 <style>
 .card-container {
@@ -80,8 +81,16 @@ order: 3
   height: 120px;
 }
 </style>
+{% assign lastGroup = 'XXX' %}
 {% assign sorted = site.data.armor_data | sort: 'name'%}
+
 {% for recipe in sorted %}
+
+{% if recipe.group != lastGroup %}
+<h2 id="{{recipe.group}}"> {{recipe.group}}</h2>
+<hr>
+{% endif %}
+
 <div class="card-container">
   <div class="card-header2">
     <h3 id="{{recipe.path}}" class="card-title">{{recipe.name}}</h3>
@@ -116,6 +125,7 @@ order: 3
     </div>
   </div>
 </div>
+{% assign lastGroup = recipe.group %}
 {% endfor %}
 
 <!-- buffer for the TOC -->

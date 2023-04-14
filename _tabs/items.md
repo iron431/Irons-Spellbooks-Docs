@@ -82,7 +82,7 @@ toc: true
 }
 </style>
 
-{% assign sorted = site.data.recipe_data | sort: 'name'%}
+{% assign sorted = site.data.item_data | sort: 'name'%}
 {% for recipe in sorted %}
 <div class="card-container">
   <div class="card-header2">
