@@ -1,45 +1,40 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+- References
+-  https://jekyllrb.com/docs/variables/
+-  https://jekyllrb.com/docs/themes/
+-  https://jekyllrb.com/docs/continuous-integration/github-actions/
+-  https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+-  https://jekyllthemes.io/theme/bulma
+-  https://github.com/chrisrhymes/bulma-clean-theme/#installation
+-  https://idratherbewriting.com/documentation-theme-jekyll/mydoc_publishing_github_pages.html-
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `/_data`, `/_layouts`, `/_includes`, `/_sass` and `/assets`, as well as a small part of options of the `/_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+- Install Ruby+Devkit
+  - https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.2-1/rubyinstaller-devkit-3.2.2-1-x64.exe
+  - At the end of this install run the ridk install and choose option 3: MSYS2 and MINGW development tool chain
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+NOTE: This doesn't like git bash
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+Open a new console window so $path is updated
+>$ gem install jekyll bundler
 
-## Prerequisites
+If all is well this will run successfully
+>$ jekyll -v
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+Creates a new branch, with no history or contents, called gh-pages, and switches to the gh-pages branch
+>$ git checkout --orphan gh-pages
 
-## Installation
+Removes the contents from your default branch from the working directory
+>$ git rm -rf *
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+Creates a Jekyll site in the current directory
+>$ jekyll new --skip-bundle .
 
-Then clone it to your local machine and run:
+Edit Gemfile and _config.yml
+>$ bundle
 
-```
-$ bundle
-```
+To run the site on localhost
+>$ bundle exec jekyll serve
 
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+To run the site on all local IPs
+>$ bundle exec jekyll serve --host=0.0.0.0

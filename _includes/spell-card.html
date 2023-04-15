@@ -21,7 +21,7 @@
           </tr>
           <tr>
             <td class="spell-cell-label">Cooldown:</td>
-            <td class="spell-cell-data">{{spell.cooldown | divided_by:20}}</td>
+            <td class="spell-cell-data">{{spell.cooldown | divided_by:20}}s</td>
             <td class="spell-cell-spacer"></td>
             <td class="spell-cell-label">Mana:</td>
             <td class="spell-cell-data">{{spell.mana}}</td>
@@ -46,7 +46,7 @@
       </div>
       {% endif %}
     </div>
-    <div style="">
+    <div style="margin-top: 7px; margin-left: 5px; margin-right: 10px">
       {{spell.description}}
     </div>
   </div>

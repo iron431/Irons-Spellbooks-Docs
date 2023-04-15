@@ -9,11 +9,16 @@
         <div id="image_wrapper" style="position: relative">
           <img src="/img/spell_frame.png" style="width: 120px; image-rendering: pixelated; position: relative; top:0px; left: 10px;">
           <img src="/img/item_background.png" style="width: 80px; image-rendering: pixelated; position: absolute; top: 35px; left: 30px;">
-          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 38px; left: 31px;" title="{{recipe.name}}">
+          <img src="{{recipe.path}}" style="width: 75px; image-rendering: pixelated; position: absolute; top: 36px; left: 31px;" title="{{recipe.name}}">
         </div>
       </div>
       <div style="padding: 5px; margin-top: 3px; text-align: left">
         {{recipe.description}}
+        This is where the description goes
+        {% if recipe.tooltip != "" %}
+          <hr style="border-color: rgba(255,255,255,.2);">
+          {{recipe.tooltip| replace: ",", "<br>" }}
+        {% endif %}
       </div>
 
       {% if recipe.craftingType == "crafting" %}
@@ -33,6 +38,15 @@
           <img id="slot8" src="{{recipe.item7Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size | plus: padding | plus: size}}px; left: {{left | plus:padding | plus:size}}px;" title="{{recipe.item7}}">
           <img id="slot9" src="{{recipe.item8Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top | plus:padding | plus:size | plus: padding | plus: size}}px; left: {{left | plus:padding | plus:size | plus: padding | plus: size}}px;" title="{{recipe.item8}}">
           <img id="output" src="{{recipe.path}}" style="width: 38px; image-rendering: pixelated; position: absolute; top: 38px; left: 165px;" title="{{recipe.name}}">
+        </div>
+      {% elsif recipe.craftingType == "smithing" %}
+        {%assign size = "26" %}
+        {%assign top = "62" %}
+        <div style="min-width: 220px; max-width:220px; position: relative; float: right; margin-top: 15px; margin-left: auto">
+          <img id="crafting_table" src="/img/smithing_table.png" style="width: 420px; image-rendering: pixelated; position: relative; top:0; left: 0;">
+          <img id="slot1" src="{{recipe.item0Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 10px ;" title="{{recipe.item0}}">
+          <img id="slot2" src="{{recipe.item1Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 87px;" title="{{recipe.item1}}">
+          <img id="output" src="{{recipe.path}}"     style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 182px;" title="{{recipe.name}}">
         </div>
       {%endif%}
     </div>
