@@ -2,6 +2,7 @@
 layout: post
 icon: fas fa-book
 order: 2
+toc: true
 ---
 {% assign sorted = site.data.spellbook_data | sort: 'name'%}
 {% for recipe in sorted %}
