@@ -76,6 +76,8 @@ google_analytics:
 # [light|dark]
 theme_mode: dark
 
+lazy_load_images: false
+
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
