@@ -19,11 +19,20 @@ Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games
 - 5 new enemies; a new boss
 - And much more!
 
-
 ## <u>Also Including</u>
 - Extensive configuration options (including per-spell settings)
 - Heavy use of Attributes for RPG mechanics and user generated content
 - Out-of-the-box support for JEI, Tetra, Curios, and Better Combat
+
+## <u>Support</u>
+You can help support the development of this mod here
+
+<a href="https://www.patreon.com/Iron431">![Patreon](/img/patreon.png)</a>
+
+## <u>Issues</u>
+You can report issues you find here
+
+<a href="https://github.com/iron431/Irons-Spells-n-Spellbooks/issues" target="_blank">Irons-Spells-n-Spellbooks/issues</a>
 
 ## <u>Getting Started</u>
 You may quickly notice as your explore your world that you will be finding scrolls. Each scroll contains a spell, similar to an enchanted book. The scroll can be consumed to cast that spell without consuming mana or triggering a cooldown, or brought to the first new workstation added: the Inscription Table. At the inscription table, you are allowed to place a spell book, one either found or crafted, and slot the scroll into it. However, depending on the rarity of the scroll (determined by the spell's level), it may be too powerful for your spell book. In this case, you must go forth on a journey to obtain a better spell book.
