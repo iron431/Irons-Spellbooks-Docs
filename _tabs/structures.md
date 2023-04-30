@@ -26,16 +26,15 @@ Home of the fire mages, it can be found in swampy biomes
 ![Evoker Fort](/img/evoker_fort.png)
 
 ## The Catacombs
-The first randomly generated dungeon and boss fight of the mod, it is the magical stronghold of a king who died long ago and can be found deep underground
-Wayward Compass can be used to locate them
-It is recommended to have enchanted diamond gear to take on the Dead King boss
+- The first randomly generated dungeon and boss fight of the mod, it is the magical stronghold of a king who died long ago and can be found deep underground
+- The Wayward Compass can be used to locate them
+- It is recommended to have enchanted diamond gear to take on the Dead King boss
 
 ![The Catacombs](/img/the_catacombs.png)
 
 ## Ancient Battlegrounds
-
-The site of a battle of which the name was long ago forgotten, it can be found resurfacing in the Nether
-Armor Piles can be harvested to reanimate Ancient Knights
-Debris may be denser in the areas around them
+- The site of a battle of which the name was long ago forgotten, it can be found resurfacing in the Nether
+- Armor Piles can be harvested to reanimate Ancient Knights
+- Debris may be denser in the areas around them
 
 ![Ancient Battlegrounds](/img/ancient_battlegrounds.png)
