@@ -9,6 +9,8 @@ pin: true
 
 Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games, and aims to introduce the classic spellcasting fantasy to the game. With an emphasis on progression, you can gain power by fighting dangerous wizards, raiding a plethora of structures, delving through dungeons, collecting resources, and finding powerful magical items.
 
+<a href="https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks" target="_blank">Curseforge Page</a>
+
 ## <u>Featuring</u>
 - Over 45 upgradable spells
 - Over 20 equipment items
