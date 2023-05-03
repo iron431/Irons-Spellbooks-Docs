@@ -205,7 +205,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique Spell Book, [Fang Strike 6], 11 Fangs, 11 Damage, 1s Cast Time, 45 Mana Cost, 5s Cooldown"
+  tooltip: "Unique Spell Book"
   description: ""
 
 - id: "irons_spellbooks:blood_staff"
