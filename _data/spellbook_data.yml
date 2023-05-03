@@ -240,7 +240,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique Spell Book, [Wither Skull 6], 8.5 Damage, 30 Mana Cost, 2s Cooldown, When in Main Hand:<br>  8 Attack Damage, 1 Attack Speed, +10% Blood Spell Power"
+  tooltip: "Unique Spell Book, When in Main Hand:<br>  8 Attack Damage, 1 Attack Speed, +10% Blood Spell Power"
   description: ""
 
 - id: "irons_spellbooks:magehunter"
