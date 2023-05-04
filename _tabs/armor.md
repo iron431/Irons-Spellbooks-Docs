@@ -13,7 +13,7 @@ toc: true
 <hr>
   {% assign sorted_groups = group.items | sort: 'name' %}
   {% for recipe in sorted_groups %}
-    {% include crafting-table-card.html %}
+    {% include crafting-table-card.html pixelated="true" %}
     {% assign lastGroup = recipe.group %}
   {% endfor %}
 {% endfor %}

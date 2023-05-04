@@ -6,7 +6,7 @@ toc: true
 ---
 {% assign sorted = site.data.spellbook_data | sort: 'name'%}
 {% for recipe in sorted %}
-  {% include crafting-table-card.html %}
+  {% include crafting-table-card.html pixelated="true" %}
 {% endfor %}
 
 <!-- buffer for the TOC -->
