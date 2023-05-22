@@ -1,9 +1,11 @@
 ---
 layout: post
-icon: fas fa-chess-rook
+icon: fa-solid fa-panorama
 order: 6
 toc: true
 ---
+
+![Spells](/img/screenshots/spells.png)
 
 ## Workstations
 ![Workstation](/img/screenshots/tristation.png)
