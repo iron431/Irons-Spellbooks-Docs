@@ -21,6 +21,8 @@ toc: true
 
 ![Items](/img/screenshots/equipment.png)
 
+![Items](/img/screenshots/armor.png)
+
 ## World
 ![Items](/img/screenshots/structures.png)
 
