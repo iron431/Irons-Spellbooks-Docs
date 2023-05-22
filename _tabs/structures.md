@@ -38,3 +38,13 @@ Home of the fire mages, it can be found in swampy biomes
 - Debris may be denser in the areas around them
 
 ![Ancient Battlegrounds](/img/ancient_battlegrounds.png)
+
+## More Screenshots
+- Mountain Tower (Bottom Left)
+- Mangrove Hut (Top Middle)
+- Evoker Fort (Bottom Right)
+- The Catacombs (Top Right)
+- Ancient Battlegrounds (Top Left)
+![Structures](/img/screenshots/structures.png)
+![Structures](/img/screenshots/magic_loot.png)
+![Structures](/img/screenshots/ancient_city_loot.png)
