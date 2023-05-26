@@ -24,8 +24,13 @@ toc: true
 ![Items](/img/screenshots/armor.png)
 
 ## World
-![Items](/img/screenshots/structures.png)
+![World](/img/screenshots/structures.png)
 
-![Items](/img/screenshots/magic_loot.png)
+![World](/img/screenshots/magic_loot.png)
 
-![Items](/img/screenshots/ancient_city_loot.png)
+![World](/img/screenshots/ancient_city_loot.png)
+
+## Compatibility
+![Compatibility](/img/screenshots/apotheosis.png)
+
+![Compatibility](/img/screenshots/tetra.png)
