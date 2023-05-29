@@ -7,8 +7,6 @@ toc: true
 
 Several new randomly generated structures can be found in your new magical world. They'll contain magical loot - and magical enemies guarding it - as well as traps, and most importantly: secret treasure. *As a side note, it is not required to break any blocks to find secrets.
 
-
-
 ## Mountain Tower
 The lonely tower of ice mages, it can be found in mountainous and snowy biomes
 
