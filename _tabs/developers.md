@@ -59,7 +59,10 @@ repositories {
 You also need to add the following items to your dependencies block
 ```kotlin
 dependencies {
+    // FORGE ******************************************************************************************************
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    
+    // IRONS SPELLS N SPELLBOOKS **********************************************************************************
     implementation "io.redspace.ironsspellbooks:irons_spellbooks:${minecraft_version}-${irons_spells_version}"
 
     // GECKOLIB ***************************************************************************************************
