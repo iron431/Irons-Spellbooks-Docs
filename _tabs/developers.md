@@ -15,7 +15,7 @@ We don't currenly have an API to compile against so you need to link to the main
 
 These values should get set in your projects gradle.properties file.  It includes the versions for all Iron's Spells and its required dependencies
 
-```kotlin
+```shell
 minecraft_version=1.19.2
 forge_version=43.2.3
 
