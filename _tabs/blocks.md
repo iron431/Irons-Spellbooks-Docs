@@ -7,7 +7,8 @@ toc: true
 
 {% assign sorted = site.data.block_data | sort: 'name'%}
 {% for recipe in sorted %}
-{% include crafting-table-card.html %}
+  {% assign desc = site.data.block_descriptions[recipe.id].description %}
+  {% include crafting-table-card.html desc=desc %}
 {% endfor %}
 
 <!-- buffer for the TOC -->

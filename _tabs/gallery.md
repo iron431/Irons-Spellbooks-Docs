@@ -1,7 +1,7 @@
 ---
 layout: post
 icon: fa-solid fa-panorama
-order: 6
+order: 7
 toc: true
 ---
 

@@ -1,4 +1,5 @@
 {% assign recipe = include.recipe %}
+{% assign desc = include.desc %}
 
 {% if include.pixelated %}
   {%assign p = "image-rendering: pixelated;" %}
@@ -20,9 +21,9 @@
         </div>
       </div>
       <div style="padding: 5px; margin-top: 3px; text-align: left">
-        {{recipe.description}}
+        {{desc}}
 
-        {% if recipe.tooltip != "" and recipe.description != "" %}
+        {% if recipe.tooltip != "" and desc != "" %}
           <hr style="border-color: rgba(255,255,255,.2);">
         {% endif %}
 

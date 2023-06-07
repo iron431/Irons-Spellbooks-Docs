@@ -1,0 +1,18 @@
+irons_spellbooks:inscription_table:
+  description: "Used to slot spells from scrolls into spell books for repeated use."
+
+irons_spellbooks:arcane_anvil:
+  description: "Used to upgrade scrolls, upgrade equipment, and imbue weapons"
+
+irons_spellbooks:scroll_forge:
+  description: "Used to craft scrolls. The ink used determines the rarity of the spells. The level will always be the lowest level of that rarity. You cannot use an ink that is less rare than the minimum rarity of the scroll."
+
+irons_spellbooks:pedestal:
+  description: ""
+
+irons_spellbooks:armor_pile:
+  description: "Found scattered throughout Ancient Battlegrounds. When harvested with a diamond pick, an Ancient Knight will spawn."
+
+irons_spellbooks:arcane_debris:
+  description: "The magical Overworld equivalent of ancient debris, it can be found not exposed to air below y = -38. Requires a netherite pickaxe to harvest."
+
