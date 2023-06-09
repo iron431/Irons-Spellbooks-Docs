@@ -11,6 +11,26 @@ color:rgba(255, 194, 41, 0.5);
 </style>
 <hr>
 
+## <span class="yellow">[1.1.4] (1.19.2 | 1.18.2) 2023-05-31</span>
+### Changes
+
+- Updated Counterspell to counter magical effects that were recently added
+- Update Scroll Forge ink outline to match new textures
+- Shifted all ink textures 1 pixel to the right
+- Removed Dismount message when rooted
+- Improved mob teleport collision detection
+
+### Fixes
+
+- Target Area Visuals no longer persist if the owner dies while casting
+- "None Spell" is no longer craftable
+- Fixed Single Use Spell timer improperly being ticked, resulting in some mobs never casting it
+- Fixed Crash when attempting to slot a spell into a full spellbook
+- Fixed some spells not serializing damage
+
+<hr>
+
+
 ## <span class="yellow">[1.1.3, 1.19.2] 2023-05-31</span>
 ### Changes
 - Replaced ink, hogskin, dragonskin, and most spell book textures (Courtesy of Crydigo)
