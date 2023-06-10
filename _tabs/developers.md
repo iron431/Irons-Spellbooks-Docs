@@ -18,9 +18,10 @@ These values should get set in your projects gradle.properties file.  It include
 ```shell
 minecraft_version=1.19.2
 forge_version=43.2.3
+mixin_version=0.8.5
 
 # Iron's Spells N SpellBooks
-irons_spells_version=1.1.3
+irons_spells_version=1.1.4
 
 # Iron's Mod Dependencies
 jei_version=11.6.0.1013
@@ -59,38 +60,42 @@ repositories {
 You also need to add the following items to your dependencies block
 ```kotlin
 dependencies {
-    // FORGE ******************************************************************************************************
-    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    
-    // IRONS SPELLS N SPELLBOOKS **********************************************************************************
-    implementation "io.redspace.ironsspellbooks:irons_spellbooks:${minecraft_version}-${irons_spells_version}"
+  minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // GECKOLIB ***************************************************************************************************
-    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_version}")
+  // MIXINS *****************************************************************************************************
+  annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 
-    // CAELUS *****************************************************************************************************
-    compileOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${minecraft_version}-${caelus_version}:api")
-    runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${minecraft_version}-${caelus_version}")
+  // IRONS SPELLS N SPELLBOOKS **********************************************************************************
+  implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${minecraft_version}-${irons_spells_version}"){
+    transitive = false
+  }
 
-    // PLAYER ANIMATOR ********************************************************************************************
-    implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:${player_animator_version}")
+  // GECKOLIB ***************************************************************************************************
+  implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_version}")
 
-    // TETRA ******************************************************************************************************
-    implementation fg.deobf("se.mickelus.mutil:mutil:${minecraft_version}-${mutil_version}")
-    implementation fg.deobf("curse.maven:tetra-${tetra_version}")
-    // If you want to run without tetra in dev comment the above 2 lines and uncomment the following line
-    // compileOnly fg.deobf("curse.maven:tetra-${tetra_version}")
+  // CAELUS *****************************************************************************************************
+  compileOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${minecraft_version}-${caelus_version}:api")
+  runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${minecraft_version}-${caelus_version}")
 
-    // JEI ********************************************************************************************************
-    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
-    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
-    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+  // PLAYER ANIMATOR ********************************************************************************************
+  implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:${player_animator_version}")
 
-    // CURIOS *****************************************************************************************************
-    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
-    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+  // TETRA ******************************************************************************************************
+  implementation fg.deobf("se.mickelus.mutil:mutil:${minecraft_version}-${mutil_version}")
+  implementation fg.deobf("curse.maven:tetra-${tetra_version}")
+  // If you want to run without tetra in dev comment the above 2 lines and uncomment the following line
+  // compileOnly fg.deobf("curse.maven:tetra-${tetra_version}")
 
-    // JSON *******************************************************************************************************
-    implementation "com.google.code.gson:gson:${gson_version}"
+  // JEI ********************************************************************************************************
+  compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+  compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+  runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+
+  // CURIOS *****************************************************************************************************
+  compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
+  runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+
+  // JSON *******************************************************************************************************
+  implementation "com.google.code.gson:gson:${gson_version}"
 }
 ```
