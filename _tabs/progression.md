@@ -6,7 +6,7 @@ toc: true
 ---
 
 ## <u>Early Game - World Loot and The Inscription Table</u>
-The world will be full of magic loot, from resources to scrolls to equipment. In the early game, looting structures will be your primamry source of scrolls. Scrolls will be much more common and powerful in magic structures.
+The world will be full of magic loot, from resources to scrolls to equipment. In the early game, looting structures will be your primary source of scrolls. Scrolls will be much more common and powerful in magic structures.
 
 Beginner spell books can be found or crafted. In order use spell books, you will need to bring scrolls to the [Inscription Table](../blocks/#irons_spellbooks:inscription_table).
 
