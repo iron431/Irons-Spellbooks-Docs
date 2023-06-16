@@ -29,7 +29,7 @@ In order to continue progressing, keep an eye out for [runestones](../#runestone
 ## <u>Late Game - Unlimited Power</u>
 Late game is reached by obtaining netherite and vast quantities of basic resources. This will be done most effectively by killing the Dead King boss.
 
-School armor will allow you to specialize in a particular element (ex: [Cryomancer Armor](http://../armor/#Cryomancer)).
+School armor will allow you to specialize in a particular element (ex: [Cryomancer Armor](../armor/#Cryomancer)).
 
 Using netherite, you can obtain the [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil). The [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil) is the most powerful crafting station, used to level up your scrolls, upgrade armor and spell books, and imbue weapons with spells.
 
