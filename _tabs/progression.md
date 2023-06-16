@@ -33,7 +33,7 @@ School armor will allow you to specialize in a particular element (ex: [Cryomanc
 
 Using netherite, you can obtain the [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil). The [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil) is the most powerful crafting station, used to level up your scrolls, upgrade armor and spell books, and imbue weapons with spells.
 
-Upgrade Orbs are crafted using [Arcane debris](../blocks/#irons_spellbooks:arcane_debris) and [Cinder Essence](../blocks/#irons_spellbooks:cinder_essence). By default, you can only upgrade an applicable piece of equipment three times.
+Upgrade Orbs are crafted using [Arcane debris](../blocks/#irons_spellbooks:arcane_debris) and [Cinder Essence](../items/#irons_spellbooks:cinder_essence). By default, you can only upgrade an applicable piece of equipment three times.
  
 ## <u>Along the way</u>
 At every stage of your adventures, be sure to keep an eye out for rings, unique spell books, named spell books, and magic resources!
