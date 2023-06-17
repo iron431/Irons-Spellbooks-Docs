@@ -86,7 +86,7 @@ irons_spellbooks:legendary_ink:
   description: ""
 
 irons_spellbooks:lightning_bottle:
-  description: ""
+  description: "Use an empty bottle on a charged creeper to obtain this.  You can use the <a href=\"../spells/#Lightning%20Bolt\">Lightning Bolt</a> Spell, lightning rod or trident to charge a creeper."
 
 irons_spellbooks:lightning_rune:
   description: ""
