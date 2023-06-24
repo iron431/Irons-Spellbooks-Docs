@@ -65,7 +65,7 @@ irons_spellbooks:fire_upgrade_orb:
   description: ""
 
 irons_spellbooks:frozen_bone:
-  description: ""
+  description: "Dropped from strays"
 
 irons_spellbooks:hogskin:
   description: "Dropped from hoglins"
