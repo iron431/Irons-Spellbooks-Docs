@@ -1,5 +1,5 @@
 irons_spellbooks:arcane_essence:
-  description: ""
+  description: "A common magic material used in many recipes. Can be found sparsely in vanilla structures, but much more commonly in magic structures or from killing magic mobs."
 
 irons_spellbooks:arcane_ingot:
   description: ""
@@ -8,10 +8,10 @@ irons_spellbooks:arcane_rune:
   description: ""
 
 irons_spellbooks:arcane_salvage:
-  description: ""
+  description: "A late game material used for upgrade orbs, smelted from <a href=\"../blocks/#irons_spellbooks:arcane_debris\">Arcane Debris</a>"
 
 irons_spellbooks:blank_rune:
-  description: ""
+  description: "The base for all other runes to be crafted from. Can be found rarely in some vanilla structures, or more commonly in magic structures. Each school mage drops one for their school on death."
 
 irons_spellbooks:blood_rune:
   description: ""
@@ -23,10 +23,10 @@ irons_spellbooks:blood_vial:
   description: "Place a lit campfire beneath a cauldron, and put a mob in the cauldron to cook the mob. This will fill the cauldron with blood, which can be withdrawn with glass bottles to obtain vials of blood."
 
 irons_spellbooks:cinder_essence:
-  description: ""
+  description: "Dropped from Ancient Knights. Used for upgrade orbs"
 
 irons_spellbooks:common_ink:
-  description: ""
+  description: "Found commonly in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:conjurers_talisman:
   description: ""
@@ -41,7 +41,7 @@ irons_spellbooks:divine_pearl:
   description: ""
 
 irons_spellbooks:dragonskin:
-  description: ""
+  description: "Dropped from the Ender Dragon"
 
 irons_spellbooks:ender_rune:
   description: ""
@@ -50,7 +50,7 @@ irons_spellbooks:ender_upgrade_orb:
   description: ""
 
 irons_spellbooks:epic_ink:
-  description: ""
+  description: "Found rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:evocation_rune:
   description: ""
@@ -68,7 +68,7 @@ irons_spellbooks:frozen_bone:
   description: ""
 
 irons_spellbooks:hogskin:
-  description: ""
+  description: "Dropped from hoglins"
 
 irons_spellbooks:holy_rune:
   description: ""
@@ -83,7 +83,7 @@ irons_spellbooks:ice_upgrade_orb:
   description: ""
 
 irons_spellbooks:legendary_ink:
-  description: ""
+  description: "Found very rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:lightning_bottle:
   description: "Use an empty bottle on a charged creeper to obtain.  You can use the <a href=\"../spells/#Lightning%20Bolt\">Lightning Bolt</a> Spell, lightning rod or trident to charge a creeper."
@@ -113,7 +113,7 @@ irons_spellbooks:protection_upgrade_orb:
   description: ""
 
 irons_spellbooks:rare_ink:
-  description: ""
+  description: "Found rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:ruined_book:
   description: ""
@@ -122,14 +122,14 @@ irons_spellbooks:shriving_stone:
   description: ""
 
 irons_spellbooks:tarnished_helmet:
-  description: ""
+  description: "Rare drop from the necromancer"
 
 irons_spellbooks:uncommon_ink:
-  description: ""
+  description: "Found in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:upgrade_orb:
-  description: ""
+  description: "The base for all other upgrade orbs to be crafted from"
 
 irons_spellbooks:wayward_compass:
-  description: ""
+  description: "Once crafted, it finds the nearest <a href=\"../structures/#the-catacombs\">Catacombs</a> and leads you towards it"
 
