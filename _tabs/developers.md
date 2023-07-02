@@ -10,6 +10,9 @@ We don't currenly have an API to compile against so you need to link to the main
 
 <a href="https://discord.gg/TRzEdrndM2"><img src="https://img.shields.io/discord/1104430139275743293.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2&amp;style=for-the-badge" alt="" width="129" height="28" /></a>
 
+## Example Repo
+https://github.com/lab3/IronsTestMod
+
 ## Project Setup Using Gradle
 ### gradle.properties
 
@@ -37,6 +40,13 @@ gson_version=2.10.1
 ```
 
 ### build.gradle
+
+Make sure you have the plugin for mixins in your build.gradle
+
+```kotlin
+    id 'org.spongepowered.mixin' version '0.7.+'
+```
+
 
 In your repositories block you need to add the maven entries for Iron's and its required dependencies.
 
