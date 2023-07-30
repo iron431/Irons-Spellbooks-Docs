@@ -12,6 +12,75 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow">[1.2.0] (1.19.2 | 1.20.1) 2023-07-29</span>
+### Additions
+- Added the Alchemist Cauldron
+  - Allows for scrolls to be recycled into ink
+  - Allows for brewing of 4 potions at once
+  - Allows for production of Blood Vials
+  - Supports interactions with dispensers, hoppers, and observers
+- Added Mana Potion, which can be brewed from Arcane Essence
+- Added loot integration to all of Yung's structure mods
+- Added loot integration to Structory
+
+### Changes
+- Priests will now heal friendly players
+- Aoe and Cone spells no longer cause knockback
+- Instant cast spells no longer spam their cooldown error if right click is held down
+- Some loot table rebalances, including ink now dropping outside of Iron's Spellbooks structures
+
+### Fixes
+- Fixed Aoe entities damaging summons and teammates
+- Fixed Wall of Fire igniting summons and teammates
+- Fixed True Invisibility effect icon disappearing
+
+## <span class="yellow">[1.1.8] (1.19.2 | 1.20.1) 2023-07-17</span>
+### Additions
+- Added spell descriptions to tooltips in Inscription Table and Scroll Forge
+- Added config option for the cooldown multiplier of imbued weapons
+- Added entity collision to the Shield Spell
+- Added JEI descriptions on how to obtain various materials
+
+### Changes
+- Updated Affinity Ring Textures
+- Updated Arcane Cloth and Ingot Textures
+- Level of Vigor gained from Devour Spell is now capped at level 10
+- Fang Strike default fang count of increased by 2
+- Fang Strike fangs now activate faster
+- Fang Strike and Fang Ward base cast time reduced to .75 seconds
+- Fang Ward fang count now increases exponentially with its ring count
+- Imbued weapons now have half the cooldown instead of twice the cooldown
+- Updated to new patchouli book format
+
+### Fixes
+- Fixed an exploit that could bypass a spell book's rarity limit when inscribing a spell (fixes #94)
+- Fixed an exploit that allowed a different focus to be used to craft a scroll (fixes #100)
+- Fixed some magic projectiles ignoring shield spell
+- Fixed aoe damage sources damaging shields multiple times
+- Fixed Magehunter not showing Counterspell until used
+- Fixed casting mobs causing null crash if casting while dying
+
+## <span class="yellow">[1.1.7] (1.19.2 | 1.20.1) 2023-07-06</span>
+### Additions
+- Added Amulet of Concentration
+
+### Changes
+- Redid Icicle Projectile Visuals
+- Slowed Down Icicle Projectile
+- Redid Icicle Spell Icon
+- Redid Snowflake Particle Texture
+- Redid Magic Missile Visuals
+- Redid Magic Missile Icon
+- Replaced Dead King Boss Model and Weapon Model, thanks to Crydigo. Includes Programmer Art Texture Pack
+
+### Fixes
+- Fixed Spellcasting Mobs casting Fang Strike while out of range
+- Fixed Quick Casting a spell out of bounds of your current spell book causing a crash
+- Fixed summoned horse being able to enter a glitched death state if summoned while dying
+- Fixed the Dead King not using a second single use spell during his second phase
+- Lightning Bolt Spell no longer strikes multiple times
+- Fixed latest version of Forge causing loot modifiers to crash game
+
 ## <span class="yellow">[1.1.6] (1.19.2 | 1.20.1) 2023-06-26</span>
 ### Additions
 - Added Devour Spell, patreon request of Yorhavich
