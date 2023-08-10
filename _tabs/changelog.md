@@ -12,6 +12,30 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow">[1.2.1] (1.19.2 | 1.20.1) 2023-08-10</span>
+### Additions
+- Added the Decrepit Flamberge sword
+- Added error message to the Wayward Compass if there is no found structure
+
+### Changes
+- Slimmed down Electromancer Chestplate Model
+- Slimmed down Priest Chestplate Model
+- Slimmed down Archevoker Chestplate Model
+- Removed Black Pixel from Archevoker Shoulderpad
+- Updated Archevoker, Pyromancer, Electromancer, and Scarecrow Hat icons
+- Updated Archevoker and Electromancer Chestplate icons to better match their models
+- Slightly Tweaked Pyromancer Hat model
+- Updated Plagued Helmet and Chestplate icons
+- Overhauled Ancient Knight animations
+- Overhauled Ancient Knight sounds
+- Overhauled Ancient Knight energy layer
+- Ancient Knights now carry Decrepit Flamberges
+- Magehunter sword reworked
+- Tweaked Chain Lightning and Healing Circle spell icons
+
+### Fixes
+- Fixed Black Holes of small enough radius causing a divide by zero crash
+
 ## <span class="yellow">[1.2.0] (1.19.2 | 1.20.1) 2023-07-29</span>
 ### Additions
 - Added the Alchemist Cauldron
