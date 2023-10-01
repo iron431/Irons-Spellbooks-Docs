@@ -13,10 +13,10 @@ With the 2.0.0 release of Iron's Spells N Spellbooks you can now register your o
 ## Example Repo
 Here is an example mod that shows you how to register a spell and get started.
 
-https://github.com/iron431/Irons-Example-Mod
+[https://github.com/iron431/Irons-Example-Mod](https://github.com/iron431/Irons-Example-Mod)
 
 The example mod is setup to use our SNAPSHOT builds.
-https://code.redspace.io/#/snapshots/io/redspace/ironsspellbooks/irons_spellbooks
+[https://code.redspace.io/#/snapshots/io/redspace/ironsspellbooks/irons_spellbooks](https://code.redspace.io/#/snapshots/io/redspace/ironsspellbooks/irons_spellbooks)
 
 ## Spell Registration
 To register spells you will need to create your own registry using a DeferredRegister
@@ -41,4 +41,4 @@ public class ExampleSpellRegistry {
 
 You can now create spells the same way we do in the core mod.  For examples of spells you can look at any of the spells here.
 
-https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells
+[https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells](https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells)
