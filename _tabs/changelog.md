@@ -12,7 +12,7 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
-## <span class="yellow">[2.0.0] (1.19.2 | 1.20.1) 2023-09-24</span>
+## <span class="yellow">[2.0.0] (1.19.2 | 1.20.1) 2023-09-24 Spell Registration</span>
 ### Additions
 - New Spells
   - Added Earthquake Spell
