@@ -12,6 +12,17 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow">[2.0.1] (1.19.2 | 1.20.1) 2023-10-02</span>
+### Additions
+- Added SpellCastEvent and SpellHealEvent for developers, courtesy of Silvertide7
+
+
+### Changes
+- Significantly Optimized WorldUpgrader by skipping uninhabited chunks
+
+### Fixes
+- Fix Alchemist Cauldron having a null level when spawned in as a structure
+
 ## <span class="yellow">[2.0.0] (1.19.2 | 1.20.1) 2023-09-24 Spell Registration</span>
 ### Additions
 - New Spells
@@ -30,7 +41,6 @@ color:rgba(255, 194, 41, 0.5);
 - Added spell targeting success notification
 - Added school based resistance attributes
   - While these are not used in the game yet, they can be used by modpacks or addons
-
 
 ### Changes
 - Schools
@@ -63,8 +73,6 @@ color:rgba(255, 194, 41, 0.5);
 - Fixed an issue causing casting mobs to have a difficult time teleporting around non-flat terrain
 - Fixed input issues caused by hybrid long casting inputs
 - Fixed Cyromancer's armor attribute not reflecting his worn armor
-- (Are these issues on main?): Fix Dead King invisibility issues, Fix Dead King Goals breaking
-
 
 ## <span class="yellow">[1.2.1] (1.19.2 | 1.20.1) 2023-08-10</span>
 ### Additions
