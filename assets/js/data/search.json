@@ -11,7 +11,7 @@ swcache: true
   "url": {{ './items/?s=' | append: post.id | append: '#' | append: post.id | relative_url | jsonify }},
   "imgUrl": {{ post.path | relative_url | jsonify }},
   "content": {{ desc |  append: ' ' | jsonify }}
-  },`
+  },
 {% endfor %}
 
 {% for post in site.data.item_data %}
