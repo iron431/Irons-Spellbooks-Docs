@@ -2,10 +2,10 @@ irons_spellbooks:arcane_essence:
   description: "A common magic material used in many recipes. Can be found sparsely in vanilla structures, but much more commonly in magic structures or from killing magic mobs."
 
 irons_spellbooks:arcane_ingot:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:arcane_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:arcane_salvage:
   description: "A late game material used for upgrade orbs, smelted from <a href=\"../blocks/#irons_spellbooks:arcane_debris\">Arcane Debris</a>"
@@ -14,13 +14,13 @@ irons_spellbooks:blank_rune:
   description: "The base for all other runes to be crafted from. Can be found rarely in some vanilla structures, or more commonly in magic structures. Each school mage drops one for their school on death."
 
 irons_spellbooks:blood_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:blood_upgrade_orb:
   description: ""
 
 irons_spellbooks:blood_vial:
-  description: "Place a lit campfire beneath a cauldron, and put a mob in the cauldron to cook the mob. This will fill the cauldron with blood, which can be withdrawn with glass bottles to obtain vials of blood."
+  description: "Blood Focus. Place a lit campfire beneath a cauldron, and put a mob in the cauldron to cook the mob. This will fill the cauldron with blood, which can be withdrawn with glass bottles to obtain vials of blood."
 
 irons_spellbooks:cinder_essence:
   description: "Dropped from Ancient Knights. Used for upgrade orbs"
@@ -32,19 +32,19 @@ irons_spellbooks:conjurers_talisman:
   description: ""
 
 irons_spellbooks:cooldown_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:cooldown_upgrade_orb:
   description: ""
 
 irons_spellbooks:divine_pearl:
-  description: ""
+  description: "Holy Focus"
 
 irons_spellbooks:dragonskin:
   description: "Dropped from the Ender Dragon"
 
 irons_spellbooks:ender_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:ender_upgrade_orb:
   description: ""
@@ -53,31 +53,31 @@ irons_spellbooks:epic_ink:
   description: "Found rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:evocation_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:evocation_upgrade_orb:
   description: ""
 
 irons_spellbooks:fire_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:fire_upgrade_orb:
   description: ""
 
 irons_spellbooks:frozen_bone:
-  description: "Dropped from strays"
+  description: "Ice Focus. Dropped from strays"
 
 irons_spellbooks:hogskin:
   description: "Dropped from hoglins"
 
 irons_spellbooks:holy_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:holy_upgrade_orb:
   description: ""
 
 irons_spellbooks:ice_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:ice_upgrade_orb:
   description: ""
@@ -86,28 +86,28 @@ irons_spellbooks:legendary_ink:
   description: "Found very rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:lightning_bottle:
-  description: "Use an empty bottle on a charged creeper to obtain.  You can use the <a href=\"../spells/#Lightning%20Bolt\">Lightning Bolt</a> Spell, lightning rod or trident to charge a creeper."
+  description: "Lightning Focus. Use an empty bottle on a charged creeper to obtain.  You can use the <a href=\"../spells/#Lightning%20Bolt\">Lightning Bolt</a> Spell, lightning rod or trident to charge a creeper."
 
 irons_spellbooks:lightning_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:lightning_upgrade_orb:
   description: ""
 
 irons_spellbooks:magic_cloth:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:mana_upgrade_orb:
   description: ""
 
 irons_spellbooks:poison_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:poison_upgrade_orb:
   description: ""
 
 irons_spellbooks:protection_rune:
-  description: ""
+  description: "Crafting ingredient"
 
 irons_spellbooks:protection_upgrade_orb:
   description: ""
@@ -116,7 +116,7 @@ irons_spellbooks:rare_ink:
   description: "Found rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:ruined_book:
-  description: ""
+  description: "Crafting ingredient. Can be found in Ancient Cities"
 
 irons_spellbooks:shriving_stone:
   description: ""

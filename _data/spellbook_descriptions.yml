@@ -17,20 +17,23 @@ irons_spellbooks:copper_spell_book:
   description: ""
 
 irons_spellbooks:evoker_spell_book:
-  description: ""
+  description: "Rare random drop from Evokers or Archevokers."
 
 irons_spellbooks:rotten_spell_book:
-  description: ""
+  description: "Rare random world loot."
 
 irons_spellbooks:blaze_spell_book:
-  description: ""
+  description: "Rare random drop from Blazes."
 
 irons_spellbooks:villager_spell_book:
-  description: ""
+  description: "Nitwits found locked in Archevoker forts will always trade one."
 
 irons_spellbooks:blood_staff:
-  description: ""
+  description: "Common drop from the Dead King."
 
 irons_spellbooks:magehunter:
-  description: ""
+  description: "Weapon of the Vindicator in the second floor of Archevoker Forts. Can be naturally dropped."
+
+irons_spellbooks:keeper_flamberge:
+  description: "Weapon of Ancient Knights. Can be naturally dropped."
 

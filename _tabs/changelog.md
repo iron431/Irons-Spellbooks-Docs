@@ -12,10 +12,39 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow">[2.0.3] (1.19.2 | 1.20.1) 2023-10-29</span>
+### Fixes
+- Removed accidently left-in testing code that could mess with mana
+
+## <span class="yellow">[2.0.2] (1.19.2 | 1.20.1) 2023-10-28</span>
+### Additions
+- Added Mana Regen attribute
+- Added the Amethyst Resonance Charm, a craftable necklace that gives +15% mana regeneration
+
+### Changes
+- Buff Magic Arrow's base damage by 5
+- Add CastSource to SpellCastEvent for developers
+- Rework Priest Armor Texture, courtesy of Crydigo
+- Tweak most jewelry textures
+- Any armor can now be upgraded instead of only mage armor (can_be_upgraded tag has been removed)
+- Spectral Hammer debris reduced
+
+### Fixes
+- Fixed inconsistent Magic Arrow block penetration
+- Fixed the two-handed sword models when using left hand mode
+- Mobs can no longer detect your armor when affected by True Invisibility
+- Fixed geckolib armor anchor points causing misaligned armor models when the player is animating
+- Fixed JEI recipe autocomplete exploit
+- Fixed Raise Dead spell not being able to find suitable ground locations at y < 0
+
+### API
+- Added InscribeSpellEvent, courtesy of Silvertide7
+- Added ChangeManaEvent
+- Added SpellDamageEvent
+
 ## <span class="yellow">[2.0.1] (1.19.2 | 1.20.1) 2023-10-02</span>
 ### Additions
 - Added SpellCastEvent and SpellHealEvent for developers, courtesy of Silvertide7
-
 
 ### Changes
 - Significantly Optimized WorldUpgrader by skipping uninhabited chunks
