@@ -4,6 +4,15 @@ swcache: true
 ---
 
 [
+{% for post in site.data.curio_data %}
+  {
+  "title": {{ post.name | jsonify }},
+  "url": {{ './curios/?s=' | append: post.id | append: '#' | append: post.id | relative_url | jsonify }},
+  "imgUrl": {{ post.path | relative_url | jsonify }},
+  "content": {{ post.tooltip |  append: ' ' | jsonify }}
+  },
+{% endfor %}
+
 {% for post in site.data.block_data %}
   {% assign desc = site.data.block_descriptions[post.id].description %}
   {
