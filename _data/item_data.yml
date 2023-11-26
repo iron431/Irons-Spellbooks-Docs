@@ -1465,7 +1465,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Evasion II (1:<br>00), When Applied:<br>  Allows 2 Hits to be Evaded"
+  tooltip: "Evasion II, When Applied:<br>  Allows 2 Hits to be Evaded"
   description: ""
 
 - id: "irons_spellbooks:frozen_bone"

@@ -23,11 +23,11 @@
       <div style="padding: 5px; margin-top: 3px; text-align: left">
         {{desc}}
 
-        {% if recipe.tooltip != "" and desc != "" %}
+        {% if recipe.tooltip != "" and desc != "" and recipe.tooltip  != desc %}
           <hr style="border-color: rgba(255,255,255,.2);">
         {% endif %}
 
-        {% if recipe.tooltip != "" %}
+        {% if recipe.tooltip != "" and recipe.tooltip != desc %}
           {{recipe.tooltip| replace: ",", "<br>" }}
         {% endif %}
       </div>

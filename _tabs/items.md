@@ -7,7 +7,7 @@ toc: true
 
 {% assign sorted = site.data.item_data | sort: 'name'%}
 {% for recipe in sorted %}
-  {% assign desc = site.data.item_descriptions[recipe.id].description %}
+  {% assign desc = "" | append: site.data.item_descriptions[recipe.id].description %}
   {% include crafting-table-card.html pixelated="true" desc=desc %}
 {% endfor %}
 
