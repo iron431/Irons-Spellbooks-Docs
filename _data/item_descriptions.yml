@@ -109,6 +109,9 @@ irons_spellbooks:poison_upgrade_orb:
 irons_spellbooks:protection_rune:
   description: "Crafting ingredient"
 
+irons_spellbooks:nature_rune:
+  description: "Crafting ingredient"
+
 irons_spellbooks:protection_upgrade_orb:
   description: ""
 
@@ -116,7 +119,7 @@ irons_spellbooks:rare_ink:
   description: "Found rarely in magic structures or from killing powerful magic mobs"
 
 irons_spellbooks:ruined_book:
-  description: "Crafting ingredient. Can be found in Ancient Cities"
+  description: "Crafting ingredient. Can be found in Ancient Cities."
 
 irons_spellbooks:shriving_stone:
   description: ""
@@ -132,4 +135,7 @@ irons_spellbooks:upgrade_orb:
 
 irons_spellbooks:wayward_compass:
   description: "Once crafted, it finds the nearest <a href=\"../structures/#the-catacombs\">Catacombs</a> and leads you towards it"
+
+irons_spellbooks:ancient_knowledge_fragment:
+  description: "Can be found rarely in bookshelf loot, more commonly in Ancient Cities, or traded for by Wandering Traders"
 
