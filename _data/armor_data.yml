@@ -1430,6 +1430,6 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> -15% Attack Damage, +25% Mana Regeneration, +150 Max Mana"
+  tooltip: "When on Head:<br> +150 Max Mana, -15% Attack Damage, +25% Mana Regeneration"
   description: ""
 
