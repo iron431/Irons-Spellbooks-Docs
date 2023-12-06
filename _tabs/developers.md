@@ -38,13 +38,29 @@ public class ExampleSpellRegistry {
 ```
 
 ## Configuration
-In order have your spells configuration injected into the server config file for Iron's Spells n Spellbooks just add the <span style="color:yellow">@AutoSpellConfig</span> annotation to the class for your spell.
+In order have your spells configuration injected into the server config file for Iron's Spells n Spellbooks just add the <span style="color:yellow">@AutoSpellConfig</span> annotation to the class for your spell.  
+
+The default values for the configuration are set by overriding the getDefaultConfig() method.
 
 ```java
 import io.redspace.ironsspellbooks.api.spells.*;
 
 @AutoSpellConfig
 public class YourNewSpell extends AbstractSpell {
+    
+    //Default configuration values
+    private final DefaultConfig defaultConfig = new DefaultConfig()
+      .setMinRarity(SpellRarity.RARE)
+      .setSchoolResource(SchoolRegistry.HOLY_RESOURCE)
+      .setMaxLevel(10)
+      .setCooldownSeconds(20)
+      .build();
+
+    @Override
+    public DefaultConfig getDefaultConfig() {
+        return defaultConfig;
+    }
+  
     //Your code here
 }
 ```
