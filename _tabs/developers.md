@@ -10,6 +10,9 @@ With the 2.0.0 release of Iron's Spells N Spellbooks you can now register your o
 
 <a href="https://discord.gg/TRzEdrndM2"><img src="https://img.shields.io/discord/1104430139275743293.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2&amp;style=for-the-badge" alt="" width="129" height="28" /></a>
 
+## API vs Full Mod Dependency
+Anything inside the <span style="color:yellow">io.redspace.ironsspellbooks.api</span> namespace should be fairly stable. If you use anything outside of this you may experience breaking changes when we release. You can request items moved into API by pinging Iron or Smalls in the discord.  If you want it done fast you can always submit a pull request to our main repo, https://github.com/iron431/Irons-Spells-n-Spellbooks
+
 ## Example Repo
 Here is an example mod that shows you how to register a spell and get started.
 
