@@ -37,6 +37,21 @@ public class ExampleSpellRegistry {
 }
 ```
 
+## Configuration
+In order have your spells configuration injected into the server config file for Iron's Spells n Spellbooks just add the <span style="color:yellow">@AutoSpellConfig</span> annotation to the class for your spell.
+
+```java
+import io.redspace.ironsspellbooks.api.spells.*;
+
+@AutoSpellConfig
+public class YourNewSpell extends AbstractSpell {
+    //Your code here
+}
+```
+
+@AutoSpellConfig
+public class SuperHealSpell extends AbstractSpell {
+
 ## Other Links
 
 You can now create spells the same way we do in the core mod.  For examples of spells you can look at any of the spells here.
