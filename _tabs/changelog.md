@@ -12,11 +12,15 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
-## <span class="yellow">[2.1.1] (1.19.2 | 1.20.1) 2023-11-26</span>
+## <span class="yellow">[2.1.1.1] (1.20.1) 2023-12-07</span>
+### Changes
+- Updated minimum Geckolib version to 4.3.1
+
+## <span class="yellow">[2.1.1] (1.19.2 | 1.20.1) 2023-11-28</span>
 ### Fixes
 - Fixed compatibility with mods attempting to access spell names from the server
 - (1.20.1) Fixed item cooldown rendering using the wrong coordinate
-- 
+ 
 ## <span class="yellow">Eldritch Update [2.1.0] (1.19.2 | 1.20.1) 2023-11-26</span>
 ### Additions
 - Added New School, Eldritch
