@@ -5,8 +5,21 @@ ishome: true
 pin: true
 ---
 
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap;"><img src="https://img.shields.io/badge/Loader-Forge-ecebe6?labelColor=B446C6&amp;style=for-the-badge" /><br /> <img src="https://img.shields.io/badge/Available-1.19.2-ecebe6?labelColor=B446C6&amp;style=for-the-badge" /><a href="https://discord.gg/TRzEdrndM2"><img src="https://img.shields.io/discord/1104430139275743293.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2&amp;style=for-the-badge" alt="" width="129" height="28" /></a><a href="https://www.patreon.com/Iron431"><img src="https://shields.io/badge/-Patreon-f86754?style=for-the-badge&amp;logo=patreon&amp;logoColor=white" alt="" width="106" height="28" /></a><a href="https://bmc.link/iron431"><img src="https://shields.io/badge/-Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&amp;logo=buymeacoffee&amp;logoColor=white" alt="" width="162" height="28" /></a></div>
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap;">
+  <img src="https://img.shields.io/badge/Loader-Forge-ecebe6?labelColor=B446C6&amp;style=for-the-badge" height="28"/>
+  <img src="https://img.shields.io/badge/Available-1.19.2-ecebe6?labelColor=B446C6&amp;style=for-the-badge" height="28" />
+  <a href="https://discord.gg/TRzEdrndM2">
+    <img src="https://img.shields.io/discord/1104430139275743293.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2&amp;style=for-the-badge" alt="" width="129" height="28" />
+  </a>
+  <a href="https://www.patreon.com/Iron431">
+    <img src="https://shields.io/badge/-Patreon-f86754?style=for-the-badge&amp;logo=patreon&amp;logoColor=white" alt="" width="106" height="28" />
+  </a>
+  <a href="https://bmc.link/iron431">
+    <img src="https://shields.io/badge/-Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&amp;logo=buymeacoffee&amp;logoColor=white" alt="" width="162" height="28" />
+  </a>
+</div>
 <br>
+
 {% include embed/youtube.html id='jzLoco9LbcM' %}
 
 Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games, and aims to introduce the classic spellcasting fantasy to the game. With an emphasis on progression, you can gain power by fighting dangerous wizards, raiding a plethora of structures, delving through dungeons, collecting resources, and finding powerful magical items.
