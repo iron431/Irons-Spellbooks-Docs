@@ -5,7 +5,7 @@ ishome: true
 pin: true
 ---
 
-<div style="display: inline-block; float: left; height: 28px; padding: 0">
+<div style="display: inline-block; float: left; height: 28px; padding: 0; ">
   <img src="https://img.shields.io/badge/Loader-Forge-ecebe6?labelColor=B446C6&amp;style=for-the-badge" style="float: left"/>
   <img src="https://img.shields.io/badge/Available-1.19.2%7C1.20-ecebe6?labelColor=B446C6&amp;style=for-the-badge" height="28" style="float: left" />
   <a href="https://discord.gg/TRzEdrndM2" style="border: 0; padding: 0; margin: 0; height: 28px; float:left;">
@@ -21,6 +21,8 @@ pin: true
 <br>
 
 {% include embed/youtube.html id='jzLoco9LbcM' %}
+
+{% include embed/youtube.html id='YtC2d2z4jPU' %}
 
 Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games, and aims to introduce the classic spellcasting fantasy to the game. With an emphasis on progression, you can gain power by fighting dangerous wizards, raiding a plethora of structures, delving through dungeons, collecting resources, and finding powerful magical items.
 

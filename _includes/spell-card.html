@@ -47,7 +47,15 @@
       {% endif %}
     </div>
     <div style="margin-top: 7px; margin-left: 5px; margin-right: 10px">
-      {{spell.description}}
+      {% if recipe.tooltip != "" and desc != "" and recipe.tooltip  != desc %}
+      <hr style="border-color: rgba(255,255,255,.2);">
+      {% endif %}
+
+      {% if site.data.spell_descriptions[spell.name].description != "" %}
+        {{site.data.spell_descriptions[spell.name].description}}
+      {% else %}
+        {{spell.description}}
+      {% endif %}
     </div>
   </div>
 </div>

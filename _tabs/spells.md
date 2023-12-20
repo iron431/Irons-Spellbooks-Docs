@@ -11,7 +11,6 @@ toc: true
   --tb-border-color: rgba(255,255,255,.2);
 }
 </style>
-
 {% assign grouped_schools = site.data.spell_data | group_by: 'school' | sort: 'school' %}
 {% assign sorted_schools = grouped_schools | sort: 'name'%}
 {% for spell_group in sorted_schools %}
@@ -21,7 +20,8 @@ toc: true
 <hr>
 {% assign sorted_spells = spell_group.items | sort: 'name' %}
 {% for spell in sorted_spells %}
-  {% include spell-card.html %}
+
+{% include spell-card.html %}
 {% endfor %}
 {% endfor %}
 <!-- buffer for the TOC -->

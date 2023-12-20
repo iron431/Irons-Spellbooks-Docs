@@ -1,0 +1,10 @@
+"Counterspell":
+  description: "
+  <ul>
+  <li>Interrupt player and mob casting</li>
+  <li>Banishes summoned shield , blood slash , creeper head</li>
+  <li>Banishes summoned creatures</li>
+  <li>Removes root</li>
+  <li>Removes mob effects like fortify or evasion</li>
+  </ul>"
+
