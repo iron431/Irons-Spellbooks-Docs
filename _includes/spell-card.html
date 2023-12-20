@@ -50,8 +50,7 @@
       {% if recipe.tooltip != "" and desc != "" and recipe.tooltip  != desc %}
       <hr style="border-color: rgba(255,255,255,.2);">
       {% endif %}
-
-      {% if site.data.spell_descriptions[spell.name].description != "" %}
+      {% if site.data.spell_descriptions[spell.name].description != null and site.data.spell_descriptions[spell.name].description != "" %}
         {{site.data.spell_descriptions[spell.name].description}}
       {% else %}
         {{spell.description}}
