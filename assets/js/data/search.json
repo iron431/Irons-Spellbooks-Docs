@@ -44,11 +44,18 @@ swcache: true
 {% endfor %}
 
 {% for post in site.data.spell_data %}
+  {% assign spell_desc = " " %}
+  {% if site.data.spell_descriptions[post.name].description != null and site.data.spell_descriptions[post.name].description != "" %}
+    {% assign spell_desc = site.data.spell_descriptions[post.name].description %}
+  {% else %}
+    {% assign spell_desc = post.description %}
+  {% endif %}
+
   {
   "title": {{ post.name | jsonify }},
   "url": {{ './spells/?s=' | append: post.name | append: '#' | append: post.name | relative_url | jsonify }},
   "imgUrl": {{ post.icon | relative_url | jsonify }},
-  "content": {{ post.description | jsonify }}
+  "content": {{ spell_desc | jsonify }}
   },
 {% endfor %}
 

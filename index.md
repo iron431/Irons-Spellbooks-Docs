@@ -20,9 +20,9 @@ pin: true
 </div>
 <br>
 
-{% include embed/youtube.html id='jzLoco9LbcM' %}
-
 {% include embed/youtube.html id='YtC2d2z4jPU' %}
+
+{% include embed/youtube.html id='jzLoco9LbcM' %}
 
 Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games, and aims to introduce the classic spellcasting fantasy to the game. With an emphasis on progression, you can gain power by fighting dangerous wizards, raiding a plethora of structures, delving through dungeons, collecting resources, and finding powerful magical items.
 
@@ -31,13 +31,14 @@ Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games
 <a href="https://github.com/iron431/Irons-Spells-n-Spellbooks/issues" target="_blank">Report Issues Here</a>
 
 ## <u>Featuring</u>
-- Over 55 upgradable spells
-- Over 20 equipment items
+- Over 70 upgradable spells
 - Weapon Imbuement System
 - Armor Upgrade System
 - 10 wizard armor sets
-- 5 randomly generated structures
-- 5 new enemies; a new boss
+- 6 randomly generated structures
+- 6 new enemies and a new boss
+- Extensive world configuration options (including per-spell settings)
+- Out-of-the-box support for JEI, JEED, Apotheosis, Tetra, Curios, Better Combat, and Patchouli
 - And much more!
 
 ## <u>Also Including</u>
