@@ -178,8 +178,8 @@
   path: "/img/items/blank_rune.png"
   group: "Runes"
   craftingType: "crafting"
-  item0Id: "irons_spellbooks:blank_rune"
-  item0: "Any Rune"
+  item0Id: "irons_spellbooks:fire_rune"
+  item0: "Fire Rune"
   item0Path: "/img/items/all_runes.gif"
   item1Id: "irons_spellbooks:shriving_stone"
   item1: "Shriving Stone"
@@ -245,7 +245,7 @@
 
 - id: "irons_spellbooks:blood_upgrade_orb"
   name: "Blood Upgrade Orb"
-  path: "/img/items/blood_upgrade_orb.png"
+  path: "/img/items/upgrade_orb_blood.gif"
   group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:blood_rune"
@@ -420,7 +420,7 @@
 
 - id: "irons_spellbooks:cooldown_upgrade_orb"
   name: "Cooldown Upgrade Orb"
-  path: "/img/items/cooldown_upgrade_orb.png"
+  path: "/img/items/upgrade_orb_cooldown.gif"
   group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:cooldown_rune"
@@ -735,7 +735,7 @@
 
 - id: "irons_spellbooks:evocation_upgrade_orb"
   name: "Evocation Upgrade Orb"
-  path: "/img/items/evocation_upgrade_orb.png"
+  path: "/img/items/upgrade_orb_evocation.gif"
   group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:evocation_rune"
@@ -1190,7 +1190,7 @@
 
 - id: "irons_spellbooks:ice_upgrade_orb"
   name: "Ice Upgrade Orb"
-  path: "/img/items/ice_upgrade_orb.png"
+  path: "/img/items/upgrade_orb_ice.gif"
   group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:ice_rune"
@@ -1435,7 +1435,7 @@
 
 - id: "irons_spellbooks:mana_upgrade_orb"
   name: "Mana Upgrade Orb"
-  path: "/img/items/mana_upgrade_orb.png"
+  path: "/img/items/upgrade_orb_mana.gif"
   group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:arcane_rune"
@@ -1610,7 +1610,7 @@
 
 - id: "irons_spellbooks:protection_upgrade_orb"
   name: "Protection Upgrade Orb"
-  path: "/img/items/protection_upgrade_orb.png"
+  path: "/img/items/upgrade_orb_protection.gif"
   group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:protection_rune"
@@ -1786,7 +1786,7 @@
 - id: "irons_spellbooks:upgrade_orb"
   name: "Empty Upgrade Orb"
   path: "/img/items/upgrade_orb.gif"
-  group: "All"
+  group: "Upgrade Orbs"
   craftingType: "crafting"
   item0Id: "irons_spellbooks:arcane_ingot"
   item0: "Arcane Ingot"
