@@ -30,7 +30,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:archevoker_chestplate"
@@ -65,7 +65,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Body:<br> +8 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:archevoker_helmet"
@@ -100,7 +100,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:archevoker_leggings"
@@ -135,7 +135,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_boots"
@@ -170,7 +170,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Ice Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_chestplate"
@@ -205,7 +205,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Body:<br> +8 Armor, +8% Ice Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_helmet"
@@ -240,7 +240,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Ice Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_leggings"
@@ -275,7 +275,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Ice Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cultist_boots"
@@ -310,7 +310,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Blood Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cultist_chestplate"
@@ -345,7 +345,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Body:<br> +8 Armor, +8% Blood Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cultist_helmet"
@@ -380,7 +380,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Blood Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cultist_leggings"
@@ -415,7 +415,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Blood Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:electromancer_boots"
@@ -450,7 +450,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Lightning Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:electromancer_chestplate"
@@ -485,7 +485,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Body:<br> +8 Armor, +8% Lightning Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:electromancer_helmet"
@@ -520,7 +520,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Lightning Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:electromancer_leggings"
@@ -555,7 +555,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Lightning Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:plagued_boots"
@@ -590,7 +590,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Nature Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:plagued_chestplate"
@@ -625,7 +625,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Body:<br> +8 Armor, +8% Nature Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:plagued_helmet"
@@ -660,7 +660,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Nature Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:plagued_leggings"
@@ -695,7 +695,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Nature Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:priest_boots"
@@ -769,7 +769,7 @@
   description: ""
 
 - id: "irons_spellbooks:priest_helmet"
-  name: "Priest Hood"
+  name: "Priest Mask"
   path: "/img/items/priest_helmet.png"
   group: "Priest"
   craftingType: "crafting"
@@ -1150,7 +1150,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Ender Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_chestplate"
@@ -1185,7 +1185,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Body:<br> +8 Armor, +8% Ender Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_helmet"
@@ -1220,7 +1220,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Ender Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_leggings"
@@ -1255,7 +1255,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Ender Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:tarnished_helmet"
@@ -1290,7 +1290,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +150 Max Mana, +25% Mana Regeneration, -15% Attack Damage"
+  tooltip: "When on Head:<br> -15% Attack Damage, +25% Mana Regeneration, +150 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:wandering_magician_boots"

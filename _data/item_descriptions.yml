@@ -139,3 +139,6 @@ irons_spellbooks:wayward_compass:
 irons_spellbooks:ancient_knowledge_fragment:
   description: "Can be found rarely in bookshelf loot, more commonly in Ancient Cities, or traded for by Wandering Traders"
 
+irons_spellbooks:furled_map:
+    description: "Produces an explorer map when used. NBT driven."
+
