@@ -42,6 +42,7 @@ color:rgba(255, 194, 41, 0.5);
 - Reworked the "questline" to obtain the Villager Bible
   - Nitwits no longer spawn in Evoker Forts, nor have trades
   - The final trade is done with the Priest
+- Evoker Forts are now more rare
 - Improved Wizard fleeing behavior (they will cast backwards less often)
 - Adjusted Cone of Cold's particles
 - Made the Mountain Tower structure less common
