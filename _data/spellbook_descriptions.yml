@@ -26,7 +26,7 @@ irons_spellbooks:blaze_spell_book:
   description: "Rare random drop from Blazes."
 
 irons_spellbooks:villager_spell_book:
-  description: "Nitwits found locked in Archevoker forts will always trade one."
+  description: "A trade of the Priest mob, for a written book found in the Evoker Fort. The written book must be translated by one of the wandering trader that have a chance of spawning in the Evoker Fort."
 
 irons_spellbooks:blood_staff:
   description: "Common drop from the Dead King."
