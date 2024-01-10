@@ -12,6 +12,14 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow">[2.2.1] (1.19.2 | 1.20.1) 2024-01-09</span>
+### Changes
+- Optimized GuidingBoltManager
+- Optimized LivingSpawnEvent
+
+### Fixes
+- Fixed GuidingBoltManager raycasting into unloaded chunks
+
 ## <span class="yellow">[2.2.0] (1.19.2 | 1.20.1) 2024-01-02</span>
 ### Additions
 - Spells
