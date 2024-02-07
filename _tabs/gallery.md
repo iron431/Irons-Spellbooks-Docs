@@ -34,3 +34,8 @@ toc: true
 ![Compatibility](/img/screenshots/apotheosis.png)
 
 ![Compatibility](/img/screenshots/tetra.png)
+
+## Misc
+![Misc](/img/screenshots/spell_wheel.png)
+
+![Misc](/img/spellbooks-title-small-background.png)
