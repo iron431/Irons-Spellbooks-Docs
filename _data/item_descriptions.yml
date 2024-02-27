@@ -142,3 +142,8 @@ irons_spellbooks:ancient_knowledge_fragment:
 irons_spellbooks:furled_map:
     description: "Produces an explorer map when used. NBT driven."
 
+irons_spellbooks:frosted_helve:
+    description: "Crafting Ingredient"
+
+irons_spellbooks:permafrost_shard:
+  description: "Crafting Ingredient. Found in Impaled Icebreaker Shipwrecks."
