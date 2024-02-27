@@ -10,7 +10,7 @@ The world will be full of magic loot, from resources to scrolls to equipment. In
 
 Beginner spell books can be found or crafted. In order use spell books, you will need to bring scrolls to the [Inscription Table](../blocks/#irons_spellbooks:inscription_table).
 
-However, depending on the level of the scroll, it may be too rare for your spell book. In this case, it is time to move on to the intermediate stage.
+However, these early spell books will have limited slots and will be lacking attributes. Better spell books should be crafted or found by getting into mid game.
 
 An early game source of additional mana is the [Wandering Magician](../armor/#Wandering%20Magician) armor set.
 
@@ -27,11 +27,11 @@ You should also start to craft stronger armor using [arcane cloth](../items/#iro
 In order to continue progressing, keep an eye out for [runestones](../#runestones) in magical structures. [Runestones](../#runestones) are used to craft more powerful armor.
 
 ## <u>Late Game - Unlimited Power</u>
-Late game is reached by obtaining netherite and vast quantities of basic resources. This will be done most effectively by killing the Dead King boss.
+Late game is reached by obtaining netherite and vast quantities of basic resources, and is powered by the [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil). The [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil) is the most powerful crafting station, used to level up your scrolls, upgrade armor and spell books, and imbue weapons with spells. 
+
+Farming basic resources is done most effectively by killing the Dead King boss.
 
 School armor will allow you to specialize in a particular element (ex: [Cryomancer Armor](../armor/#Cryomancer)).
-
-Using netherite, you can obtain the [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil). The [Arcane Anvil](../blocks/#irons_spellbooks:arcane_anvil) is the most powerful crafting station, used to level up your scrolls, upgrade armor and spell books, and imbue weapons with spells.
 
 Upgrade Orbs are crafted using [Arcane debris](../blocks/#irons_spellbooks:arcane_debris) and [Cinder Essence](../items/#irons_spellbooks:cinder_essence). By default, you can only upgrade an applicable piece of equipment three times.
  
