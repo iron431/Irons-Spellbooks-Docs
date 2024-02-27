@@ -205,7 +205,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique Spell Book, Press [9] to cast, Inscribed Spells:<br>  [Fang Strike 6], [Fang Ward 4], [Summon Vex 4], When equipped as Spell Book:<br> +10% Evocation Spell Power"
+  tooltip: "Fang Strike (6), Fang Ward (4), Summon Vex (4)"
   description: ""
 
 - id: "irons_spellbooks:gold_spell_book"
@@ -310,7 +310,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Two-Handed, When in Main Hand:<br>  1.3 Attack Speed, 11 Attack Damage, 3 Attack Range, 2.75 Attack Range, +5 Armor"
+  tooltip: "Two-Handed, When in Main Hand:<br>  11 Attack Damage, 1.3 Attack Speed, 2.75 Attack Range, +5 Armor"
   description: ""
 
 - id: "irons_spellbooks:magehunter"
@@ -345,12 +345,12 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  1.6 Attack Speed, 7 Attack Damage, 3 Attack Range, 2.5 Attack Range, +25% Spell Resistance"
+  tooltip: "When in Main Hand:<br>  7 Attack Damage, 1.6 Attack Speed, 2.5 Attack Range, +25% Spell Resistance"
   description: ""
 
-- id: "irons_spellbooks:necronomicon"
+- id: "irons_spellbooks:necronomicon_spell_book"
   name: "Necronomicon"
-  path: "/img/items/necronomicon.png"
+  path: "/img/items/necronomicon_spell_book.png"
   group: ""
   craftingType: "none"
   item0Id: ""
@@ -380,7 +380,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique Spell Book, +1 level to Raise Dead, Press [9] to cast, Inscribed Spells:<br>  [Blood Slash 5], [Blood Step 5], [Ray of Siphoning 5], [Blaze Storm 5]"
+  tooltip: "Blood Slash (5), Blood Step (5), Ray of Siphoning (5), Blaze Storm (5)"
   description: ""
 
 - id: "irons_spellbooks:netherite_spell_book"
@@ -485,6 +485,6 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +8% Cast Time Reduction, +8% Holy Spell Power"
+  tooltip: "When equipped as Spell Book:<br> +8% Holy Spell Power, +8% Cast Time Reduction"
   description: ""
 

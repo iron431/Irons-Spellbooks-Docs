@@ -205,7 +205,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Either Hand:<br>  4 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +15% Cooldown Reduction, +15% Cast Time Reduction, +10% Spell Power, Active Spell:<br>  [Fang Strike 6], 13 Fangs, 12.1 Damage, 0.75s Cast Time, 45 Mana Cost, 2.5s Cooldown, [Right Button] to cast"
+  tooltip: "When in Either Hand:<br>  4 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +10% Spell Power, +15% Cast Time Reduction, +15% Cooldown Reduction"
   description: ""
 
 - id: "irons_spellbooks:blank_rune"
@@ -310,7 +310,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Either Hand:<br>  8 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +10% Summon Damage, +15% Blood Spell Power, +5% Spell Power, Active Spell:<br>  [Fang Strike 6], 13 Fangs, 12.1 Damage, 0.75s Cast Time, 45 Mana Cost, 2.5s Cooldown, [Right Button] to cast"
+  tooltip: "When in Either Hand:<br>  8 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +5% Spell Power, +15% Blood Spell Power, +10% Summon Damage"
   description: ""
 
 - id: "irons_spellbooks:blood_upgrade_orb"
@@ -1045,7 +1045,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Either Hand:<br>  3 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +10% Spell Power, +25% Mana Regeneration, Active Spell:<br>  [Fang Strike 6], 13 Fangs, 12.1 Damage, 0.75s Cast Time, 45 Mana Cost, 2.5s Cooldown, [Right Button] to cast"
+  tooltip: "When in Either Hand:<br>  3 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +10% Spell Power, +25% Mana Regeneration"
   description: ""
 
 - id: "irons_spellbooks:greater_evasion_elixir"
@@ -1395,7 +1395,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Either Hand:<br>  4 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +25% Mana Regeneration, +5% Spell Power, +15% Ice Spell Power, Active Spell:<br>  [Fang Strike 6], 13 Fangs, 12.1 Damage, 0.75s Cast Time, 45 Mana Cost, 2.5s Cooldown, [Right Button] to cast"
+  tooltip: "When in Either Hand:<br>  4 Attack Damage, 1 Attack Speed, 2.5 Attack Range, +5% Spell Power, +15% Ice Spell Power, +25% Mana Regeneration"
   description: ""
 
 - id: "irons_spellbooks:ice_upgrade_orb"
