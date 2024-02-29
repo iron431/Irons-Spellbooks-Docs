@@ -12,6 +12,23 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.0.1] (1.19.2 | 1.20.1) 2024-02-28</span>
+### Additions
+- Added JEI support to Upgrade Orb recipes
+
+### Changes
+- Redid Magma Bomb spell icon
+- Staffs can now be upgraded
+
+### Fixes
+- Fixed teleportation clipping issues caused by previous update
+- Fixed incorrect loot function type cast
+- Fixed Projectiles not being able to go through portals
+- Fixed client crash caused by upgrading curio items on a dedicated server
+- Fixed mismatched Russian translations between versions
+- Fixed tooltip index operation potentially being out of bounds with other mod's editing the tooltip at the same time
+- Fixed Arrow Volley spell's sub-arrows not keeping track of the original caster
+
 ## <span class="yellow">Curio Casting [3.0.0] (1.19.2 | 1.20.1) 2024-02-27</span>
 ### Additions
 - Added Curio Casting System
