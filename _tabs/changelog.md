@@ -12,6 +12,20 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.1.1] (1.19.2 | 1.20.1) 2024-03-23</span>
+### Additions
+- Added item tag support to imbue/upgrade whitelist/blacklist
+
+### Changes
+- Adjusted Heat Surge, Flaming Strike, and Magic Missile spell icons
+- Reformatted Gust Spell's tooltip
+- Adjusted when an item is explicitly labeled as imbeuable
+
+### Fixes
+- Fixed non-spellbook Apotheosis gems requiring Apothic curios to register
+- Fixed neutral spellcasting mobs still not trading with players after no longer being angry
+- Fixed generic Spell Resist attribute not applying to spell damage
+
 ## <span class="yellow"> [3.1.0] (1.19.2 | 1.20.1) 2024-03-17</span>
 ### Additions
 - (1.20.1): Fully ported Tetra compatibility
