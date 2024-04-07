@@ -12,6 +12,28 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.1.3] (1.19.2 | 1.20.1) 2024-04-06</span>
+### Fixes
+- Fixed new SpellOnCastEvent returning the wrong level
+
+## <span class="yellow"> [3.1.2] (1.19.2 | 1.20.1) 2024-04-05</span>
+### Additions
+- Added Eldritch Spell Power and Resistance attributes (not utilized in game yet)
+
+### Changes
+- Increased the caps on most attributes. Mana regen can now be 0, but not negative
+
+### Fixes
+- Fixed Casting Mob model overrides messing with the Dead King's new melee animation
+- Fixed client data persisting after logout (such as the spell bar)
+- Fixed left-clicking while the spell wheel is open to grab the screen without closing the menu
+- Fixed Quick Casts only being able to cast from player's spell book instead of all their spells
+
+### API
+- Moved the SpellSelectionManager into the API package (may be a breaking change for mods relying on more than the API)
+- Added SpellSelectionManager.SpellSelectionEvent for modders to add custom spell sources to the player
+- Split the SpellCastEvent into SpellPreCastEvent and SpellOnCastEvent
+
 ## <span class="yellow"> [3.1.1] (1.19.2 | 1.20.1) 2024-03-23</span>
 ### Additions
 - Added item tag support to imbue/upgrade whitelist/blacklist
