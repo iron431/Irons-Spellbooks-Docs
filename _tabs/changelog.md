@@ -40,6 +40,7 @@ color:rgba(255, 194, 41, 0.5);
 
 ### API
 - Added UpdateClient helper class to API package (PR from IGN-Styly)
+- Added ModifySpellLevelEvent, allowing modders to create custom buffs that affect a spell's level, like affinity rings
 
 ## <span class="yellow"> [3.1.3] (1.19.2 | 1.20.1) 2024-04-06</span>
 ### Fixes
