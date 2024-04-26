@@ -14,7 +14,7 @@ color:rgba(255, 194, 41, 0.5);
 
 ## <span class="yellow"> [3.1.4] (1.19.2 | 1.20.1) 2024-04-26</span>
 ### Additions
-- Added AllowCrafting config to each spell, which can prevent a spell from being craftable in the scroll forge
+- Added AllowCrafting config to each spell, which can prevent a spell from being craftable in the scroll forge (PR of squoshi)
 
 ### Changes
 - Reworked Various Spell Icons, thanks to Renovated Studios
