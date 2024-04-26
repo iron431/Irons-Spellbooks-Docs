@@ -12,6 +12,35 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.1.4] (1.19.2 | 1.20.1) 2024-04-26</span>
+### Additions
+- Added AllowCrafting config to each spell, which can prevent a spell from being craftable in the scroll forge
+
+### Changes
+- Reworked Various Spell Icons, thanks to Renovated Studios
+  - Frostwave
+  - Sculk Tentacles
+  - Telekinesis
+  - Spider Aspect
+  - Summon Ender Chest
+  - Shockwave
+  - Charge
+  - Dragon's Breath
+  - Poison Arrow
+  - Poison Splash
+  - Summon Horse
+- Adjusted Colors of various spell icons to be more consistent
+- Changed GUI arrangement of staff models to better fit one slot
+- Reverted Scarecrow Helmet to old texture
+
+### Fixes
+- Fixed Ancient Knight's arms no longer animating on 1.19.2
+- Fixed Apothecarist ears no longer animating
+- Fixed spell level buffs applying inconsistently
+
+### API
+- Added UpdateClient helper class to API package (PR from IGN-Styly)
+
 ## <span class="yellow"> [3.1.3] (1.19.2 | 1.20.1) 2024-04-06</span>
 ### Fixes
 - Fixed new SpellOnCastEvent returning the wrong level
