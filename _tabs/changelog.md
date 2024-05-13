@@ -12,6 +12,28 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.1.5] (1.19.2 | 1.20.1) 2024-05-13</span>
+### Additions
+- Added Scorch Spell
+- Added Echoing Strikes Spell
+- Added Thunderstorm Spell
+- Added several new Catacombs room pieces
+- Added client config for disabling boss music
+- Added new command parameter to mana command: "get"
+
+### Changes
+- Adjusted Wall of Fire spell icon to be differentiable from Scorch spell icon
+
+### Fixes
+- Fixed Dead King Music potentially playing twice over if killed and respawned near the Dead King fight
+- Improved Abyssal Shroud teleporting mechanics potentially making the player become stuck
+- Fixed the Blood Staff not renaming properly when upgraded
+- Fixed mana regeneration of less than one being truncated
+- Fixed spellbook curio render logic affecting custom body models
+
+### API
+- AnimationHolder now allows non-irons_spellbooks namespaces for animation resourcelocations
+
 ## <span class="yellow"> [3.1.4] (1.19.2 | 1.20.1) 2024-04-26</span>
 ### Additions
 - Added AllowCrafting config to each spell, which can prevent a spell from being craftable in the scroll forge (PR of squoshi)
