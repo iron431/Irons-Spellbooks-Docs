@@ -12,6 +12,10 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.1.7.1] (1.20.1) 2024-05-29</span>
+# Fixes
+- Fixed casting mobs no longer displaying long cast animations
+
 ## <span class="yellow"> [3.1.7] (1.19.2 | 1.20.1) 2024-05-28</span>
 ### Additions
 - Added config for disabling Wandering Trader magic item trades (default is enabled)
