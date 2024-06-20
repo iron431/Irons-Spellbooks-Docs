@@ -94,6 +94,12 @@ irons_spellbooks:lightning_rune:
 irons_spellbooks:lightning_upgrade_orb:
   description: ""
 
+irons_spellbooks:lightning_rod:
+  description: "Obtained by using an Energized Core on a Lightning Rod"
+
+irons_spellbooks:energized_core:
+  description: "Crafting ingredient"
+
 irons_spellbooks:magic_cloth:
   description: "Crafting ingredient"
 
