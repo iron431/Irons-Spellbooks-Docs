@@ -30,7 +30,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:archevoker_chestplate"
@@ -65,7 +65,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:archevoker_helmet"
@@ -100,7 +100,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:archevoker_leggings"
@@ -135,7 +135,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Evocation Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +8% Evocation Spell Power, +100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_boots"
@@ -1430,7 +1430,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (0/1), When on Head:<br> +25% Mana Regeneration, +150 Max Mana, -15% Attack Damage"
+  tooltip: "Can be Imbued (0/1), When on Head:<br> -15% Attack Damage, +150 Max Mana, +25% Mana Regeneration"
   description: ""
 
 - id: "irons_spellbooks:wandering_magician_boots"
