@@ -12,6 +12,18 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.2.1] (1.19.2 | 1.20.1) 2024-07-05</span>
+### Changes
+- Updated Japanese Translations, thanks to SAGA
+- Updated Korean Translations, thanks to smoong
+- Updated Russian Translations, thanks to Tefnya
+
+### Fixes
+- Fixed world upgrader code resetting spellbook slot NBT on relog after using Spell Slot Improvement item
+- Fixed visual bug with the cast command resetting an item's use progress
+- Fixed config loading incompatibility with Modernfix
+- Fixed Arcane Anvil JEI recipe memory usage
+
 ## <span class="yellow"> [3.2.0] (1.19.2 | 1.20.1) 2024-06-19</span>
 ### Additions
 - Added Flaming Barrage Spell
