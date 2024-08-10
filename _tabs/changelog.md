@@ -12,6 +12,28 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.0] (1.19.2 | 1.20.1) 2024-08-10</span>
+
+### Additions
+- Added Weapon Parts, crafted from Arcane Salvage and used for crafting magic weapons
+- Added Spellbreaker, a craftable imbued sword
+- Added Amethyst Rapier, a craftable imbued sword
+
+### Changes
+- Arcane Anvil now returns Upgrade Orbs when using a Shriving Stone
+- Reworked Alchemist Cauldron
+  - Water Level and Liquid Contents are no longer separate values. This should make interactions much more intuitive
+- Loot-Only curios can now be recycled
+  - Can be Smelted into Arcane Salvage, and crafted from Arcane Salvage and a designated item
+- Affinity Rings can now be attuned to specific spells by combining a ring with a scroll of any level in the Arcane Anvil
+
+### Fixes
+- Fixed Firefly Jar not having a loot table
+- Fixed True Invisibility not affecting the aggro of mobs that use Brain for targeting
+- Fixed Inscription Table ghost block/dupe when exploded
+- Fixed Abyssal Shroud destination logic
+- Fixed Inscription Table bug/exploit relating to death
+
 ## <span class="yellow"> [3.4.2] (1.21) 2024-08-10</span>
 ### Changes
 - Adjusted drop rate of magic items Trial Chambers chests
