@@ -12,6 +12,14 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.2] (1.21) 2024-08-10</span>
+### Changes
+- Adjusted drop rate of magic items Trial Chambers chests
+
+### Fixes
+- Fixed null crash when rendering armor with enchantment glint or smithing trims
+- Fixed Arcane Anvil not saving imbued spell containers
+
 ## <span class="yellow"> [3.4.1] (1.21) 2024-08-09</span>
 ### Fixes
 - Added missing common item/block tags for Mithril
