@@ -12,6 +12,10 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.3] (1.21) 2024-08-10</span>
+### Fixes
+- Fixed default magic data attachment having null server player
+
 ## <span class="yellow"> [3.4.0] (1.19.2 | 1.20.1) 2024-08-10</span>
 
 ### Additions
