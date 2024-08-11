@@ -12,6 +12,10 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.4] (1.21) 2024-08-11</span>
+### Changes
+- Remove InterModComms with curios to fix compat with a different curios API port that broke inter mod comms
+
 ## <span class="yellow"> [3.4.3] (1.21) 2024-08-10</span>
 ### Fixes
 - Fixed default magic data attachment having null server player
