@@ -12,6 +12,24 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.5] (1.21) 2024-08-24</span>
+### Additions
+- Added Amulet of Teleportation
+
+### Changes
+- Nerfed Necromancer's spell power
+
+### Fixes
+- Fixed Necromancers not spawning naturally
+- Fixed anger particles playing when they shouldn't for neutral casting mobs
+- Fixed Rod o' Lightning no longer being fire resistant
+- Fixed holding on to references of various objects, causing additional memory consumption
+- Fixed Chain Lightning entity using a dangerous comparator
+- Fixed Priest dangerous level lookup during spawn
+- Fixed casting mobs dangerous server operation during load from nbt
+- Fixed SyncedSpellData copying all data on death, instead of only persistent data
+- Fixed duplicate curio attribute modifier ids
+
 ## <span class="yellow"> [3.4.4] (1.21) 2024-08-11</span>
 ### Changes
 - Remove InterModComms with curios to fix compat with a different curios API port that broke inter mod comms
