@@ -12,6 +12,15 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.6.2] (1.21) 2024-09-17</span>
+### Fixes
+- Fixed generated resources being omitted from last build
+
+## <span class="yellow"> [3.6.1] (1.21) 2024-09-15</span>
+### Changes
+- Wither effect can now be cleansed
+
+
 ## <span class="yellow"> [3.6.0] (1.21) 2024-09-15</span>
 ### Additions
 - Added Cleanse Spell
