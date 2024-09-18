@@ -5,17 +5,18 @@ order: 11
 toc: true
 ---
 
-## General
+## Introduction
 
-With the 2.0.0 release of Iron's Spells N Spellbooks you can now register your own **_spells_** and **_schools_**!
-There is also an API to compile against. If you are interested in developing using us as a dependency you can help shape
+With the 2.0.0 release of Iron's Spells 'n Spellbooks you can now register your own **_spells_** and **_schools_**!
+There is also an API to compile against. If you are interested in developing using us as a dependency, you can help shape
 the roadmap by joining our discord and asking questions or providing feedback/suggestions.
 
 <a href="https://discord.gg/TRzEdrndM2"><img src="https://img.shields.io/discord/1104430139275743293.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2&amp;style=for-the-badge" alt="" width="129" height="28" /></a>
 
 ## Dependency Setup
-
-You will need as least one of the following mavens added to your `build.gradle` file under `repositories`. If you are not interested in building with snapshots, you only need the release maven.
+In order to build against Spells 'n Spellbooks, you need to configure your `build.gradle` file.
+You will need as least one of the following mavens under `repositories`. 
+If you are not interested in building with snapshots, you only need the release maven.
 
 ```
 maven {
@@ -27,7 +28,7 @@ maven {
   url = "https://code.redspace.io/snapshots"
 }
 ```
-In order to actually build with the api, your `build.gradle` will require the following under `dependencies`:
+In order to include the api in your project, add the following under `dependencies`:
 ### Forge
 ```
 compileOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}:api")
@@ -39,11 +40,11 @@ compileOnly "io.redspace:irons_spellbooks:${irons_spells_version}:api"
 localRuntime "io.redspace:irons_spellbooks:${irons_spells_version}"
 ```
 ## API vs Full Mod Dependency
-
-Alternatively, you can use the entire mod as dependency. Anything inside the <span style="color:yellow">io.redspace.ironsspellbooks.api</span> is stable, but may be limited in functionality.
-If you use anything outside of this you may experience breaking changes when we release, but you will have access to all the tools we do. If you want to expand the api, you can always submit a pull request to our
-main repo, https://github.com/iron431/Irons-Spells-n-Spellbooks.
-To use the Full Mod Depenency, replace the aforementioned `dependencies` with the following in your `build.gradle`:
+Alternatively, you can use the entire mod as a dependency. 
+The contents of <span style="color:yellow">io.redspace.ironsspellbooks.api</span> are stable, though they may have limited functionality. 
+If you use anything outside of this, you might encounter breaking changes in future releases, but you'll have access to all the same tools that we do. 
+If you’d like to expand the API, feel free to submit a pull request to our main repository at https://github.com/iron431/Irons-Spells-n-Spellbooks. 
+To use the full mod dependency, replace the previously mentioned `dependencies` with the following in your `build.gradle` file:
 ### Forge
 ```
 implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
@@ -111,9 +112,6 @@ public class YourNewSpell extends AbstractSpell {
   //Your code here
 }
 ```
-
-@AutoSpellConfig
-public class SuperHealSpell extends AbstractSpell {
 
 ## Other Links
 
