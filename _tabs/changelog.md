@@ -12,6 +12,21 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.0.1] (1.20.1) 2024-09-18</span>
+### Changes
+- Backported Spell Balance changes from 3.6.0 and 3.5.0
+- Backported Necromancer nerf from 3.4.5
+
+### Fixes
+- Backported various fixes
+  - Fixed Flaming Strike Spell being able to damage items
+  - Fixed Scorch Spell entity recast positioning
+  - Fixed some spells not using config power multiplier
+  - Fixed Affinity Rings being able to roll disabled spells
+  - Fixed Chain Lightning entity using a dangerous comparator
+  - Fixed Priest dangerous level lookup during spawn
+  - Fixed casting mobs dangerous server operation during load from nbt
+
 ## <span class="yellow"> [3.6.2] (1.21) 2024-09-17</span>
 ### Fixes
 - Fixed generated resources being omitted from last build
