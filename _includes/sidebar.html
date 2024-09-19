@@ -2,6 +2,17 @@
   The Side Bar
 -->
 
+<script>
+  function changePage() {
+    var val = document.getElementById("mc_version").value;
+    if(val === '1_21'){
+      document.location.href='/';
+    }else{
+      document.location.href='/' + val + '/';
+    }
+  }
+</script>
+
 <div id="sidebar" class="d-flex flex-column align-items-end">
   <div class="profile-wrapper text-center">
     <!-- <div id="avatar"> -->
@@ -24,10 +35,25 @@
 
     <div class="site-title">
     </div>
-    <div class="site-subtitle font-italic">{{ site.tagline }}</div>
+    <div style="margin-bottom: 0; min-height: 2rem;" class="site-subtitle font-italic">{{ site.tagline }}</div>
 
   </div><!-- .profile-wrapper -->
 
+  <div class="w-100" style="display: flex; justify-content: center; align-items: center;">
+    <table style="margin: 0 auto;">
+      <tr>
+        <td>Minecraft Version: </td>
+        <td>&nbsp;</td>
+        <td>
+          <select name="mc_version" id="mc_version" onchange="changePage()">
+            <option value="1_21">1.21</option>
+            <option value="1_19" selected>1.19 / 1.20</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <p>
   <ul class="w-100">
 
     <!-- home -->
