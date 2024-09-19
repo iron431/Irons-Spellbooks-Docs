@@ -30,7 +30,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +8% Evocation Spell Power, +100 Max Mana"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Evocation Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:archevoker_chestplate"
@@ -65,7 +65,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +8% Evocation Spell Power, +100 Max Mana"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Evocation Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:archevoker_helmet"
@@ -100,7 +100,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +8% Evocation Spell Power, +100 Max Mana"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Evocation Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:archevoker_leggings"
@@ -135,7 +135,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +8% Evocation Spell Power, +100 Max Mana"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Evocation Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_boots"
@@ -170,7 +170,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Ice Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_chestplate"
@@ -205,7 +205,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Ice Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_helmet"
@@ -240,7 +240,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Ice Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cryomancer_leggings"
@@ -275,7 +275,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Ice Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Ice Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cultist_boots"
@@ -310,7 +310,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Blood Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cultist_chestplate"
@@ -345,7 +345,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Blood Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cultist_helmet"
@@ -380,7 +380,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Blood Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:cultist_leggings"
@@ -415,7 +415,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Blood Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Blood Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:electromancer_boots"
@@ -450,7 +450,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Lightning Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:electromancer_chestplate"
@@ -485,7 +485,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Lightning Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:electromancer_helmet"
@@ -520,7 +520,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Lightning Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:electromancer_leggings"
@@ -555,7 +555,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Lightning Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Lightning Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:netherite_mage_boots"
@@ -590,7 +590,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +3 Armor Toughness, +100 Max Mana"
+  tooltip: "When on Feet:<br> +3 Armor, +3 Armor Toughness, +125 Max Mana, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:netherite_mage_chestplate"
@@ -625,7 +625,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +3 Armor Toughness, +100 Max Mana"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +3 Armor Toughness, +125 Max Mana, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:netherite_mage_helmet"
@@ -660,7 +660,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +3 Armor Toughness, +100 Max Mana"
+  tooltip: "When on Head:<br> +3 Armor, +3 Armor Toughness, +125 Max Mana, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:netherite_mage_leggings"
@@ -695,7 +695,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +3 Armor Toughness, +100 Max Mana"
+  tooltip: "When on Legs:<br> +6 Armor, +3 Armor Toughness, +125 Max Mana, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:plagued_boots"
@@ -730,7 +730,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Nature Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:plagued_chestplate"
@@ -765,7 +765,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Nature Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:plagued_helmet"
@@ -800,7 +800,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Nature Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:plagued_leggings"
@@ -835,7 +835,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Nature Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Nature Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:priest_boots"
@@ -870,7 +870,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Holy Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Holy Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:priest_chestplate"
@@ -905,7 +905,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Holy Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Holy Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:priest_helmet"
@@ -940,7 +940,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Holy Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Holy Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:priest_leggings"
@@ -975,7 +975,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Holy Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Holy Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:pumpkin_boots"
@@ -1010,7 +1010,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +50 Max Mana"
+  tooltip: "When on Feet:<br> +3 Armor, +75 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:pumpkin_chestplate"
@@ -1045,7 +1045,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Body:<br> +8 Armor, +50 Max Mana"
+  tooltip: "When on Body:<br> +8 Armor, +75 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:pumpkin_helmet"
@@ -1080,7 +1080,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +50 Max Mana"
+  tooltip: "When on Head:<br> +3 Armor, +75 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:pumpkin_leggings"
@@ -1115,7 +1115,7 @@
   item8Id: "minecraft:leather"
   item8: "Leather"
   item8Path: "/img/items/minecraft/leather.png"
-  tooltip: "When on Legs:<br> +6 Armor, +50 Max Mana"
+  tooltip: "When on Legs:<br> +6 Armor, +75 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:pyromancer_boots"
@@ -1150,7 +1150,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Fire Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Fire Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:pyromancer_chestplate"
@@ -1185,7 +1185,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Fire Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Fire Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:pyromancer_helmet"
@@ -1220,7 +1220,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Fire Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Fire Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:pyromancer_leggings"
@@ -1255,7 +1255,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Fire Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Fire Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_boots"
@@ -1290,7 +1290,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Feet:<br> +3 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Feet:<br> +3 Armor, +125 Max Mana, +10% Ender Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_chestplate"
@@ -1325,7 +1325,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +125 Max Mana, +10% Ender Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_helmet"
@@ -1360,7 +1360,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When on Head:<br> +3 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Head:<br> +3 Armor, +125 Max Mana, +10% Ender Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:shadowwalker_leggings"
@@ -1395,7 +1395,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When on Legs:<br> +6 Armor, +100 Max Mana, +8% Ender Spell Power"
+  tooltip: "When on Legs:<br> +6 Armor, +125 Max Mana, +10% Ender Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:tarnished_helmet"
@@ -1430,14 +1430,14 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (0/1), When on Head:<br> -15% Attack Damage, +150 Max Mana, +25% Mana Regeneration"
+  tooltip: "Can be Imbued (0/1), When on Head:<br> +150 Max Mana, +25% Mana Regeneration, -15% Attack Damage"
   description: ""
 
 - id: "irons_spellbooks:wandering_magician_boots"
   name: "Wandering Magician Shoes"
   path: "/img/items/wandering_magician_boots.png"
   group: "Wandering Magician"
-  craftingType: "smithing"
+  craftingType: "crafting"
   item0Id: "minecraft:leather_boots"
   item0: "Leather Boots"
   item0Path: "/img/items/minecraft/leather_boots.png"
@@ -1472,7 +1472,7 @@
   name: "Wandering Magician Robe"
   path: "/img/items/wandering_magician_chestplate.png"
   group: "Wandering Magician"
-  craftingType: "smithing"
+  craftingType: "crafting"
   item0Id: "minecraft:leather_chestplate"
   item0: "Leather Tunic"
   item0Path: "/img/items/minecraft/leather_chestplate.png"
@@ -1507,7 +1507,7 @@
   name: "Wandering Magician Hood"
   path: "/img/items/wandering_magician_helmet.png"
   group: "Wandering Magician"
-  craftingType: "smithing"
+  craftingType: "crafting"
   item0Id: "minecraft:leather_helmet"
   item0: "Leather Cap"
   item0Path: "/img/items/minecraft/leather_helmet.png"
@@ -1542,7 +1542,7 @@
   name: "Wandering Magician Pants"
   path: "/img/items/wandering_magician_leggings.png"
   group: "Wandering Magician"
-  craftingType: "smithing"
+  craftingType: "crafting"
   item0Id: "minecraft:leather_leggings"
   item0: "Leather Pants"
   item0Path: "/img/items/minecraft/leather_leggings.png"

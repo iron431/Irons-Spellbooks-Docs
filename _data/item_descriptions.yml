@@ -31,8 +31,14 @@ irons_spellbooks:common_ink:
 irons_spellbooks:conjurers_talisman:
   description: ""
 
+irons_spellbooks:raw_mithril:
+  description: "Can be blasted into <a href=\"../items/#irons_spellbooks:mithril_scrap\">Mithril Scrap</a>"
+
 irons_spellbooks:cooldown_rune:
   description: "Crafting ingredient"
+
+irons_spellbooks:music_disc_dead_king_lullaby:
+  description: "Caner Crebes - King's Lullaby<br><br>Can be found in Catacombs pots"
 
 irons_spellbooks:cooldown_upgrade_orb:
   description: ""
@@ -106,6 +112,15 @@ irons_spellbooks:magic_cloth:
 irons_spellbooks:mana_upgrade_orb:
   description: ""
 
+irons_spellbooks:mithril_ingot:
+    description: "Crafting ingredient"
+
+irons_spellbooks:mithril_scrap:
+    description: "Crafting ingredient"
+
+irons_spellbooks:weapon_parts:
+  description: "Crafting ingredient"
+
 irons_spellbooks:poison_rune:
   description: "Crafting ingredient"
 
@@ -146,10 +161,10 @@ irons_spellbooks:ancient_knowledge_fragment:
   description: "Can be found rarely in bookshelf loot, more commonly in Ancient Cities, or traded for by Wandering Traders"
 
 irons_spellbooks:furled_map:
-    description: "Produces an explorer map when used. NBT driven."
+  description: "Produces an explorer map when used. NBT driven."
 
 irons_spellbooks:frosted_helve:
-    description: "Crafting Ingredient"
+  description: "Crafting Ingredient"
 
 irons_spellbooks:permafrost_shard:
   description: "Crafting Ingredient. Found in Impaled Icebreaker Shipwrecks."

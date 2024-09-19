@@ -38,3 +38,17 @@ To run the site on localhost
 
 To run the site on all local IPs
 >$ bundle exec jekyll serve --host=0.0.0.0
+
+
+
+### To Localhost (for idiots)
+- Need Ruby+Devkit as dependency
+  - https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.2-1/rubyinstaller-devkit-3.2.2-1-x64.exe
+- git bash to project root
+  - >$ gem install jekyll bundler
+  - >$ bundle
+  - >$ jekyll -v
+     - expect no errors
+  - >$ bundle exec jekyll serve
+    - optional flag of "--host=0.0.0.0"
+- http://localhost:4000/
