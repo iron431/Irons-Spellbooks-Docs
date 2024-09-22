@@ -8,14 +8,20 @@ toc: true
 Several new randomly generated structures can be found in your new magical world. They'll contain magical loot - and magical enemies guarding it - as well as traps, and most importantly: secret treasure. *As a side note, it is not required to break any blocks to find secrets.
 
 ## Mountain Tower
-The lonely tower of ice mages, it can be found in mountainous and snowy biomes
+- The lonely tower of ice mages, it can be found in mountainous and snowy biomes
 
 ![Mountain Tower](/img/mountain_tower.png)
 
 ## Mangrove Hut
-Home of the fire mages, it can be found in swampy biomes
+- Home of the Apothecarist, it can be found in swampy biomes
 
 ![Mangrove Hut](/img/mangrove_hut.png)
+
+## Pyromancer Tower
+- Refuge of fire mages, it can be found in forested and grassy biomes
+- Has an underground complex of a ruined keep
+
+![Pyromancer Tower](/img/pyromancer_tower.png)
 
 ## Evoker Fort
 - Keep of the Archevoker, it can be found in forests, plains, deserts, and savannas
@@ -37,7 +43,13 @@ Home of the fire mages, it can be found in swampy biomes
 
 ![Ancient Battlegrounds](/img/ancient_battlegrounds.png)
 
-## More Screenshots
+## Impaled Icebreaker
+- A fated voyage that did not end in success... for the crew. For scavengers, there may be artifacts to find.
+- These structures are very rare, but can be located via a map detailing their voyage, if one may find who sent them
+
+![Impaled Icebreaker](/img/impaled_icebreaker.png)
+
+## Gallery
 - Mountain Tower (Bottom Left)
 - Mangrove Hut (Top Middle)
 - Evoker Fort (Bottom Right)
