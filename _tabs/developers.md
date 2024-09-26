@@ -18,7 +18,7 @@ In order to build against Spells 'n Spellbooks, you need to configure your `buil
 You will need as least one of the following mavens under `repositories`. 
 If you are not interested in building with snapshots, you only need the release maven.
 
-```
+```groovy
 maven {
   name = "Iron's Maven - Release"
   url = "https://code.redspace.io/releases"
@@ -30,27 +30,27 @@ maven {
 ```
 In order to include the api in your project, add the following under `dependencies`:
 ### Forge
-```
+```groovy
 compileOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}:api")
 runtimeOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
 ```
 ### NeoForge
-```
+```groovy
 compileOnly "io.redspace:irons_spellbooks:${irons_spells_version}:api"
 localRuntime "io.redspace:irons_spellbooks:${irons_spells_version}"
 ```
 ## API vs Full Mod Dependency
-Alternatively, you can use the entire mod as a dependency. 
+Alternatively, you can use the entire mod as a dependency. What is the significance of this?
 The contents of <span style="color:yellow">io.redspace.ironsspellbooks.api</span> are stable, though they may have limited functionality. 
-If you use anything outside of this, you might encounter breaking changes in future releases, but you'll have access to all the same tools that we do. 
+If you use packages outside of this, you'll have access to all the same tools that we do, but you might encounter breaking changes in future releases. 
 If you’d like to expand the API, feel free to submit a pull request to our main repository at https://github.com/iron431/Irons-Spells-n-Spellbooks. 
 To use the full mod dependency, replace the previously mentioned `dependencies` with the following in your `build.gradle` file:
 ### Forge
-```
+```groovy
 implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
 ```
 ### NeoForge
-```
+```groovy
 implementation "io.redspace:irons_spellbooks:${irons_spells_version}"
 ```
 
