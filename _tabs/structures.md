@@ -27,6 +27,12 @@ Several new randomly generated structures can be found in your new magical world
 - Keep of the Archevoker, it can be found in forests, plains, deserts, and savannas
 - Randomly generated surrounding camp
 
+![Priest Towers](/img/priest_house_joint.png)
+
+## Priest House
+- As a part of plains and taiga villages, a new house can now generate
+- It is the home of the Priest, a neutral holy spellcasting protector of the village
+
 ![Evoker Fort](/img/evoker_fort.png)
 
 ## The Catacombs
