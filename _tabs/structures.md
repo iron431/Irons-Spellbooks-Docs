@@ -27,13 +27,13 @@ Several new randomly generated structures can be found in your new magical world
 - Keep of the Archevoker, it can be found in forests, plains, deserts, and savannas
 - Randomly generated surrounding camp
 
-![Priest Towers](/img/priest_house_joint.png)
+![Evoker Fort](/img/evoker_fort.png)
 
 ## Priest House
 - As a part of plains and taiga villages, a new house can now generate
 - It is the home of the Priest, a neutral holy spellcasting protector of the village
 
-![Evoker Fort](/img/evoker_fort.png)
+![Priest Towers](/img/priest_house_joint.png)
 
 ## The Catacombs
 - The first randomly generated dungeon and boss fight of the mod, it is the magical stronghold of a king who died long ago and can be found deep underground
