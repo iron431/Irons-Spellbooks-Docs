@@ -12,6 +12,24 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.7.0] (1.21) 2024-09-28</span>
+### Additions
+- Added new Advancement: A Fool's Foley
+  - Anger a wizard by looting a nearby chest
+- Added config for Hoglins to pass on Netherward Tincture's effect when bred (defaulted to true)
+- Added Waterlogging to Inscription Table, Scroll Forge, Firefly Jar, Armor Pile, and Pedestal
+
+### Fixes
+- Fixed advancements not being visible due to 1.21 format change
+- Fixed blood cauldron block crashbug due to missing default interaction
+- Fixed poison cancelling long casts
+- Fixed Alchemist Cauldron and hopper interaction
+
+## <span class="yellow"> [3.4.0.2] (1.20.1) 2024-09-28</span>
+### Fixes 
+- Backported Fixes
+  - Fixed Alchemist Cauldron and hopper interaction
+
 ## <span class="yellow"> [3.4.0.1] (1.20.1) 2024-09-18</span>
 ### Changes
 - Backported Spell Balance changes from 3.6.0 and 3.5.0
