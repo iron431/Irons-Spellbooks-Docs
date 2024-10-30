@@ -12,6 +12,32 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.3] (1.21) 2024-10-30</span>
+### Additions
+- Spellbooks and other books can now be placed in chiselled bookshelves
+
+### Changes
+- Removed Caelus as a dependency
+
+### Fixes
+- Optimize Knockback handler
+- Optimize Guiding Bolt Manager
+- Fixed Guiding Bolt Effect not homing if you shoot a projectile from inside the mob's hitbox range
+- Fixed dangerous ordering of portal frame saving
+- Fixed Patchouli book recipe
+
+## <span class="yellow"> [3.8.2] (1.21) 2024-10-22</span>
+### Changes
+- Reimplement Patchouli Compat for 1.21+
+
+### Fixes
+- Add config safety check to jei plugin
+- Temporarily remove apothic attributes compat to restore cross version compatibility
+
+## <span class="yellow"> [3.8.1] (1.21) 2024-10-21</span>
+### Fixes
+- Fixed dedicated server startup issue
+
 ## <span class="yellow"> [3.8.0] (1.21) 2024-10-21</span>
 ### Additions
 - Added Item Component for Casting Implement Functionality
@@ -31,6 +57,7 @@ color:rgba(255, 194, 41, 0.5);
   - Has translated and untranslated variants
   - Spawns in Evoker Fort tower lectern
   - Replaces Written Book in Villager Bible Questline
+
 ### Changes
 - Updated Languages
   - Russian, thanks to Tefny and Quark
