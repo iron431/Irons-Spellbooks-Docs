@@ -12,6 +12,10 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.4] (1.21) 2024-10-31</span>
+### Fixes
+- Fixed Knockback CME exception
+
 ## <span class="yellow"> [3.8.3] (1.21) 2024-10-30</span>
 ### Additions
 - Spellbooks and other books can now be placed in chiselled bookshelves
