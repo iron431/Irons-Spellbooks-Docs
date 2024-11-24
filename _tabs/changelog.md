@@ -12,6 +12,19 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.5] (1.21) 2024-11-24</span>
+### Changes
+- Priests no longer guard chests
+
+### Fixes
+- Fixed gui fade option transparency not always working
+- Fixed contextual spell bar setting hiding spell bar while using scroll modifier keybind
+- Fixed Angel Wings implementation to be more compatible with various mods
+
+## <span class="yellow"> [3.4.0.5] (1.20.1) 2024-11-24</span>
+### Fixes
+- Updated Tetra compat to Tetra v6.5.0 (courtesy of mickelus)
+
 ## <span class="yellow"> [3.8.4] (1.21) 2024-10-31</span>
 ### Fixes
 - Fixed Knockback CME exception
