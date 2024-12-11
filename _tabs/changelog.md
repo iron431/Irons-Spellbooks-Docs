@@ -40,7 +40,8 @@ color:rgba(255, 194, 41, 0.5);
 
 ### Fixes
 - Fixed blood cauldron overriding empty cauldron's interactions
-
+- Fixed IMobEffectEndCallback on death only working for players
+- Fixed Shield Entity damage client syncing issue
 
 
 ## <span class="yellow"> [3.8.5] (1.21) 2024-11-24</span>
