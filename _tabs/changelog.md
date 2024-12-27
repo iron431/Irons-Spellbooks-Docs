@@ -12,6 +12,12 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.4.0.6] (1.20.1) 2024-12-27</span>
+### Changes
+- Backport Balance Changes
+  - Spell Balance Changes of 3.8.6
+  - Removed curio salvaging for Arcane Salvage
+
 ## <span class="yellow"> [3.8.6] (1.21) 2024-12-11</span>
 ### Additions
 - Added compat for Iron's Gems 'n Jewelry
