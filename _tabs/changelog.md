@@ -12,6 +12,14 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.7] (1.21) 2024-12-11</span>
+### Changes
+- Summon Damage attribute now affects Sacrifice Spell
+- Update Chinese language (courtesy of FezaRyn)
+
+### Fixes
+- Disabled outdated Apotheosis data files
+
 ## <span class="yellow"> [3.4.0.6] (1.20.1) 2024-12-27</span>
 ### Changes
 - Backport Balance Changes
