@@ -12,6 +12,22 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.8] (1.21) 2024-01-04</span>
+### Additions
+- Builtin Compat with Repurposed Structures, courtesy of TelepathicGrunt
+
+### Changes
+- Updated Chinese and Ukrainian localizations, courtesy of FezeRyn, Hanekmio, and Oleksandr
+
+### Fixes
+- Resolved the looping between portals issue when two portals are cast on top of each other.
+- Fixed Electrocute Spell visuals clipping into player torso
+- Fixed Zap particle chain beams having the incorrect offset
+
+## <span class="yellow"> [3.4.0.7] (1.20.1) 2024-01-04</span>
+### Changes
+- Updated Chinese and Ukrainian localizations, courtesy of FezeRyn, Hanekmio, and Oleksandr
+
 ## <span class="yellow"> [3.8.7] (1.21) 2024-12-11</span>
 ### Changes
 - Summon Damage attribute now affects Sacrifice Spell
