@@ -12,6 +12,16 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.9] (1.21) 2024-01-23</span>
+### Changes
+- Retextured all Runestones
+- Nerfed Oakskin (Requires config reset)
+  - Now imposes -4% movement speed per level
+  - Cooldown increased from 35s -> 90s
+### Fixes
+- Fixed Counterspell particles only appearing when hitting entities
+- Fixed Charged Creepers not giving a Bottle o' Lightning when consuming an empty bottle stack of size 1
+
 ## <span class="yellow"> [3.8.8] (1.21) 2024-01-04</span>
 ### Additions
 - Builtin Compat with Repurposed Structures, courtesy of TelepathicGrunt
