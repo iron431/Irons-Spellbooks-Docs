@@ -16,6 +16,7 @@ color:rgba(255, 194, 41, 0.5);
 ### Changes
 - Improve Thunderstorm death message
 - Improve Ice Block Spell projectile tracking
+
 ### Fixes
 - Fixed friendlyfire checks from ignoring server pvp
 - Fixed the possibility of "None" scrolls generating if all scroll loot is disabled
