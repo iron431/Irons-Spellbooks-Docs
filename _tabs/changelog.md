@@ -28,6 +28,7 @@ color:rgba(255, 194, 41, 0.5);
 - Nerfed Oakskin (Requires config reset)
   - Now imposes -4% movement speed per level
   - Cooldown increased from 35s -> 90s
+
 ### Fixes
 - Fixed Counterspell particles only appearing when hitting entities
 - Fixed Charged Creepers not giving a Bottle o' Lightning when consuming an empty bottle stack of size 1
