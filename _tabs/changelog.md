@@ -12,6 +12,16 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.8.10] (1.21) 2024-02-15</span>
+### Changes
+- Improve Thunderstorm death message
+- Improve Ice Block Spell projectile tracking
+### Fixes
+- Fixed friendlyfire checks from ignoring server pvp
+- Fixed the possibility of "None" scrolls generating if all scroll loot is disabled
+- Fixed JEI displaying recipes for spells configured to be uncraftable
+- Fixed Inscription Table and Scroll Forge background rendering twice
+
 ## <span class="yellow"> [3.8.9] (1.21) 2024-01-23</span>
 ### Changes
 - Retextured all Runestones
