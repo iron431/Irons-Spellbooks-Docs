@@ -12,7 +12,7 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
-## <span class="yellow"> [3.8.10] (1.21) 2024-02-15</span>
+## <span class="yellow"> [3.8.10] (1.21) 2025-02-15</span>
 ### Changes
 - Improve Thunderstorm death message
 - Improve Ice Block Spell projectile tracking
@@ -23,7 +23,7 @@ color:rgba(255, 194, 41, 0.5);
 - Fixed JEI displaying recipes for spells configured to be uncraftable
 - Fixed Inscription Table and Scroll Forge background rendering twice
 
-## <span class="yellow"> [3.8.9] (1.21) 2024-01-23</span>
+## <span class="yellow"> [3.8.9] (1.21) 2025-01-23</span>
 ### Changes
 - Retextured all Runestones
 - Nerfed Oakskin (Requires config reset)
@@ -34,7 +34,7 @@ color:rgba(255, 194, 41, 0.5);
 - Fixed Counterspell particles only appearing when hitting entities
 - Fixed Charged Creepers not giving a Bottle o' Lightning when consuming an empty bottle stack of size 1
 
-## <span class="yellow"> [3.8.8] (1.21) 2024-01-04</span>
+## <span class="yellow"> [3.8.8] (1.21) 2025-01-04</span>
 ### Additions
 - Builtin Compat with Repurposed Structures, courtesy of TelepathicGrunt
 
@@ -46,7 +46,7 @@ color:rgba(255, 194, 41, 0.5);
 - Fixed Electrocute Spell visuals clipping into player torso
 - Fixed Zap particle chain beams having the incorrect offset
 
-## <span class="yellow"> [3.4.0.7] (1.20.1) 2024-01-04</span>
+## <span class="yellow"> [3.4.0.7] (1.20.1) 2025-01-04</span>
 ### Changes
 - Updated Chinese and Ukrainian localizations, courtesy of FezeRyn, Hanekmio, and Oleksandr
 
