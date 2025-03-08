@@ -1184,7 +1184,7 @@
   rarity: "Common to Legendary"
   description: "The great power of oak infuses itself into your skin, granting damage reduction of any incoming damage for a duration."
   u1: "+15%-+50% Damage Reduction"
-  u2: "-4%--32% Speed"
+  u2: "-20% Speed"
   u3: "20s-41s Effect Length"
   u4: ""
 

@@ -1115,7 +1115,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Oakskin IV (01:<br>30), When Applied:<br> +30% Damage Reduction"
+  tooltip: "Oakskin VI (01:<br>30), When Applied:<br> +40% Damage Reduction, -20% Speed"
   description: ""
 
 - id: "irons_spellbooks:hogskin"
@@ -1815,7 +1815,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Oakskin II (00:<br>45), When Applied:<br> +20% Damage Reduction"
+  tooltip: "Oakskin II (00:<br>45), When Applied:<br> +20% Damage Reduction, -20% Speed"
   description: ""
 
 - id: "irons_spellbooks:permafrost_shard"
