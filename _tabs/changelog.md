@@ -12,6 +12,13 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.9.1] (1.21.1) 2025-03-08</span>
+### Changes
+- Upgrade Orb Type definitions now allow ingredients as container items (allowing custom components)
+### Fixes
+- Fixed invalid upgrade orb component crashing while trying to render tooltip
+- Fixed SpellSelectionManager desync on player death
+
 ## <span class="yellow"> [3.9.0] (1.21.1) 2025-03-08</span>
 ### Additions
 - Added Datadriven support for Upgrade Orb Types
