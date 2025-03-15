@@ -55,6 +55,8 @@ color:rgba(255, 194, 41, 0.5);
   - Added Wisewood Bookshelf and Chiseled Bookshelf blocks
 - Added Pedestal block Recipe
 - Added Creative Inventory Tab for Iron's Spellbooks Blocks
+- Added "creativeCooldowns" and "creativeMana" configs for disabling cooldowns and mana in creative mode
+  - By default, creative mode no longer requires mana or respects cooldowns
 
 ### Changes
 - Flaming Strike Visual Entity replaced with particle
