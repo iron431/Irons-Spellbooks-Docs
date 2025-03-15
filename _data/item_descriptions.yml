@@ -40,6 +40,9 @@ irons_spellbooks:cooldown_rune:
 irons_spellbooks:music_disc_dead_king_lullaby:
   description: "Caner Crebes - King's Lullaby<br><br>Can be found in Catacombs pots"
 
+irons_spellbooks:music_disc_flame_still_burns:
+  description: "Caner Crebes - The Flame Still Burns"
+
 irons_spellbooks:cooldown_upgrade_orb:
   description: ""
 
