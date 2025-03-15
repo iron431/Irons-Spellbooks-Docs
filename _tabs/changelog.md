@@ -45,8 +45,8 @@ color:rgba(255, 194, 41, 0.5);
   - Added Timeless Slurry (crafting ingredient)
   - Added Holy Artifact: Lightbringer's Chestplate
   - Added Evocation Artifact: Boots of Speed
-  - Added Music Disc: Flame Felled
-  - Added Flame Felled Music Disc Shards
+  - Added Music Disc: Flame Still Burns
+  - Added Flame Still Burns Music Disc Shards
 - Blocks:
   - Added Cinderous Keystone block
   - Added Brazier and Soul Brazier blocks
