@@ -12,6 +12,17 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> Echo of Flames [3.10.1] (1.21.1) 2025-03-16</span>
+### Changes
+- Update Chinese and Japanese translations
+
+### Fixes
+- Fixed Touch Dig spell not using item enchantments
+- Fixed Looting enchantment negatively affecting boss drop rates
+- Fixed Armor Pile destruction effect causing stack overflow when destroying another Armor Pile
+- Fixed inconsistent teleportation desintation solving
+- Fixed multipart entities (such as the Enderdragon) being untargetable for targeted spells
+
 ## <span class="yellow"> Echo of Flames [3.10.0] (1.21.1) 2025-03-15</span>
 ### Additions
 - Return of the Citadel:
