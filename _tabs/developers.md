@@ -29,12 +29,12 @@ maven {
 }
 ```
 In order to include the api in your project, add the following under `dependencies`:
-### Forge
+### Forge (1.20.1 and below)
 ```groovy
 compileOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}:api")
 runtimeOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
 ```
-### NeoForge
+### NeoForge (1.21+)
 ```groovy
 compileOnly "io.redspace:irons_spellbooks:${irons_spells_version}:api"
 localRuntime "io.redspace:irons_spellbooks:${irons_spells_version}"
@@ -44,7 +44,7 @@ Alternatively, you can use the entire mod as a dependency. What is the significa
 The contents of <span style="color:yellow">io.redspace.ironsspellbooks.api</span> are stable, though they may have limited functionality. 
 If you use packages outside of this, you'll have access to all the same tools that we do, but you might encounter breaking changes in future releases. 
 If you’d like to expand the API, feel free to submit a pull request to our main repository at https://github.com/iron431/Irons-Spells-n-Spellbooks. 
-To use the full mod dependency, replace the previously mentioned `dependencies` with the following in your `build.gradle` file:
+To use the full mod dependency, replace the previously mentioned `dependencies` with the following in your `build.gradle` file (omit the `api` tag):
 ### Forge
 ```groovy
 implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
@@ -53,15 +53,6 @@ implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_sp
 ```groovy
 implementation "io.redspace:irons_spellbooks:${irons_spells_version}"
 ```
-
-## Example Repo
-
-Here is an example mod that shows you how to register a spell and get started.
-
-[https://github.com/iron431/Irons-Example-Mod](https://github.com/iron431/Irons-Example-Mod)
-
-The example mod is setup to use our SNAPSHOT builds.
-[https://code.redspace.io/#/snapshots/io/redspace/ironsspellbooks/irons_spellbooks](https://code.redspace.io/#/snapshots/io/redspace/ironsspellbooks/irons_spellbooks)
 
 ## Spell Registration
 
@@ -82,13 +73,15 @@ public class ExampleSpellRegistry {
   public static final RegistryObject<AbstractSpell> SUPER_HEAL_SPELL = registerSpell(new SuperHealSpell());
 }
 ```
+This registry works as any other deferred register does, see the [NeoForge docs for more info](https://docs.neoforged.net/docs/concepts/registries/#deferredregister). 
 
 ## Configuration
+Spells are highly config-driven, including attributes such as the spell's School, Cooldown, Max Level, and more.
 
 In order have your spells configuration injected into the server config file for Iron's Spells n Spellbooks just add
 the <span style="color:yellow">@AutoSpellConfig</span> annotation to the class for your spell.
 
-The default values for the configuration are set by overriding the getDefaultConfig() method.
+The default values for the configuration are set by overriding the `getDefaultConfig()` method, where you return the default values for all your config settings.
 
 ```java
 import io.redspace.ironsspellbooks.api.spells.*;
@@ -96,7 +89,7 @@ import io.redspace.ironsspellbooks.api.spells.*;
 @AutoSpellConfig
 public class YourNewSpell extends AbstractSpell {
 
-  //Default configuration values
+  /** Declare the default state of your config here */
   private final DefaultConfig defaultConfig = new DefaultConfig()
     .setMinRarity(SpellRarity.RARE)
     .setSchoolResource(SchoolRegistry.HOLY_RESOURCE)
@@ -104,12 +97,13 @@ public class YourNewSpell extends AbstractSpell {
     .setCooldownSeconds(20)
     .build();
 
+  /**  Return your config here */
   @Override
   public DefaultConfig getDefaultConfig() {
     return defaultConfig;
   }
 
-  //Your code here
+  //...
 }
 ```
 
@@ -118,4 +112,4 @@ public class YourNewSpell extends AbstractSpell {
 You can now create spells the same way we do in the core mod. For examples of spells you can look at any of the spells
 here.
 
-[https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells](https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells)
+[https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.21/src/main/java/io/redspace/ironsspellbooks/spells](https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells)
