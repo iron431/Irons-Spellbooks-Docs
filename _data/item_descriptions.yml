@@ -37,6 +37,27 @@ irons_spellbooks:raw_mithril:
 irons_spellbooks:cooldown_rune:
   description: "Crafting ingredient"
 
+irons_spellbooks:bloody_vellum:
+  description: "Crafting ingredient"
+
+irons_spellbooks:mithril_weave:
+  description: "Crafting ingredient"
+
+irons_spellbooks:pyrium_ingot:
+  description: "Crafting ingredient. Can be found in Citadel vaults"
+
+irons_spellbooks:timeless_slurry:
+  description: "Crafting ingredient. Made in the Alchemist Cauldron"
+
+irons_spellbooks:cinderous_soulcaller:
+  description: "Used to awaken an echo in the Citadel..."
+
+irons_spellbooks:divine_soulshard:
+  description: "Boss Drop, Crafting ingredient"
+
+irons_spellbooks:decrepit_key:
+  description: "Boss Drop"
+
 irons_spellbooks:music_disc_dead_king_lullaby:
   description: "Caner Crebes - King's Lullaby<br><br>Can be found in Catacombs pots"
 
