@@ -6,6 +6,7 @@ toc: true
 ---
 
 ![Spells](/img/screenshots/spells.png)
+![Tyros](/img/screenshots/echo_of_the_flamebearer.png)
 
 ## Workstations
 ![Workstation](/img/screenshots/tristation.png)
