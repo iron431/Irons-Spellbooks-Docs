@@ -12,6 +12,17 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.12.3] (1.21.1) 2025-06-19</span>
+### Changes
+- Updated Chinese localizations, courtesy of Hanekmio
+
+### Fixes
+- Fixed typo in Pocket Dimension unplaceables tag prevent a large subset of blocks from being identified
+
+### API
+- Made `ClientSpellCastHelper#animatePlayerStart` public
+- Added support for one item being a focus for multiple schools, if tagged as such
+
 ## <span class="yellow"> [3.12.2] (1.21.1) 2025-06-19</span>
 ### Additions
 - Added Pocked Dimension spell, patreon request of Infektedskrpion
@@ -28,7 +39,7 @@ color:rgba(255, 194, 41, 0.5);
 - Tweaked Shadowwalker Armor Icons
 
 ### Fixes
-- Fixed Fixed Summoned Swords not unsummoning after their duration was over
+- Fixed Summoned Swords not unsummoning after their duration was over
 - Fixed pvp friendly fire checks
 - Fixed upgrades not returning all orbs if an orb type was stacked
 
