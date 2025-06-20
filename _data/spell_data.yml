@@ -1370,3 +1370,17 @@
   u3: "30 Block Range"
   u4: ""
 
+- name: "Pocket Dimension"
+  school: "Eldritch"
+  icon: "/img/spells/pocket_dimension.png"
+  level: "1 to 1"
+  mana: "300 to 300"
+  cooldown: "1200s"
+  cast_type: "Long"
+  rarity: "Legendary to Legendary"
+  description: "Cast to transport yourself into a personal pocket dimension only you can access, giving a small free range area."
+  u1: ""
+  u2: ""
+  u3: ""
+  u4: ""
+

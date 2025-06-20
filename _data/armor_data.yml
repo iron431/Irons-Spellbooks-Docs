@@ -730,7 +730,7 @@
   item8Id: "minecraft:gold_ingot"
   item8: "Gold Ingot"
   item8Path: "/img/items/minecraft/gold_ingot.png"
-  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +4 Armor Toughness, +40% Knockback Resistance, +150 Max Mana, +10% Spell Power, +25% Spell Resistance"
+  tooltip: "Can be Imbued (0/1), When on Body:<br> +8 Armor, +4 Armor Toughness, +40% Knockback Resistance, +150 Max Mana, +10% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:plagued_boots"

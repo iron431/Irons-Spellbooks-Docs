@@ -209,7 +209,7 @@
   description: ""
 
 - id: "irons_spellbooks:cursed_doll_spell_book"
-  name: "Cursed Doll"
+  name: "Vampiric Spellbook"
   path: "/img/items/cursed_doll_spell_book.png"
   group: "Spellbooks"
   craftingType: "crafting"
@@ -240,7 +240,7 @@
   item8Id: "irons_spellbooks:arcane_ingot"
   item8: "Arcane Ingot"
   item8Path: "/img/items/arcane_ingot.png"
-  tooltip: "When equipped as Spell Book:<br> +10% Blood Spell Power, +10% Spell Resistance, +200 Max Mana, +1 level to Blood Needles, Acupuncture"
+  tooltip: "When equipped as Spell Book:<br> +10% Blood Spell Power, +10% Spell Resistance, +200 Max Mana, +1 level to Blood Slash, Blood Step"
   description: ""
 
 - id: "irons_spellbooks:decrepit_scythe"
@@ -975,6 +975,6 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +8% Holy Spell Power, +8% Cast Time Reduction, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br> +10% Holy Spell Power, +10% Cast Time Reduction, +200 Max Mana"
   description: ""
 
