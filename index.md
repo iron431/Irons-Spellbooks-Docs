@@ -31,14 +31,15 @@ Iron's Spells 'n Spellbooks is a magic mod that is inspired by classic RPG games
 <a href="https://github.com/iron431/Irons-Spells-n-Spellbooks/issues" target="_blank">Report Issues Here</a>
 
 ## <u>Featuring</u>
-- Over 70 upgradable spells
+- Over 100 upgradable spells
+- 2 Spellcasting Bosses
+- 9 Spellcasting Enemies/Allies/Merchants
+- 11 wizard armor sets
+- 11 randomly generated structures
 - Weapon Imbuement System
 - Armor Upgrade System
-- 10 wizard armor sets
-- 6 randomly generated structures
-- 6 new enemies and a new boss
-- Extensive world configuration options (including per-spell settings)
-- Out-of-the-box support for JEI, JEED, Apotheosis, Tetra, Curios, Better Combat, and Patchouli
+- Extensive configuration options (including per-spell settings)
+- Out-of-the-box support for JEI, JEED, Apotheosis, Tetra, Better Combat, and Patchouli
 - And much more!
 
 ## <u>Also Including</u>
