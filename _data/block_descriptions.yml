@@ -21,5 +21,9 @@ irons_spellbooks:deepslate_mithril_ore:
 
 irons_spellbooks:alchemist_cauldron:
   description: "Can be used to brew potions, craft elixirs, recycle scrolls, and upgrade ink. If a mob or player is placed in it while there is water, blood vials can also be produced. It has 4 input and 4 output slots, and must have water in it to activate. Right click to place a valid item into the input slots, and right click with a glass bottle to extract an output item."
+
 irons_spellbooks:portal_frame:
   description: "Creates permanent Portal connection"
+
+irons_spellbooks:ice_spider_egg:
+  description: "Requires silk touch to harvest. When found naturally, can have a layer of ice protecting it. Breaking the ice awakens a nearby Ice Spider to protect the egg."

@@ -6,7 +6,7 @@ toc: true
 ---
 
 Several new randomly generated structures can be found in your new magical world. They'll contain magical loot - and magical enemies guarding it - as well as traps, and most importantly: secret treasure. *As a side note, it is not required to break any blocks to find secrets.
-## Lesser Casting Mobs
+## Wizard Structures
 ### Mountain Tower
 - The lonely tower of ice mages, it can be found in mountainous and snowy biomes
 
@@ -35,7 +35,7 @@ Several new randomly generated structures can be found in your new magical world
 
 ![Priest Towers](/img/priest_house_joint.png)
 
-## Resource Structures
+## Miscellaneous Structures
 ### Ancient Battlegrounds
 - The site of a battle of which the name was long ago forgotten, it can be found resurfacing in the Nether
 - Armor Piles can be harvested to reanimate Ancient Knights
@@ -48,6 +48,15 @@ Several new randomly generated structures can be found in your new magical world
 - These structures are very rare, but can be located via a map detailing their voyage, if one may find who sent them
 
 ![Impaled Icebreaker](/img/impaled_icebreaker.png)
+
+### Ice Spider Den
+- A long-lost stone fort can be found rarely in icy biomes. But beware, as it seems your are not the first to find and inhabit this place...
+- An Ice Spider Den can be found branching off from the basement, full of harvestable eggs
+- A minidungeon also branches off from the den
+- "Infested Ruins" Furled Maps can be crafted, leading to this structure
+
+![Ice Spider Den](/img/screenshots/ice_spider_den_outside.png)
+![Ice Spider Den](/img/screenshots/ice_spider_den_cave.png)
 
 ## Boss Dungeons
 ### The Catacombs
