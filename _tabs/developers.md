@@ -113,3 +113,75 @@ You can now create spells the same way we do in the core mod. For examples of sp
 here.
 
 [https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.21/src/main/java/io/redspace/ironsspellbooks/spells](https://github.com/iron431/Irons-Spells-n-Spellbooks/tree/1.19.2/src/main/java/io/redspace/ironsspellbooks/spells)
+
+## Porting Summons to Summon Manager System
+Summon spells before 3.14.0 used a rudimentary and limited summon tracking system, which was completely overhauled by the `SummonManager` in 3.14.0. Laid out here are the steps to port existing summon spells to the new system.
+This new status-quo includes the following structural changes:
+- Summon Spells are now recastable, with the second cast being used to unsummon the given mobs. This has several important implications:
+  - You can only have 1 batch of summons for a particular spell active at one time
+  - Summon Timer mob effects are no longer used. The countdown-till-despawn is exclusively handled by the `SummonManager`, and visually represented through the recast bar
+  - Summon spells cannot be cast from scrolls anymore
+- Summons logout and login with the summoner, similar to player mounts
+- The implementation of these features is still dependent on the modder, but new helper methods and the `SummonManager` class itself make it very easy to do so
+
+<br>
+While the previous practice will still work, old helper methods will eventually be removed, and it is overall recommended to transition to the new system to maintain parity with ISS going forward.
+There are three core changes to implement into your codebase:
+1. Make the spell recastable, and use the various helpers in `SummonManager` and `SummonedEntitiesCastData` to automatically handle summoning/unsummoning
+2. Implement Summon Manager tracking into the spell by using `SummonManager` helpers
+3. Adapt Summoned Entity Classes by removing manual state tracking 
+
+### Making the spell recastable
+This is the simplest part, and can be completed by just copy + pasting the following into your summon spell:
+```java
+@Override
+public int getRecastCount(int spellLevel, @Nullable LivingEntity entity) {
+    return 2;
+}
+
+@Override
+public void onRecastFinished(ServerPlayer serverPlayer, RecastInstance recastInstance, RecastResult recastResult, ICastDataSerializable castDataSerializable) {
+    if (SummonManager.recastFinishedHelper(serverPlayer, recastInstance, recastResult, castDataSerializable)) {
+        super.onRecastFinished(serverPlayer, recastInstance, recastResult, castDataSerializable);
+    }
+}
+
+@Override
+public ICastDataSerializable getEmptyCastData() {
+    return new SummonedEntitiesCastData();
+}
+```
+### Implementing Summon Manager into the Spell
+In your `onCast` method, you now need to do the following:
+1. Check if the spell has been recast already. If not, summon mobs and initiate recast
+2. Initiate SummonManager tracking
+3. Initiate recast (as with any recastable spell). Make sure to use `SummonedEntitiesCastData`
+
+Effectively, follow this skeleton:
+
+```java
+public void onCast(Level level, int spellLevel, LivingEntity entity, CastSource castSource, MagicData playerMagicData) {
+    // 1.a Wrap old onCast function in this if statement:
+    PlayerRecasts recasts = playerMagicData.getPlayerRecasts();
+    if (!recasts.hasRecastForSpell(this)) {
+        SummonedEntitiesCastData summonedEntitiesCastData = new SummonedEntitiesCastData();
+        // ...
+        // 1.b <Old summon logic goes here>
+        // ...
+        // 2. Call this for every summon you add to the world to register it with the summon manager:
+        //    (This helper sets the owner, expiration time, and sets-up the SummonedEntitiesCastData, all-in-one)
+        SummonManager.initSummon(entity, summon, summonTime, summonedEntitiesCastData);
+        // ...
+        // 3. Finally, trigger the recast. (Make a new recast instance containing the summon cast data, and add it to the player's recasts)
+        RecastInstance recastInstance = new RecastInstance(this.getSpellId(), spellLevel, getRecastCount(spellLevel, entity), summonTime, castSource, summonedEntitiesCastData);
+        recasts.addRecast(recastInstance, playerMagicData);
+    }
+}
+```
+### Adapting Summoned Entity Classes
+1. Remove `getSummoner()` and `setSummoner()` methods. You can also remove related class fields and their serialization. All owner manipulation is done through the `SummonManager` now.
+2. Remove any owner-manipulation from the Summon's constructor
+3. Remove uses of summon-timer mobeffects, including updating your `onRemovedHelper` to use the non-summon-timer version
+4. Note: You may notice Iron's Spellbooks summons do not follow all these changes. This is to preserve backwards compatibility with summon addons currently using these methods. If no addons use your summons, then it is safe to make these changes.
+5. Cleanup: Remove any summon timer mobeffects, as well as their resources (lang, icons, etc), and consider any balance changes that might need to be made
+
