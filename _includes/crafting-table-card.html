@@ -80,12 +80,13 @@
         </div>
       {% elsif recipe.craftingType == "smithing" %}
         {%assign size = "26" %}
-        {%assign top = "62" %}
+        {%assign top = "88" %}
         <div style="min-width: 220px; max-width:220px; position: relative; float: right; margin-top: 15px; margin-left: auto">
           <img id="crafting_table" src="/img/smithing_table.png" style="width: 420px; image-rendering: pixelated; position: relative; top:0; left: 0;">
-          <img id="slot1" src="{{recipe.item0Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 10px ;" title="{{recipe.item0}}">
-          <img id="slot2" src="{{recipe.item1Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 87px;" title="{{recipe.item1}}">
-          <img id="output" src="{{recipe.path}}"     style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 182px;" title="{{recipe.name}}">
+          <img id="slot1" src="{{recipe.item0Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 16px ;" title="{{recipe.item0}}">
+          <img id="slot2" src="{{recipe.item1Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 48px;" title="{{recipe.item1}}">
+          <img id="slot3" src="{{recipe.item2Path}}" style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 81px;" title="{{recipe.item2}}">
+          <img id="output" src="{{recipe.path}}"     style="width: {{size}}px; image-rendering: pixelated; position: absolute; top: {{top}}px; left: 178px;" title="{{recipe.name}}">
         </div>
       {%endif%}
     </div>
