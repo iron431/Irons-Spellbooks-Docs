@@ -12,6 +12,19 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.14.1] (1.21.1) 2025-07-29</span>
+### Changes
+- Tyros can now break blocks around him, if damaged while "stuck"
+
+### Fixes
+- Fixed concurrent modification exception that could happen when summons were unloaded to a chunk
+- Fixed Cursed Armor Stands not always de-aggroing properly
+- Fixed Shadow-Walker armorset pivots (Better Combat leg bug)
+
+### Api
+- Added `SpellCooldownAddedEvent` with a `Pre` and `Post` event, courtesy of clcment446
+
+
 ## <span class="yellow"> [3.14.0] (1.21.1) 2025-07-14</span>
 ### Additions
 - Added Wizard Armorset, made from Arcane Cloth
