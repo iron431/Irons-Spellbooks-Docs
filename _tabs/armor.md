@@ -11,7 +11,7 @@ toc: true
 {% for group in sorted_groups %}
 <h2 id="{{group.name}}"> {{group.name}}</h2>
 <hr>
-  {% assign sorted_groups = group.items | sort: 'name' %}
+  {% assign sorted_groups = group.items | sort: 'sortOverride' %}
   {% for recipe in sorted_groups %}
     {% assign desc = "" | append: site.data.armor_descriptions[recipe.id].description %}
     {% include crafting-table-card.html pixelated="true" desc=desc %}
