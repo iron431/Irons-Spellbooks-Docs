@@ -16,6 +16,9 @@ color:rgba(255, 194, 41, 0.5);
 ### Changes
 - Neutral Wizard anger/aggro is now tracked per-player
 - Adjust Pyromancer trade balance
+  - Buy Candle trade: now requires 4 candles (instead of 1), and gives 1 emerald (instead of 2)
+  - Buy Honey trade: now requires 2 bottles (instead of 1)
+  - Buy Blaze rods trade: now requires 3 blaze rods (instead of 1)
 - Adjust Pyromancer tower structure
   - Now uses Wisewood bookshelves, and new decoration blocks
 - Potion Fluid tooltips now include duration, if applicable
