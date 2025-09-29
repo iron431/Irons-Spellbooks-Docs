@@ -30,6 +30,8 @@ color:rgba(255, 194, 41, 0.5);
 - Frost Field more strictly respects friendlyfire
 - Fixed merchant wizard's not preventing interactions when hostile on the client
 - Fixed merchant wizards not properly looking at trading player
+- Fixed client desync of guiding bolt homing effect
+- Fixed entities summoned by mobs potentially unloading into broken state
 
 ### API
 - Added `IMerchantWizard#stopTrading` helper
