@@ -1,6 +1,6 @@
 format 0
-10/07/2025
-1 1 A_wu
+10/08/2025
+0 0 A_wu
 0 0 Aarods
 0 0 Adrian Sampaio Hertz
 1 1 Amadhe
@@ -75,6 +75,7 @@ format 0
 1 1 linjun
 0 0 ll
 2 0 lobotomite
+1 1 Logan
 0 0 Lunarrxyz
 1 1 MAAT MAAT
 1 1 mabea021
@@ -134,6 +135,7 @@ format 0
 1 1 Willfire
 1 1 WizzMann 35
 1 1 x
+1 1 Xam
 2 2 Xeycrow
 1 1 yeetus
 1 1 yetmond
