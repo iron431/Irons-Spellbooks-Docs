@@ -20,6 +20,7 @@ color:rgba(255, 194, 41, 0.5);
   - Can be placed on a lectern
 
 ### Changes
+- Buffed Electrocute's base damage in absence of breath effects
 - Reworked Flaming Barrage Spell:
   - Recasts no longer select targets
   - Fireballs no longer home on preset entities
@@ -32,6 +33,7 @@ color:rgba(255, 194, 41, 0.5);
 - Fixed Ice Tomb not being able to be crit
 - Fixed Counterspell hit registration breaking in a previous update
 - Fixed Breath attack spells having inconsistent base damage
+  - Electrocute now has intentionally higher base damage
 - Fixed Electrocute rendering
 - Fixed Zap particle rendering in certain circumstances when the particle atlas wasn't active
 
