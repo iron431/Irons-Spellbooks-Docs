@@ -1,5 +1,5 @@
 format 0
-10/08/2025
+10/09/2025
 0 0 A_wu
 0 0 Aarods
 0 0 Adrian Sampaio Hertz
@@ -12,6 +12,7 @@ format 0
 1 1 Anthony pittman
 1 1 Apshock
 0 0 Aquid
+0 0 Arnaldo De Freitas
 1 1 Arnor
 1 2 Ashby
 1 1 aubrey
@@ -33,6 +34,7 @@ format 0
 0 0 Deiten
 1 1 Derek AmericaBus
 1 1 dergergo1
+1 1 Diego Fernandez
 1 1 Dr. Necrox
 1 1 EldritchBlob
 1 1 ElectroMaxGD
@@ -132,6 +134,7 @@ format 0
 1 1 vwyn
 1 1 WarFhran
 1 2 Wasao
+1 1 wenter985
 1 1 Willfire
 1 1 WizzMann 35
 1 1 x
