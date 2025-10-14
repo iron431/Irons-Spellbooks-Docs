@@ -1,8 +1,10 @@
 format 0
-10/12/2025
+10/14/2025
+1 1 A
 0 0 A_wu
 0 0 Aarods
 1 1 Adrian Sampaio Hertz
+1 1 Aleph Marmaduke
 1 1 Amadhe
 0 0 amognus
 2 0 Andrew Hill
@@ -11,6 +13,7 @@ format 0
 1 1 Angel Cloutier
 1 2 Ankin
 1 1 Anthony pittman
+1 1 AOK
 1 1 Apshock
 0 0 Aquid
 0 0 Arnaldo De Freitas
@@ -85,7 +88,8 @@ format 0
 1 1 MAAT MAAT
 1 1 mabea021
 1 2 Michael Nagel
-1 2 Mile
+0 0 Mile
+1 2 Milkman
 1 1 Nick Fury
 0 0 Nick Simpson
 1 1 NoahzArk_127
@@ -97,6 +101,7 @@ format 0
 1 1 ozymandias
 2 1 Paul Jr Boudreau
 1 1 Pedro Lucas
+1 1 pina phinas
 1 1 Player_7
 1 1 Preston Nixon
 1 1 Radmin
