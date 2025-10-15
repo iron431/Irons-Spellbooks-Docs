@@ -35,6 +35,7 @@ format 0
 0 0 Coffee Master
 0 0 cretace0us
 1 1 Crying Cat
+1 1 Daniel Mckenna-robinson
 1 1 Daniel Richardson
 0 0 Deiten
 1 1 Derek AmericaBus
@@ -123,6 +124,7 @@ format 0
 1 2 Spoopy01
 0 0 Squidiot
 1 1 squoshi
+1 2 Stick
 1 1 Sweatermovie84
 1 2 Tethra
 1 1 The
