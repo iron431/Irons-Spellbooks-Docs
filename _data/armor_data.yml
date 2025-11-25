@@ -607,7 +607,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (0/1), Passive Ability (1s cooldown):<br>  Dealing Fire Spell Damage adds a stack of Immolation to the creature, At 3 Immolation stacks, cause an explosion (10 damage), spreading Immolation, When on Body:<br> +8 Armor, +150 Max Mana, +10% Spell Power"
+  tooltip: "Can be Imbued (0/1), Passive Ability:<br>  Dealing Fire Spell Damage adds a stack of Immolation to the creature, At 3 Immolation stacks, cause an explosion (10 damage), spreading Immolation, When on Body:<br> +8 Armor, +150 Max Mana, +10% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:netherite_mage_boots"
