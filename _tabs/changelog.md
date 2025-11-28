@@ -12,6 +12,16 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.14.8] (1.21.1) 2025-11-28</span>
+### Additions
+- Update Korean localization, thanks to spongebob98636e-stack
+- Update Portuguese-Brazil localization, thanks to Mikeliro
+
+### Fixes
+- Fixed incompatibility with 3.14.7 and Create Ponder (courtesy of wolfieboy09)
+- Fixed client side packet loss with camera shake
+- Fixed potential playeranimator startup incompatibility
+
 ## <span class="yellow"> [3.14.7] (1.21.1) 2025-11-25</span>
 ### Additions
 - Added Shadow Slash spell
