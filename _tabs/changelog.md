@@ -12,6 +12,300 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.15.0] (1.21.1 | 1.20.1) 2026-01-01</span>
+### Additions
+- Added entity tag to blacklist creatures from generating blood in cauldrons: `irons_spellbooks:cant_produce_blood`
+- Added datadriven configs: See Datadriven Spell Config Overhaul changes
+
+### Changes
+- Datadriven Spell Config Overhaul
+  - Spell configs are no longer in Server Configs
+  - Global Spell Configs are now accessible in custom directory in the instance config directory
+    - Config File structure is `config/irons_spellbooks_spell_config/<modid>/<spellid>.json`
+  - Per-World Spell Configs are now accessible through datapacks
+    - Datapack File structure is `data/<modid>/irons_spellbooks_spell_config/<spellid>.json`
+    - Datapack takes precedence over global config. Global config is entirely ignored if a configuration datapack is present for a
+      world.
+  - Example config file shows all configurable values, and their default state
+  - Added command to automatically convert existing config/serverconfig
+    - `/ironsSpellbooks convert_legacy_config`
+    - Automatically targets latest config backup (bak) file
+
+### Fixes
+- Fixed Ray of Siphoning and Eldritch Blast from not being able to register hits against multipart entity hitboxes
+- Fixed summons potentially copying an invalid target from summoner, if summoned by a mob
+- Fixed Ice Shadow Icicles not having gravity
+- Fixed potential CME of client shield tracker due to lack of render thread synchronization
+- Fixed potential NaN health bug caused by portal deaths
+
+### API
+- All old config infrastructure marked as deprecated
+  - `@AutoSpellConfig`
+  - `ServerConfigs#getSpellConfig(AbstractSpell)`
+  - `ServerConfigs#getSpellConfigs()`
+- Added `SpellConfigManager`, which holds all config data now. Important Methods:
+  - `SpellConfigManager#getInstance()`
+  - `SpellConfigManager#getSpellConfigValue(AbstractSpell, SpellConfigParameter<T>)`
+  - `SpellConfigManager#getDefaultSpellConfigValue(AbstractSpell, SpellConfigParameter<T>)`
+- Added `SpellConfigParameter<T>`, singleton keying objects which hold the information for identifying and
+  reading/writing config values
+- Added `IronConfigParameters`, a class holding all default `SpellConfigParameter<T>`s
+- Added event `ModifyDefaultConfigValuesEvent`, which allows modders to edit default config values without the need of mixins
+  - `ModifyDefaultConfigValuesEvent#getSpell()`
+  - `ModifyDefaultConfigValuesEvent#setDefaultValue(SpellConfigParameter<T>, T)`
+- Added event `RegisterConfigParametersEvent`, which allows modders to add custom entries to spell config files
+  - `RegisterConfigParametersEvent#register(SpellConfigParameter<?>)`
+- Added `AbstractMagicProjectile#setInfinitePiercing()`
+  - Helper setting pierce level to -1
+
+## <span class="yellow"> [Backported 3.5.0 - 3.15.0 to 1.20.1] 2026-01-01</span>
+## Additions
+- Mobs
+  - Added Fire Boss
+    - Spellcasting Enemy
+    - 5 Melee Combos
+    - 4 Unique Boss abilities
+    - Summons Citadel Keepers
+    - Music by Caner Crebes
+    - Added the Citadel structure
+    - Added Hellrazor weapon
+    - Added Decrepit Scythe
+    - Added Legionnaire Flameberge
+    - Added Pyrium Staff
+    - Added Signet of the Betrayer
+    - Added Cinderous Soulcaller
+    - Added Ancient Furled Map
+    - Added Decrepit Key
+    - Added Chained Book
+    - Added Divine Soulshard
+    - Added Mithril Weave (crafting ingredient)
+    - Added Pyrium Ingot (crafting ingredient)
+    - Added Timeless Slurry (crafting ingredient)
+    - Added Music Disc: Flame Still Burns
+    - Added Flame Still Burns Music Disc Shards
+    - Added Cinderous Keystone block
+    - Added Nether Brick Pillar block
+  - Added Cursed Armorstands
+  - Added Ice Spider
+    - Has 3 melee attacks, a grappling pounce attack, and a defensive leap
+    - Can cast Snowball or Ice Spikes after leaping away
+    - Grappled enemies are entombed in ice. Breaking the tomb transfers double damage to the entity inside
+    - Grapple attack can be blocked, disabling the shield
+    - Has accurate moving hitboxes
+    - Can crouch and climb through obstacles
+    - Can drop an Icy Fang upon death, a useful crafting ingredient
+    - Added Ice Spider Egg block
+    - Added Ice Spider den structure
+    - Added Icy Fang item, a drop from Ice Spiders
+    - Added Ice Venom Vial item, a crafting ingredient refined from Icy Fangs
+    - Added the Boreal Blade, a magic ice greatsword crafted from Mithril and Ice Venom
+    - Added the Frostbranded Book, a top-their Ice spellbook
+    - Added craftable Furled Map variant, leading to the Infested Ruins
+- Spells
+  - Added Sunbeam Spell
+  - Added Cleanse Spell
+  - Added Ice Spikes Spell
+  - Added Fire Arrow Spell
+  - Added Raise Hell Spell
+  - Added Summon Swords Spell (Patreon request of Hazen)
+  - Added Touch Dig Spell
+  - Added Pocket Dimension spell, patreon request of Infektedskrpion
+  - Added Ice Tomb spell
+  - Added Snowball spell
+  - Added Frostbite spell
+  - Added Volt Strike spell
+  - Added Shadow Slash spell
+  - Added Throw spell
+- Misc. Equipment
+  - Added Amulet of Teleportation
+  - Added Vampiric spellbook item
+    - Grants Blood Spell Power, Spell Resistance, and Affinities to Acupuncture and Blood Needles
+    - Patreon request of Apshock
+  - Added Wizard Armorset, made from Arcane Cloth
+    - Now acts as a crafting precursor to all previous armors made from Arcane Cloth
+    - Helmet has a Hood and Hat variant (can be used interchangeably in crafting recipes)
+    - Has the same base stats as late game armor, but lacks any specializations
+    - Dyeable
+  - Added Holy Artifact: Lightbringer's Chestplate
+  - Added Evocation Artifact: Boots of Speed
+  - Added Fire Artifact: Infernal Sorcerer's Chestplate
+  - Added the Twilight Gale, a crystalline spear enthralled with lightning magic
+    - Imbued with Volt Strike 5
+    - Can be thrown with enhanced trident-like mechanics
+      - Item is not consumed to throw, but goes on 10s cooldown
+      - Picking up thrown item immediately resets cooldown
+      - Throw damage scales with attack damage and enchantments
+      - Can be enchanted as a Sword
+      - Can be enchanted with Loyalty
+      - Can be enchanted with Channeling, which empowers all throws with lightning, making thrown damage scale off of Lightning Spell Power
+  - Added Greater Conjurer's Talisman necklace
+- Added Mithril (Replaces Arcane Debris in the world, and in recipes. Legacy conversion still exist for backwards compatibility)
+  - Mithril Ingot
+  - Mithril Scrap
+  - Raw Mithril
+  - Mithril Ore
+  - Deepslate Mithril Ore
+- Added The Chronicle
+  - A craftable book commemorating the names of all past and present Patrons
+  - Can be read in game
+  - Can be placed on a lectern
+- Expanded Lectern Functionality
+  - Spellbooks can now be placed on lecterns
+  - "Lore Items" can now be placed on lecterns
+- Added Portal Frame block
+  - Allows for permanent portal spell connections to be placed in the world
+  - Portal Frames can now be right-clicked with a dye in hand to dye the portal color (at both ends)
+  - Added Portal Frame config to only allow owner to dye the portal (default: enabled)
+  - Added Portal Frame config to only allow owner to break the portal frame block (default: disabled)
+- Added Brazier and Soul Brazier blocks
+- Added Book Stack decoration block
+- Added Wisewood Bookshelf and Chiseled Bookshelf blocks
+- Added crouch display to Alchemist Cauldron contents
+- Added specific Stronghold/End City loot tables for magic items
+- Added King's Lullaby music disc (Music by Caner Crebes)
+- Added new Advancement: A Fool's Foley
+  - Anger a wizard by looting a nearby chest
+- Added config for Hoglins to pass on Netherward Tincture's effect when bred (defaulted to true)
+- Added Waterlogging to Inscription Table, Scroll Forge, Firefly Jar, Armor Pile, and Pedestal
+- Added Config to disable scroll upgrading
+- Added Mana Regeneration Multiplier Config
+- Added Casting Movement Speed Attribute
+- Added Archevoker Logbook item
+  - Has translated and untranslated variants
+  - Spawns in Evoker Fort tower lectern
+  - Replaces Written Book in Villager Bible Questline
+- Added Datadriven support for Upgrade Orb Types
+- Added Pedestal block Recipe
+- Added Creative Inventory Tab for Iron's Spellbooks Blocks
+- Added "creativeCooldowns" and "creativeMana" configs for disabling cooldowns and mana in creative mode
+  - By default, creative mode no longer requires mana or respects cooldowns
+- Overhauled Alchemist Cauldron
+  - Now is a fully-fledged fluid tank, with modded piping compatibility
+    - Reworked JEI and according features to use fluids and milibuckets
+  - All Recipes are now Datadriven, with dynamic potion handling
+  - Added "Empty", "Fill", and "Brew" Recipe Types
+  - Added Timeless Slurry texture
+  - Added Crying Obsidian recipe
+  - Added Bloody Vellum item and recipe
+- Added Fluids
+  - Blood
+  - Timeless Slurry
+  - Potion
+    - Uses `minecraft:potion_contents` and `irons_spellbooks:potion_bottle_type` components to hold potion information
+  - All Inks
+  - All Elixirs
+- Added item tags: `irons_spellbooks:imbue_whitelist` and `irons_spellbooks:upgrade_whitelist`, courtesy of Ace
+- Added Spell Griefing effects to Black Hole
+- Added custom bossbars to Tyros and Dead King
+- Added Fiery Smoke particle, which is now used in Fiery Explosions and Fireball trail
+- Added lens flare to Magic Missile rendering
+- Added Spell Wheel config option to make it ignore Gui Scale (always fit screen). Not enabled by default.
+- Added Dying to Netherite Battlemage Armorset
+- Added configurable glow settings to summoned entities
+  - By default, owned summons now glow a soft green
+- Added `/ironsSpellbooks upgrade` command
+- Added `/ironsSpellbooks it` (inscription table) command
+- Added `/it` command, only accessible in a development environment
+- Added Create compat for fluid filters, allowing you to use bottled items to filter fluids (Ink Bottles, Blood Vials, etc)
+- Added camera shake command (/ironsSpellbooks camera_shake <pos> <radius> <ticks>)
+- Added `lootable_focus` item tag, which is now used in the `magic_items/all_focuses` loot table instead of hardcoded loot drops
+
+### Changes
+- Removed Caelus as a dependency
+- Affinity Data can now specify a bonus greater than 1
+- Affinity Rings can now be attuned to specific spells by combining a ring with a scroll of any level in the Arcane Anvil
+- Arcane Anvil now returns Upgrade Orbs when using a Shriving Stone
+- Pyromancer Chestplate now has a cape addition
+- Casting Mobs now display capes from armor with capes
+- Root no longer affects any boss (instead of just Ender Dragon)
+- Black hole is now less effective against bosses, as well as creatures with high knockback resistance
+- Improved the Eldritch Learning Screen for access to more spells
+- Summon Damage attribute now affects Sacrifice Spell
+- Flaming Strike Visual Entity replaced with particle
+- Replaced soul campfires with soul braziers in the Catacombs throne room
+- Changed Ancient Knight visuals
+  - Armor is no longer made out of netherite, but a decrepit material
+  - Reworked Decrepit Flamberge texture
+- Armor Piles
+  - Reworked Visuals
+  - No longer requires diamond tools
+  - Nerfed Drops
+- Rebalance ink drops across all loot
+  - Lower qualities of ink are more plentiful, while higher qualities are more rare
+  - Regular casting mobs (Pyromancer, Apothecarist, etc) now cannot drop legendary ink
+- Summons now preemptively scan for and attack creatures that target their owner
+- Eldritch Blast no longer procs Iframes
+- Casting Implements are no longer Multihand Items by default
+- Rebalance Frost Step
+  - Ice Shadow now taunts nearby enemies, taking their aggro
+  - Ice Shadow now takes 5 seconds to explode without taking damage
+  - Stats now scale along reasonable numbers
+- Rework Starfall Targeting
+  - Comets are now biased towards landing on top of entities in the zone
+  - Zone is no longer outlined
+  - Improve overall comet trajectory in relation to the zone
+- Adjust Ice Spell Icons
+- Rework Ender Particle
+  - Now uses spell sprite instead of dust sprite
+  - Is now used more liberally across ender spells
+- Necronomicon now gives +2 levels to Raise Dead instead of +1
+- Frozen Humanoid mobs (Ice Shadows) can now mimick entities
+- Reworked late game armor recipes
+  - School armor is now crafted in the smithing table, using Wizard armor and a School rune
+  - Netherite Battelmage armor is now crafted in the smithing table, using Wizard armor, a Netherite Ingot, and Netherite Smithing Upgrade Template
+- Overhauled summon spells and mechanics
+  - Summon spells are now recastable, where recasting unsummons them. This also limits active summon count
+  - Summoned mobs log-in and log-out with their summoner
+  - Removed summon timer mobeffects
+  - Summons cannot leave the summoner's dimension, and are unsummoned if the summoner changes dimension
+  - Rebalanced all summon spells:
+    - Raise Dead base summon count buffed 1 -> 3
+    - Summon Vex base summon count buffed 1 -> 3
+    - Summoned Polar Bear health now scales with spell power
+    - Summoned Polar Bear now has passive regen
+    - Summon Horse attribute scaling completely overhauled
+    - No changes to Summoned Swords
+- Buffed Conjurer's Talisman summon damage (10% -> 15%)
+- Improved Spell Wheel text display
+  - Now displays cooldown, if the cooldown is greater than zero
+  - Mana cost line is no longer displayed if the mana cost is zero
+  - Fixed visual bug with line separator
+- Neutral Wizard anger/aggro is now tracked per-player
+- Adjust Pyromancer trade balance
+  - Buy Candle trade: now requires 4 candles (instead of 1), and gives 1 emerald (instead of 2)
+  - Buy Honey trade: now requires 2 bottles (instead of 1)
+  - Buy Blaze rods trade: now requires 3 blaze rods (instead of 1)
+- Reworked Flaming Barrage Spell:
+  - Recasts no longer select targets
+  - Fireballs no longer home on preset entities
+  - Recast to fire individual fireballs
+  - The fireballs now home towards your cursor, or the entity targeted by your cursor
+- Small Fireballs now emit particles and sounds on impact
+- Small Fireballs now emit trail particles after 3 ticks of being alive
+- Duplicate spell options (primarily from imbued items) are now merged into one spell slot on the spell wheel, taking the highest level.
+- Blaze Rods are no longer lootable in focus loot tables
+- Reduced quality of loot in `generic_magic_treasure` loot table (commonly found in secret locations)
+  - It is important for this type of loot to be rewarding, but too often it served as an early game skip, especially when veteran players know all the secret locations
+  - Arcane Essence drop count reduced [5,16]->[3,13]
+  - Spell level quality reduced [20%,75%]->[0%,60%]
+  - Focus rolls reduced [1,3]->[1,2], and quantity decreased [1,4]->[1,2]
+  - Ink roll quality reduced, increase roll count [1,3]->[1,4]
+  - Curio drop chance reduced 30%->20%
+  - Material reward rolls reduced 8->6
+    - Diamond weight reduced 3->1
+    - Raw Gold replaced with Copper Ingots
+  - Equipment Drops nerfed
+    - Iron equipment is now twice as likely to roll as Diamond
+    - Imbued Spell level quality reduced [20%,75%]->[0%,50%]
+    - Enchanted level reduced [10,39]->[1,15]
+    - Can now spawn damaged (With [30%,100%] durability)
+  
+### Fixes
+- Innumeral.
+
+### API
+- Broken.
+
 ## <span class="yellow"> [3.14.8] (1.21.1) 2025-11-28</span>
 ### Additions
 - Update Korean localization, thanks to spongebob98636e-stack
@@ -434,7 +728,7 @@ color:rgba(255, 194, 41, 0.5);
 
 ## <span class="yellow"> [3.12.2] (1.21.1) 2025-06-19</span>
 ### Additions
-- Added Pocked Dimension spell, patreon request of Infektedskrpion
+- Added Pocket Dimension spell, patreon request of Infektedskrpion
   - Teleports caster into small, personal pocket dimension
   - Cannot be cast from combat
   - Some spells or blocks cannot be used in the dimension
