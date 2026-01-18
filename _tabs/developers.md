@@ -78,15 +78,16 @@ This registry works as any other deferred register does, see the [NeoForge docs 
 ## Configuration
 Spells are highly config-driven, including attributes such as the spell's School, Cooldown, Max Level, and more.
 
-In order have your spells configuration injected into the server config file for Iron's Spells n Spellbooks just add
-the <span style="color:yellow">@AutoSpellConfig</span> annotation to the class for your spell.
-
 The default values for the configuration are set by overriding the `getDefaultConfig()` method, where you return the default values for all your config settings.
+
+Custom config parameters can be attached to all spells by registering a `SpellConfigParameter<T>` during the `RegisterConfigParametersEvent`.
+
+Modifying default values for existing spells can be done by subscribing to the `ModifyDefaultConfigValuesEvent`. This can help you set defaults for custom a `SpellConfigParameter<T>`, or manipulate vanilla spell's features.
+
 
 ```java
 import io.redspace.ironsspellbooks.api.spells.*;
 
-@AutoSpellConfig
 public class YourNewSpell extends AbstractSpell {
 
   /** Declare the default state of your config here */
@@ -125,7 +126,7 @@ This new status-quo includes the following structural changes:
 - The implementation of these features is still dependent on the modder, but new helper methods and the `SummonManager` class itself make it very easy to do so
 
 <br>
-While the previous practice will still work, old helper methods will eventually be removed, and it is overall recommended to transition to the new system to maintain parity with ISS going forward.
+While the previous practice will still work, old helper methods will eventually be removed, and it is recommended to transition to the new system to maintain parity with the base mod.
 There are three core changes to implement into your codebase:
 1. Make the spell recastable, and use the various helpers in `SummonManager` and `SummonedEntitiesCastData` to automatically handle summoning/unsummoning
 2. Implement Summon Manager tracking into the spell by using `SummonManager` helpers
@@ -180,7 +181,7 @@ public void onCast(Level level, int spellLevel, LivingEntity entity, CastSource 
 ```
 ### Adapting Summoned Entity Classes
 1. Remove `getSummoner()` and `setSummoner()` methods. You can also remove related class fields and their serialization. All owner manipulation is done through the `SummonManager` now.
-2. Remove any owner-manipulation from the Summon's constructor
+2. Remove any manipulation of the owner from the Summon's constructor
 3. Remove uses of summon-timer mobeffects, including updating your `onRemovedHelper` to use the non-summon-timer version
 4. Note: You may notice Iron's Spellbooks summons do not follow all these changes. This is to preserve backwards compatibility with summon addons currently using these methods. If no addons use your summons, then it is safe to make these changes.
 5. Cleanup: Remove any summon timer mobeffects, as well as their resources (lang, icons, etc), and consider any balance changes that might need to be made
