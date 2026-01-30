@@ -12,6 +12,10 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.15.2] (1.21.1 | 1.20.1) 2026-01-30</span>
+### Fixes
+- Fixed spellbook slot id mismatch causing all spell wheel cast sources to be considered imbued
+
 ## <span class="yellow"> [3.15.1] (1.21.1 | 1.20.1) 2026-01-30</span>
 ### Additions
 - Added support for organizational subdirectories in spell config folders/datapacks
