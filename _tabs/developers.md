@@ -31,8 +31,8 @@ maven {
 In order to include the api in your project, add the following under `dependencies`:
 ### Forge (1.20.1 and below)
 ```groovy
-compileOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}:api")
-runtimeOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
+compileOnly fg.deobf("io.redspace:irons_spellbooks:${irons_spells_version}:api")
+runtimeOnly fg.deobf("io.redspace:irons_spellbooks:${irons_spells_version}")
 ```
 ### NeoForge (1.21+)
 ```groovy
@@ -47,7 +47,7 @@ If you’d like to expand the API, feel free to submit a pull request to our mai
 To use the full mod dependency, replace the previously mentioned `dependencies` with the following in your `build.gradle` file (omit the `api` tag):
 ### Forge
 ```groovy
-implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
+implementation fg.deobf("io.redspace:irons_spellbooks:${irons_spells_version}")
 ```
 ### NeoForge
 ```groovy
@@ -56,24 +56,20 @@ implementation "io.redspace:irons_spellbooks:${irons_spells_version}"
 
 ## Spell Registration
 
-To register spells you will need to create your own registry using a DeferredRegister
+To register spells you will need to create your own registry using a DeferredRegister.
+This registry works as any other deferred register does, see the [NeoForge docs for more info](https://docs.neoforged.net/docs/concepts/registries/#deferredregister).
 
 ```java
 public class ExampleSpellRegistry {
   public static final DeferredRegister<AbstractSpell> SPELLS = DeferredRegister.create(SpellRegistry.SPELL_REGISTRY_KEY, IronsExampleMod.MODID);
 
-  public static void register(IEventBus eventBus) {
-    SPELLS.register(eventBus);
-  }
-
-  public static RegistryObject<AbstractSpell> registerSpell(AbstractSpell spell) {
+  public static Supplier<AbstractSpell> registerSpell(AbstractSpell spell) {
     return SPELLS.register(spell.getSpellName(), () -> spell);
   }
 
-  public static final RegistryObject<AbstractSpell> SUPER_HEAL_SPELL = registerSpell(new SuperHealSpell());
+  public static final Supplier<AbstractSpell> SUPER_HEAL_SPELL = registerSpell(new SuperHealSpell());
 }
 ```
-This registry works as any other deferred register does, see the [NeoForge docs for more info](https://docs.neoforged.net/docs/concepts/registries/#deferredregister). 
 
 ## Configuration
 Spells are highly config-driven, including attributes such as the spell's School, Cooldown, Max Level, and more.
