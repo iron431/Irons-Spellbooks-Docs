@@ -149,8 +149,8 @@ color:rgba(255, 194, 41, 0.5);
 - Added `AbstractMagicProjectile#setInfinitePiercing()`
   - Helper setting pierce level to -1
 
-## <span class="yellow"> [Backported 3.5.0 - 3.15.0 to 1.20.1] 2026-01-01</span>
-## Additions
+## <span class="yellow"> [1.20.1 3.15.0 Backport: Backported 3.5.0 - 3.15.0 to 1.20.1] 2026-01-01</span>
+### Additions
 - Mobs
   - Added Fire Boss
     - Spellcasting Enemy
