@@ -12,6 +12,38 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.15.4] (1.21.1 | 1.20.1) 2026-02-28</span>
+### Additions
+- Added Dead King scaling configs
+- Added French localization support, thanks to acorsicanfrog
+
+### Changes
+- Reworked Dead King player scaling to match Tyros
+- Improved Magma Bomb fire field placement
+- Improved wizard support goal consistency
+- Improve player animation adjustments
+- Tweaked Chained Book texture
+- Update Polish localization, thanks to TopTophat
+
+### Fixes
+- Fixed Cryomancer still being able to be hostile instead of neutral
+- Fixed potential CME due to multithreaded particle rendering
+- Fixed Wandering Trader random curio cost
+- Fixed AOE entities being able to move
+- Fixed generic curio slot applying attributes and spell slots incorrectly
+- Fixed Raise Dead spawn placement
+- Fixed Guiding Bolt affecting mob's own projectiles
+- 1.20.1: Fixed mithril tag being `c:ingots/mithril` instead of `forge:ingots/mithril`
+- 1.20.1: Fixed upgrade orbs returning items after shriving
+- 1.20.1: Fixed Wizard Hat not rendering correctly
+
+### API
+- Abstracted animation helper methods into `AnimationHelper`
+  - Deprecated `ClientSpellCastHelper#animatePlayerStart`, use `AnimationHelper#animatePlayerStart` instead
+- Added `SwirlingParticle`
+- Reworked input keybinds to use tick-base codepath instead of native event subscription
+  - Courtesy of EchoEllet
+
 ## <span class="yellow"> [3.15.3] (1.21.1 | 1.20.1) 2026-02-10</span>
 ### Additions
 - Added Ice themed music disc: Whispers of Ice by Caner Crebes
