@@ -12,6 +12,19 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.15.5] (1.21.1 | 1.20.1) 2026-03-27</span>
+### Additions
+- Added Iron's Patreon Lib integration
+- Added Tyros Statue, a new decoration multiblock
+
+### Fixes
+- Fixed Continuous Cast interval shortness
+- 1.20.1: Fixed an issue where armorstands in spawn chunks wearing upgraded armor would lookup unloaded upgrade types
+
+### API
+- Created `RaycastBuilder`, a helper to more easily configure raycasting and raycast settings, opposed to all the helpers in `Utils` (which are now deprecated, and simply return a `RaycastBuilder` result)
+- Now depends on Iron's Patreon Lib
+
 ## <span class="yellow"> [3.15.4] (1.21.1 | 1.20.1) 2026-02-28</span>
 ### Additions
 - Added Dead King scaling configs
