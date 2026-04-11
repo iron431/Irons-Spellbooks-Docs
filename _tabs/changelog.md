@@ -12,6 +12,18 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.15.6] (1.21.1 | 1.20.1) 2026-04-10</span>
+### Additions
+- Added global spell config file, which overrides unset parameters of all other spell configs
+
+### Changes
+- Updated Flame particle
+- Updated Firebolt rendering
+
+### Fixes
+- Fixed Aspect of the Spider not working
+- Fixed Burning Dash particles no longer displaying
+
 ## <span class="yellow"> [3.15.5] (1.21.1 | 1.20.1) 2026-03-27</span>
 ### Additions
 - Added Iron's Patreon Lib integration
