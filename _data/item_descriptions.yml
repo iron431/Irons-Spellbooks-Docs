@@ -64,6 +64,9 @@ irons_spellbooks:music_disc_dead_king_lullaby:
 irons_spellbooks:music_disc_flame_still_burns:
   description: "Caner Crebes - The Flame Still Burns"
 
+irons_spellbooks:music_disc_whispers_of_ice:
+  description: "Caner Crebes - Whispers of Ice<br><br>Cane be traded for by the Cryomancer"
+
 irons_spellbooks:cooldown_upgrade_orb:
   description: ""
 

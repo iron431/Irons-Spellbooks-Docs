@@ -103,7 +103,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "> Automatically loads next available projectile while in inventory. Crouch-Click to cancel"
+  tooltip: "[Shift+]"
   description: ""
 
 - id: "irons_spellbooks:blaze_spell_book"
@@ -175,7 +175,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  8 Attack Damage, 1 Attack Speed, +15% Blood Spell Power, +5% Spell Power, +10% Summon Damage"
+  tooltip: "When in Main Hand:<br>  8 Attack Damage, 1 Attack Speed, +15% Blood Spell Power, +10% Summon Damage, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:boreal_blade"
@@ -251,7 +251,7 @@
   description: ""
 
 - id: "irons_spellbooks:cursed_doll_spell_book"
-  name: "Vampiric Spellbook"
+  name: "Vampiric Spell Book"
   path: "/img/items/cursed_doll_spell_book.png"
   group: "Spellbooks"
   sortOverride: "0"
@@ -283,7 +283,7 @@
   item8Id: "irons_spellbooks:arcane_ingot"
   item8: "Arcane Ingot"
   item8Path: "/img/items/arcane_ingot.png"
-  tooltip: "When equipped as Spell Book:<br> +10% Blood Spell Power, +10% Spell Resistance, +200 Max Mana, +1 level to Blood Slash, Blood Step"
+  tooltip: "+1 level to Blood Slash, Blood Step, When equipped as Spell Book:<br> +10% Blood Spell Power, +10% Spell Resistance, +200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:decrepit_scythe"
@@ -463,7 +463,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +10% Evocation Spell Power, +200 Max Mana, Unique Spell Book, Press [V] to cast, Inscribed Spells:<br>  [Fang Strike 6], [Fang Ward 4], [Summon Vex 4]"
+  tooltip: "Unique Spell Book, Press [V] to cast, Inscribed Spells:<br>  [Fang Strike 6], [Fang Ward 4], [Summon Vex 4], When equipped as Spell Book:<br> +10% Evocation Spell Power, +200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:gold_spell_book"
@@ -679,7 +679,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  5 Attack Damage, 1 Attack Speed, +15% Ice Spell Power, +25% Mana Regeneration, +5% Spell Power"
+  tooltip: "When in Main Hand:<br>  5 Attack Damage, 1 Attack Speed, +25% Mana Regeneration, +15% Ice Spell Power, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:iron_spell_book"
@@ -895,7 +895,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +200 Max Mana, Unique Spell Book, +2 levels to Raise Dead, Press [V] to cast, Inscribed Spells:<br>  [Blood Slash 5], [Blood Step 5], [Ray of Siphoning 5], [Blaze Storm 5]"
+  tooltip: "Unique Spell Book, +2 levels to Raise Dead, Press [V] to cast, Inscribed Spells:<br>  [Blood Slash 5], [Blood Step 5], [Ray of Siphoning 5], [Blaze Storm 5], When equipped as Spell Book:<br> +200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:netherite_spell_book"
@@ -967,7 +967,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  9 Attack Damage, 1.5 Attack Speed, +10% Cast Time Reduction, +15% Fire Spell Power, +5% Spell Power"
+  tooltip: "When in Main Hand:<br>  9 Attack Damage, 1.5 Attack Speed, +15% Fire Spell Power, +10% Cast Time Reduction, +5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:rotten_spell_book"
