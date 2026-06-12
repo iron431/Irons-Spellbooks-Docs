@@ -31,16 +31,20 @@ maven {
 In order to include the api in your project, add the following under `dependencies`:
 ### Forge (1.20.1 and below)
 ```groovy
+runtimeOnly fg.deobf("io.redspace:irons_lib:${irons_lib_version}")
+
 compileOnly fg.deobf("io.redspace:irons_spellbooks:${irons_spells_version}:api")
 runtimeOnly fg.deobf("io.redspace:irons_spellbooks:${irons_spells_version}")
 ```
 ### NeoForge (1.21+)
 ```groovy
+localRuntime "io.redspace:irons_lib:${irons_lib_version}"
+
 compileOnly "io.redspace:irons_spellbooks:${irons_spells_version}:api"
 localRuntime "io.redspace:irons_spellbooks:${irons_spells_version}"
 ```
 ## API vs Full Mod Dependency
-Alternatively, you can use the entire mod as a dependency. What is the significance of this?
+This setup includes only the stable API package. However, you can use the entire mod as a dependency. What is the significance of this?
 The contents of <span style="color:yellow">io.redspace.ironsspellbooks.api</span> are stable, though they may have limited functionality. 
 If you use packages outside of this, you'll have access to all the same tools that we do, but you might encounter breaking changes in future releases. 
 If you’d like to expand the API, feel free to submit a pull request to our main repository at https://github.com/iron431/Irons-Spells-n-Spellbooks. 
