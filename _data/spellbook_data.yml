@@ -31,7 +31,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (1/1), When in Main Hand:<br>  8 Attack Damage, 2.3 Attack Speed, Imbued Spell:<br>  [Echoing Strikes 5], 70% Damage, 2.0 Block Radius, 40s Effect Length, 90 Mana Cost, 30s Cooldown"
+  tooltip: "Can be Imbued (1/1)<br>When in Main Hand:<br> 8 Attack Damage<br> 2.3 Attack Speed<br>Imbued Spell:<br> [Echoing Strikes 5]<br> 75% Damage<br> 7 Echoing Hits<br> 90 Mana Cost<br> 30s Cooldown"
   description: ""
 
 - id: "irons_spellbooks:artificer_cane"
@@ -67,7 +67,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  4 Attack Damage, 1 Attack Speed, +15% Cast Time Reduction, +15% Cooldown Reduction, +10% Spell Power"
+  tooltip: "When in Main Hand:<br> 4 Attack Damage<br> 1 Attack Speed<br>+10% Spell Power<br>+10% Cast Time Reduction<br>+10% Cooldown Reduction"
   description: ""
 
 - id: "irons_spellbooks:autoloader_crossbow"
@@ -139,7 +139,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +10% Fire Spell Power, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+10% Fire Spell Power<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:blood_staff"
@@ -175,7 +175,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  8 Attack Damage, 1 Attack Speed, +15% Blood Spell Power, +10% Summon Damage, +5% Spell Power"
+  tooltip: "When in Main Hand:<br> 8 Attack Damage<br> 1 Attack Speed<br>+15% Blood Spell Power<br>+10% Summon Damage<br>+5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:boreal_blade"
@@ -211,7 +211,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (1/1), When in Main Hand:<br>  16 Attack Damage, 0.9 Attack Speed, Imbued Spell:<br>  [Frostbite 3], 8 Shatter Damage, 30s Effect Length, 100 Mana Cost, 30s Cooldown"
+  tooltip: "Can be Imbued (1/1)<br>When in Main Hand:<br> 16 Attack Damage<br> 0.9 Attack Speed<br>Imbued Spell:<br> [Frostbite 3]<br> 8 Shatter Damage<br> 30s Effect Length<br> 100 Mana Cost<br> 30s Cooldown"
   description: ""
 
 - id: "irons_spellbooks:copper_spell_book"
@@ -283,7 +283,7 @@
   item8Id: "irons_spellbooks:arcane_ingot"
   item8: "Arcane Ingot"
   item8Path: "/img/items/arcane_ingot.png"
-  tooltip: "+1 level to Blood Slash, Blood Step, When equipped as Spell Book:<br> +10% Blood Spell Power, +10% Spell Resistance, +200 Max Mana"
+  tooltip: "+1 level to Blood Slash, Blood Step<br>When equipped as Spell Book:<br>+10% Blood Spell Power<br>+10% Spell Resistance<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:decrepit_scythe"
@@ -319,7 +319,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  11 Attack Damage, 1.4 Attack Speed"
+  tooltip: "When in Main Hand:<br> 11 Attack Damage<br> 1.4 Attack Speed"
   description: ""
 
 - id: "irons_spellbooks:diamond_spell_book"
@@ -355,7 +355,7 @@
   item8Id: "irons_spellbooks:hogskin"
   item8: "Hogskin"
   item8Path: "/img/items/hogskin.png"
-  tooltip: "When equipped as Spell Book:<br> +100 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:dragonskin_spell_book"
@@ -391,7 +391,7 @@
   item8Id: "irons_spellbooks:dragonskin"
   item8: "Dragonskin"
   item8Path: "/img/items/dragonskin.png"
-  tooltip: "When equipped as Spell Book:<br> +10% Ender Spell Power, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+10% Ender Spell Power<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:druidic_spell_book"
@@ -427,7 +427,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +10% Nature Spell Power, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+10% Nature Spell Power<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:evoker_spell_book"
@@ -463,7 +463,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique Spell Book, Press [V] to cast, Inscribed Spells:<br>  [Fang Strike 6], [Fang Ward 4], [Summon Vex 4], When equipped as Spell Book:<br> +10% Evocation Spell Power, +200 Max Mana"
+  tooltip: "Unique Spell Book<br>Press [V] to cast<br>Inscribed Spells:<br> [Fang Strike 6]<br> [Fang Ward 4]<br> [Summon Vex 4]<br>When equipped as Spell Book:<br>+10% Evocation Spell Power<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:gold_spell_book"
@@ -499,7 +499,7 @@
   item8Id: "irons_spellbooks:arcane_essence"
   item8: "Arcane Essence"
   item8Path: "/img/items/arcane_essence.png"
-  tooltip: "When equipped as Spell Book:<br> +15% Cast Time Reduction, +50 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+15% Cast Time Reduction<br>+50 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:graybeard_staff"
@@ -535,7 +535,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  3 Attack Damage, 1 Attack Speed, +25% Mana Regeneration, +10% Spell Power"
+  tooltip: "When in Main Hand:<br> 3 Attack Damage<br> 1 Attack Speed<br>+10% Spell Power<br>+25% Mana Regeneration"
   description: ""
 
 - id: "irons_spellbooks:hellrazor"
@@ -571,7 +571,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (1/1), When in Main Hand:<br>  13 Attack Damage, 1.4 Attack Speed, Imbued Spell:<br>  [Raise Hell 3], 15 Damage, 8 Block Radius, 3 Casts, 0.8s Cast Time, 180 Mana Cost, 12.5s Cooldown"
+  tooltip: "Can be Imbued (1/1)<br>When in Main Hand:<br> 13 Attack Damage<br> 1.4 Attack Speed<br>Imbued Spell:<br> [Raise Hell 3]<br> 15 Damage<br> 8 Block Radius<br> 3 Casts<br> 0.8s Cast Time<br> 180 Mana Cost<br> 12.5s Cooldown"
   description: ""
 
 - id: "irons_spellbooks:hither_thither_wand"
@@ -607,7 +607,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique, Imbued Spell:<br>  [Portal 1], 48 Cast Range, 5m Portal Duration, 200 Mana Cost, 1.5m Cooldown"
+  tooltip: "Unique<br>Imbued Spell:<br> [Portal 1]<br> 48 Cast Range<br> 5m Portal Duration<br> 200 Mana Cost<br> 1.5m Cooldown"
   description: ""
 
 - id: "irons_spellbooks:ice_spell_book"
@@ -643,7 +643,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When equipped as Spell Book:<br> +10% Ice Spell Power, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+10% Ice Spell Power<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:ice_staff"
@@ -679,7 +679,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  5 Attack Damage, 1 Attack Speed, +25% Mana Regeneration, +15% Ice Spell Power, +5% Spell Power"
+  tooltip: "When in Main Hand:<br> 5 Attack Damage<br> 1 Attack Speed<br>+15% Ice Spell Power<br>+25% Mana Regeneration<br>+5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:iron_spell_book"
@@ -751,7 +751,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  11 Attack Damage, 1.3 Attack Speed, +4 Armor"
+  tooltip: "When in Main Hand:<br> 11 Attack Damage<br> 1.3 Attack Speed<br>+4 Armor"
   description: ""
 
 - id: "irons_spellbooks:legionnaire_flamberge"
@@ -787,7 +787,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  11 Attack Damage, 1.5 Attack Speed, +4 Armor"
+  tooltip: "When in Main Hand:<br> 11 Attack Damage<br> 1.5 Attack Speed<br>+4 Armor"
   description: ""
 
 - id: "irons_spellbooks:lightning_rod"
@@ -823,7 +823,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  5 Attack Damage, 1 Attack Speed, +15% Cooldown Reduction, +15% Lightning Spell Power, +5% Spell Power"
+  tooltip: "When in Main Hand:<br> 5 Attack Damage<br> 1 Attack Speed<br>+15% Lightning Spell Power<br>+10% Cooldown Reduction<br>+5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:magehunter"
@@ -859,7 +859,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  7 Attack Damage, 1.6 Attack Speed, +15% Spell Resistance"
+  tooltip: "When in Main Hand:<br> 7 Attack Damage<br> 1.6 Attack Speed<br>+15% Spell Resistance"
   description: ""
 
 - id: "irons_spellbooks:necronomicon_spell_book"
@@ -895,7 +895,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Unique Spell Book, +2 levels to Raise Dead, Press [V] to cast, Inscribed Spells:<br>  [Blood Slash 5], [Blood Step 5], [Ray of Siphoning 5], [Blaze Storm 5], When equipped as Spell Book:<br> +200 Max Mana"
+  tooltip: "Unique Spell Book<br>+2 levels to Raise Dead<br>Press [V] to cast<br>Inscribed Spells:<br> [Blood Slash 5]<br> [Blood Step 5]<br> [Ray of Siphoning 5]<br> [Blaze Storm 5]<br>When equipped as Spell Book:<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:netherite_spell_book"
@@ -931,7 +931,7 @@
   item8Id: "irons_spellbooks:magic_cloth"
   item8: "Arcane Cloth"
   item8Path: "/img/items/magic_cloth.png"
-  tooltip: "When equipped as Spell Book:<br> +20% Cooldown Reduction, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+20% Cooldown Reduction<br>+200 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:pyrium_staff"
@@ -967,7 +967,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When in Main Hand:<br>  9 Attack Damage, 1.5 Attack Speed, +15% Fire Spell Power, +10% Cast Time Reduction, +5% Spell Power"
+  tooltip: "When in Main Hand:<br> 9 Attack Damage<br> 1.5 Attack Speed<br>+15% Fire Spell Power<br>+10% Cast Time Reduction<br>+5% Spell Power"
   description: ""
 
 - id: "irons_spellbooks:rotten_spell_book"
@@ -1003,7 +1003,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> -15% Spell Resistance, +100 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>-15% Spell Resistance<br>+100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:spellbreaker"
@@ -1039,7 +1039,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (1/1), When in Main Hand:<br>  10 Attack Damage, 1.8 Attack Speed, +15% Cooldown Reduction, Imbued Spell:<br>  [Counterspell 1], 50 Mana Cost, 5s Cooldown"
+  tooltip: "Can be Imbued (1/1)<br>When in Main Hand:<br> 10 Attack Damage<br> 1.8 Attack Speed<br>+15% Cooldown Reduction<br>Imbued Spell:<br> [Counterspell 1]<br> 50 Mana Cost<br> 5s Cooldown"
   description: ""
 
 - id: "irons_spellbooks:twilight_gale"
@@ -1075,7 +1075,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Can be Imbued (1/1), When in Main Hand:<br>  13 Attack Damage, 1.4 Attack Speed, Imbued Spell:<br>  [Volt Strike 5], 10 Damage, 50 Mana Cost, 5s Cooldown"
+  tooltip: "Can be Imbued (1/1)<br>When in Main Hand:<br> 13 Attack Damage<br> 1.4 Attack Speed<br>Imbued Spell:<br> [Volt Strike 5]<br> 10 Damage<br> 50 Mana Cost<br> 5s Cooldown"
   description: ""
 
 - id: "irons_spellbooks:villager_spell_book"
@@ -1111,6 +1111,6 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When equipped as Spell Book:<br> +10% Holy Spell Power, +10% Cast Time Reduction, +200 Max Mana"
+  tooltip: "When equipped as Spell Book:<br>+10% Holy Spell Power<br>+10% Cast Time Reduction<br>+200 Max Mana"
   description: ""
 

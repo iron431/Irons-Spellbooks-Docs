@@ -67,7 +67,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When around neck:<br> +15% Mana Regeneration"
+  tooltip: "When around neck:<br>+15% Mana Regeneration"
   description: ""
 
 - id: "irons_spellbooks:betrayer_signet"
@@ -103,7 +103,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br> +10% Eldritch Spell Power, Passive Ability (5s cooldown):<br>  Deal extra damage to creatures based on their maximum mana"
+  tooltip: "When worn as ring:<br>+10% Eldritch Spell Power<br> Passive Ability (5s cooldown):<br> Deal extra damage to creatures based on their maximum mana"
   description: ""
 
 - id: "irons_spellbooks:cast_time_ring"
@@ -139,7 +139,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br> +15% Cast Time Reduction"
+  tooltip: "When worn as ring:<br>+15% Cast Time Reduction"
   description: ""
 
 - id: "irons_spellbooks:concentration_amulet"
@@ -175,7 +175,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When around neck:<br>  Long Casts become uninterruptible"
+  tooltip: "When around neck:<br> Long Casts become uninterruptible"
   description: ""
 
 - id: "irons_spellbooks:conjurers_talisman"
@@ -211,7 +211,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When around neck:<br> +15% Summon Damage"
+  tooltip: "When around neck:<br>+15% Summon Damage"
   description: ""
 
 - id: "irons_spellbooks:cooldown_ring"
@@ -247,7 +247,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br> +15% Cooldown Reduction"
+  tooltip: "When worn as ring:<br>+15% Cooldown Reduction"
   description: ""
 
 - id: "irons_spellbooks:emerald_stoneplate_ring"
@@ -283,7 +283,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  Slain creatures drop +25% experience"
+  tooltip: "When worn as ring:<br> Slain creatures drop +25% experience"
   description: ""
 
 - id: "irons_spellbooks:expulsion_ring"
@@ -319,7 +319,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  Passive Ability (2s cooldown):<br>  When attacked, emit an expulsive burst of air"
+  tooltip: "When worn as ring:<br> Passive Ability (2s cooldown):<br> When attacked, emit an expulsive burst of air"
   description: ""
 
 - id: "irons_spellbooks:fireward_ring"
@@ -355,7 +355,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  Grants fire immunity"
+  tooltip: "When worn as ring:<br> Grants fire immunity"
   description: ""
 
 - id: "irons_spellbooks:frostward_ring"
@@ -391,7 +391,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  Grants freezing immunity"
+  tooltip: "When worn as ring:<br> Grants freezing immunity"
   description: ""
 
 - id: "irons_spellbooks:greater_conjurers_talisman"
@@ -427,7 +427,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When around neck:<br> +15% Summon Damage, Summon spells that time-out do not go on cooldown"
+  tooltip: "When around neck:<br>+15% Summon Damage<br> Summon spells that time-out do not go on cooldown"
   description: ""
 
 - id: "irons_spellbooks:heavy_chain_necklace"
@@ -463,7 +463,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When around neck:<br> +15% Spell Resistance"
+  tooltip: "When around neck:<br>+15% Spell Resistance"
   description: ""
 
 - id: "irons_spellbooks:invisibility_ring"
@@ -499,7 +499,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  I would say read the fine print, but I can't see it"
+  tooltip: "When worn as ring:<br> I would say read the fine print, but I can't see it"
   description: ""
 
 - id: "irons_spellbooks:mana_ring"
@@ -535,7 +535,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br> +100 Max Mana"
+  tooltip: "When worn as ring:<br>+100 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:poisonward_ring"
@@ -571,7 +571,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  Grants poison immunity"
+  tooltip: "When worn as ring:<br> Grants poison immunity"
   description: ""
 
 - id: "irons_spellbooks:silver_ring"
@@ -607,7 +607,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br> +25 Max Mana"
+  tooltip: "When worn as ring:<br>+25 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:teleportation_amulet"
@@ -679,7 +679,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  Allows visible creatures to be seen"
+  tooltip: "When worn as ring:<br> Allows visible creatures to be seen"
   description: ""
 
 - id: "irons_spellbooks:wicked_bone_ring"
@@ -715,6 +715,6 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "When worn as ring:<br>  +1 Spell Projectile Ricochet"
+  tooltip: "When worn as ring:<br> +1 Spell Projectile Ricochet"
   description: ""
 

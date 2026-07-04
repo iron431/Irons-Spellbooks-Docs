@@ -247,7 +247,7 @@
   item8Id: "irons_spellbooks:blood_rune"
   item8: "Blood Rune"
   item8Path: "/img/items/blood_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Blood Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Blood Spell Power"
   description: ""
 
 - id: "irons_spellbooks:blood_vial"
@@ -607,7 +607,7 @@
   item8Id: "irons_spellbooks:cooldown_rune"
   item8: "Recovery Rune"
   item8Path: "/img/items/cooldown_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Cooldown Reduction"
+  tooltip: "When used for Upgrade:<br> +5% Cooldown Reduction"
   description: ""
 
 - id: "irons_spellbooks:dead_king_phylactery"
@@ -643,7 +643,7 @@
   item8Id: "irons_spellbooks:dead_king_phylactery_shard"
   item8: "Dead King Phylactery Shard"
   item8Path: "/img/items/dead_king_phylactery_shard.png"
-  tooltip: ""
+  tooltip: "Use on Dead King Soul to respawn Dead King"
   description: ""
 
 - id: "irons_spellbooks:dead_king_phylactery_shard"
@@ -967,7 +967,7 @@
   item8Id: "irons_spellbooks:ender_rune"
   item8: "Ender Rune"
   item8Path: "/img/items/ender_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Ender Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Ender Spell Power"
   description: ""
 
 - id: "irons_spellbooks:energized_core"
@@ -1075,7 +1075,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Evasion II (01:<br>00), When Applied:<br>  Allows 2 Hits to be Evaded"
+  tooltip: "Evasion II (01:00)<br>When Applied:<br> Allows 2 Hits to be Evaded"
   description: ""
 
 - id: "irons_spellbooks:evocation_rune"
@@ -1147,13 +1147,13 @@
   item8Id: "irons_spellbooks:evocation_rune"
   item8: "Evocation Rune"
   item8Path: "/img/items/evocation_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Evocation Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Evocation Spell Power"
   description: ""
 
 - id: "irons_spellbooks:fire_ale"
   name: "Fire Ale"
   path: "/img/items/fire_ale.png"
-  group: "All"
+  group: "Elixirs"
   sortOverride: "0"
   craftingType: "none"
   item0Id: ""
@@ -1255,7 +1255,7 @@
   item8Id: "irons_spellbooks:fire_rune"
   item8: "Fire Rune"
   item8Path: "/img/items/fire_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Fire Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Fire Spell Power"
   description: ""
 
 - id: "irons_spellbooks:frosted_helve"
@@ -1363,7 +1363,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Evasion IV (01:<br>00), When Applied:<br>  Allows 4 Hits to be Evaded"
+  tooltip: "Evasion IV (01:00)<br>When Applied:<br> Allows 4 Hits to be Evaded"
   description: ""
 
 - id: "irons_spellbooks:greater_healing_potion"
@@ -1435,7 +1435,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "True Invisibility (00:<br>40)"
+  tooltip: "True Invisibility (00:40)"
   description: ""
 
 - id: "irons_spellbooks:greater_oakskin_elixir"
@@ -1471,7 +1471,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Oakskin VI (01:<br>30), When Applied:<br> +40% Damage Reduction, -20% Speed [x0.8]"
+  tooltip: "Oakskin VI (02:00)<br>When Applied:<br>+40% Damage Reduction<br>-25% Speed"
   description: ""
 
 - id: "irons_spellbooks:hogskin"
@@ -1579,7 +1579,7 @@
   item8Id: "irons_spellbooks:holy_rune"
   item8: "Holy Rune"
   item8Path: "/img/items/holy_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Holy Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Holy Spell Power"
   description: ""
 
 - id: "irons_spellbooks:ice_rune"
@@ -1651,7 +1651,7 @@
   item8Id: "irons_spellbooks:ice_rune"
   item8: "Ice Rune"
   item8Path: "/img/items/ice_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Ice Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Ice Spell Power"
   description: ""
 
 - id: "irons_spellbooks:ice_venom_vial"
@@ -1759,7 +1759,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "True Invisibility (00:<br>15)"
+  tooltip: "True Invisibility (00:15)"
   description: ""
 
 - id: "irons_spellbooks:legendary_ink"
@@ -1831,7 +1831,7 @@
   item8Id: "irons_spellbooks:hogskin"
   item8: "Hogskin"
   item8Path: "/img/items/hogskin.png"
-  tooltip: "Improves Spell Book capacity"
+  tooltip: ""
   description: ""
 
 - id: "irons_spellbooks:lightning_bottle"
@@ -1939,7 +1939,7 @@
   item8Id: "irons_spellbooks:lightning_rune"
   item8: "Lightning Rune"
   item8Path: "/img/items/lightning_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Lightning Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Lightning Spell Power"
   description: ""
 
 - id: "irons_spellbooks:magic_cloth"
@@ -2011,7 +2011,7 @@
   item8Id: "irons_spellbooks:arcane_rune"
   item8: "Arcane Rune"
   item8Path: "/img/items/arcane_rune.png"
-  tooltip: "When used for Upgrade:<br>  +50 Max Mana"
+  tooltip: "When used for Upgrade:<br> +50 Max Mana"
   description: ""
 
 - id: "irons_spellbooks:mithril_ingot"
@@ -2299,13 +2299,13 @@
   item8Id: "irons_spellbooks:nature_rune"
   item8: "Nature Rune"
   item8Path: "/img/items/nature_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Nature Spell Power"
+  tooltip: "When used for Upgrade:<br> +5% Nature Spell Power"
   description: ""
 
 - id: "irons_spellbooks:netherward_tincture"
   name: "Netherward Tincture"
   path: "/img/items/netherward_tincture.png"
-  group: "All"
+  group: "Elixirs"
   sortOverride: "0"
   craftingType: "none"
   item0Id: ""
@@ -2371,7 +2371,7 @@
   item8Id: ""
   item8: ""
   item8Path: ""
-  tooltip: "Oakskin II (00:<br>45), When Applied:<br> +20% Damage Reduction, -20% Speed [x0.8]"
+  tooltip: "Oakskin III (01:00)<br>When Applied:<br>+20% Damage Reduction<br>-25% Speed"
   description: ""
 
 - id: "irons_spellbooks:permafrost_shard"
@@ -2479,7 +2479,7 @@
   item8Id: "irons_spellbooks:protection_rune"
   item8: "Protective Rune"
   item8Path: "/img/items/protection_rune.png"
-  tooltip: "When used for Upgrade:<br>  +5% Spell Resistance"
+  tooltip: "When used for Upgrade:<br> +5% Spell Resistance"
   description: ""
 
 - id: "irons_spellbooks:pyrium_ingot"
@@ -2839,7 +2839,7 @@
   item8Id: "irons_spellbooks:arcane_essence"
   item8: "Arcane Essence"
   item8Path: "/img/items/arcane_essence.png"
-  tooltip: "The trapped soul points toward its home, No catacombs loaded. [Right Button] to search"
+  tooltip: "The trapped soul points toward its home<br>No catacombs loaded. [Right Button] to search"
   description: ""
 
 - id: "irons_spellbooks:weapon_parts"
