@@ -12,6 +12,21 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
+## <span class="yellow"> [3.16.2] (1.21.1 | 1.20.1) 2026-08-18</span>
+### Additions
+- Added Cooked Ice Spider Egg
+- Added Ice Spider Satiation System
+
+### Changes
+- Updated Simplified Chinese translation, thanks to 1mtwtfss1
+
+### Fixes
+- Fixed Chain Creeper Damage
+- Fixed Mobs breaking suffocating blocks able to break unbreakable blocks
+- Fixed Arcane Shackle raycasting into lava
+- Fixed Alchemist Cauldron missing server check for particles in edge case damage
+- Fixed Alchemist Cauldron holding on to level state for dispenser interactions
+
 ## <span class="yellow"> [3.16.2] (1.21.1 | 1.20.1) 2026-07-03</span>
 ### Additions
 - Added Gravity Fissure Spell
