@@ -12,7 +12,7 @@ color:rgba(255, 194, 41, 0.5);
 
 <hr>
 
-## <span class="yellow"> [3.16.2] (1.21.1 | 1.20.1) 2026-08-18</span>
+## <span class="yellow"> [3.16.3] (1.21.1 | 1.20.1) 2026-08-18</span>
 ### Additions
 - Added Cooked Ice Spider Egg
 - Added Ice Spider Satiation System
